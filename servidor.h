@@ -1,18 +1,25 @@
 #ifndef SERVIDOR_H
 #define SERVIDOR_H
-
 #include "mainwindow.h"
 #include <QtCore>
+#include <QObject>
+#include <QtNetwork/QTcpServer>
+#include <QtNetwork/QTcpSocket>
 
-class Servidor : public QThread
+class Servidor: public QThread
 {
-    Q_OBJECT
+Q_OBJECT
 public:
-    Servidor();
-    void run();
+  Servidor();
+  ~Servidor();
+   void run();
 
-signals:
-    void salude_server();
+public slots:
+  void buscarConexion();
+  void escucharCliente();
+
+private:
+  QTcpServer servidor;
+  QTcpSocket* cliente;
 };
-
 #endif // SERVIDOR_H

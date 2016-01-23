@@ -8,7 +8,7 @@ Cliente::Cliente()
 
 void Cliente::run()
 {
-    qDebug() << "CORRIENDO";
+    qDebug() << "[Cliente] : El cliente está corriendo ahora.";
     emit salude_cliente();
 }
 

@@ -15,8 +15,6 @@ MainWindow::MainWindow(QWidget *parent) :
     Servidor *servidor = new Servidor;
     cliente->start();
     servidor->start();
-    connect(cliente, SIGNAL(salude_cliente()), this, SLOT(salude_cliente()));
-    connect(servidor, SIGNAL(salude_server()), this, SLOT(salude_server()));
 }
 
 MainWindow::~MainWindow()
@@ -72,16 +70,3 @@ void MainWindow::on_seleccionarArchivoBTN_clicked()
          ui->listWidget->addItem(contenido.at(indice));
     }
 }
-
-
-/*
- * void MainWindow::salude_cliente()
-{
-    ui->label_cliente->setText("Hola, soy el cliente");
-}
-
-void MainWindow::salude_server()
-{
-    ui->label_server->setText("Hola, soy el server");
-}
-*/
