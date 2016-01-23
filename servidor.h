@@ -16,7 +16,7 @@ public:
 
 public slots:
   void buscarConexion();
-  void escucharCliente();
+  void recibir();
 
 private:
   QTcpServer servidor;

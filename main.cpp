@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 
     ventana = new MainWindow();
     ventana->show();
+    //ventana->cliente->_start("127.0.0.1", 8888);
 
     return a.exec();
 }

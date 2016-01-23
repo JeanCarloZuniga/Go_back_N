@@ -34,7 +34,7 @@ void Servidor::buscarConexion()
   cliente = servidor.nextPendingConnection(); //Devuelve 0 si no hay clientes
 
   connect(cliente, SIGNAL(readyRead()),
-    this, SLOT(escucharCliente()));
+    this, SLOT(recibir()));
 }
 
 /*
@@ -52,7 +52,7 @@ void Servidor::run()
 /*
  * Recibe la data que envíe un cliente debidamente conectado a él por el puerto indicado
 */
-void Servidor::escucharCliente()
+void Servidor::recibir()
 {
   QByteArray lectura =   cliente->readAll();
   qDebug() << "[Servidor] : Recibí : " << lectura;

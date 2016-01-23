@@ -3,18 +3,17 @@
 #include <QTextStream>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "cliente.h"
-#include "servidor.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Cliente *cliente = new Cliente;
     Servidor *servidor = new Servidor;
-    cliente->start();
     servidor->start();
+    Cliente *cliente = new Cliente;
+    cliente->start();
+    cliente->conectar("127.0.0.1", 8888);
 }
 
 MainWindow::~MainWindow()

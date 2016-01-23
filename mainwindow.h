@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
 #include <QMainWindow>
 #include "cliente.h"
+#include "servidor.h"
 
 namespace Ui {
 class MainWindow;
