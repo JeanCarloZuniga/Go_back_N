@@ -15,13 +15,16 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    void a();
+    void delay();
+    void limpiar_flechas(int);
 
 private slots:
     void on_pushButton_clicked();
+    void on_seleccionarArchivoBTN_clicked();
+/*
     void salude_cliente();
     void salude_server();
-    void on_seleccionarArchivoBTN_clicked();
+*/
 
 private:
     Ui::MainWindow *ui;

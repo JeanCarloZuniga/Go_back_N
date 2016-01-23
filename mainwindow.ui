@@ -36,8 +36,45 @@
       <height>401</height>
      </rect>
     </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>111</red>
+          <green>89</green>
+          <blue>66</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>111</red>
+          <green>89</green>
+          <blue>66</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>111</red>
+          <green>89</green>
+          <blue>66</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="inputsTAB">
      <attribute name="title">
@@ -215,40 +252,14 @@
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>428</x>
         <y>0</y>
-        <width>99</width>
+        <width>111</width>
         <height>27</height>
        </rect>
       </property>
       <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_server">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>-10</y>
-        <width>20</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Se cambiará cuando llegue el server</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_cliente">
-      <property name="geometry">
-       <rect>
-        <x>340</x>
-        <y>0</y>
-        <width>31</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Se cambiará cuando llegue el cliente</string>
+       <string>Prueba flechas</string>
       </property>
      </widget>
      <widget class="QListWidget" name="listWidget">
@@ -260,136 +271,6 @@
         <height>321</height>
        </rect>
       </property>
-      <item>
-       <property name="text">
-        <string>h</string>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>o</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>l</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>m</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>u</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>n</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>d</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>o</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>a</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>aa</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string/>
-       </property>
-      </item>
      </widget>
      <widget class="QLabel" name="senderLB">
       <property name="geometry">
