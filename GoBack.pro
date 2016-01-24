@@ -1,27 +1,27 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-01-20T22:27:27
+# Project created by QtCreator 2016-01-24T14:46:51
 #
 #-------------------------------------------------
 
 QT       += core gui
-@
 QT += network
-@
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Dos
+TARGET = GoBack
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
         mainwindow.cpp \
+    servidor.cpp \
     cliente.cpp \
-    servidor.cpp
+    intermediario.cpp
 
 HEADERS  += mainwindow.h \
+    servidor.h \
     cliente.h \
-    servidor.h
+    intermediario.h
 
 FORMS    += mainwindow.ui

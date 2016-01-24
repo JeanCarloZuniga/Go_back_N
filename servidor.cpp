@@ -1,6 +1,4 @@
 #include "servidor.h"
-#include <iostream>
-using namespace std;
 
 /*
  * El constructor del servidor se encarga de conectar la SIGNAL de newConnection, propia de QTCPServer, con el SLOT de buscarConexion.
@@ -8,10 +6,10 @@ using namespace std;
 */
 Servidor::Servidor()
 {
-  connect(&servidor, SIGNAL(newConnection()),
-    this, SLOT(buscarConexion()));
+    connect(&servidor, SIGNAL(newConnection()),
+      this, SLOT(buscarConexion()));
 
-  servidor.listen(QHostAddress::Any, 8888);
+    servidor.listen(QHostAddress::Any, 8888);
 }
 
 /*

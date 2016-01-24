@@ -1,14 +1,9 @@
 #include "cliente.h"
-#include <QDebug>
-#include <QHostAddress>
 
-/*
- * El constructor conecta la SIGNAL connected propia de QTcpSocket con el SLOT enviar
-*/
 Cliente::Cliente()
 {
-  connect(&cliente, SIGNAL(connected()),
-    this, SLOT(enviar()));
+    connect(&cliente, SIGNAL(connected()),
+      this, SLOT(enviar()));
 }
 
 /*
