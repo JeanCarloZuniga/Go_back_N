@@ -1,6 +1,5 @@
 #ifndef SERVIDOR_H
 #define SERVIDOR_H
-#include "mainwindow.h"
 #include <QtCore>
 #include <QObject>
 #include <QtNetwork/QTcpServer>

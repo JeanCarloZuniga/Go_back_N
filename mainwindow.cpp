@@ -9,9 +9,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Servidor *servidor = new Servidor;
+    servidor = new Servidor;
     servidor->start();
-    Cliente *cliente = new Cliente;
+    cliente = new Cliente;
     cliente->start();
     cliente->conectar("127.0.0.1", 8888);
 }

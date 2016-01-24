@@ -1,6 +1,5 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
-#include "mainwindow.h"
 #include <QtCore>
 #include <QtNetwork/QTcpSocket>
 

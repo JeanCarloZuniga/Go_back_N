@@ -42,7 +42,6 @@ void Cliente::enviar()
 void Cliente::run()
 {
     qDebug() << "[Cliente] : El cliente está corriendo ahora.";
-    emit salude_cliente();
-    this->conectar("127.0.0.1", 8888);
+    //this->conectar("127.0.0.1", 8888);
 }
 
