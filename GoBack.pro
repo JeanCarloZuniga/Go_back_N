@@ -17,11 +17,13 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     servidor.cpp \
     cliente.cpp \
-    intermediario.cpp
+    intermediario.cpp \
+    paquete.cpp
 
 HEADERS  += mainwindow.h \
     servidor.h \
     cliente.h \
-    intermediario.h
+    intermediario.h \
+    paquete.h
 
 FORMS    += mainwindow.ui

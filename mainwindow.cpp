@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    servidor = new Servidor;
+    servidor = new Servidor(8888);
     servidor->start();
     cliente = new Cliente;
     cliente->start();
