@@ -1,17 +1,17 @@
 #include "servidor.h"
-#include <iostream>
-using namespace std;
 
 /*
  * El constructor del servidor se encarga de conectar la SIGNAL de newConnection, propia de QTCPServer, con el SLOT de buscarConexion.
  * Posteriormente, escucha al puerto 8888.
 */
-Servidor::Servidor()
+Servidor::Servidor(int puerto)
 {
-  connect(&servidor, SIGNAL(newConnection()),
-    this, SLOT(buscarConexion()));
+    connect(&servidor, SIGNAL(newConnection()),
+      this, SLOT(buscarConexion()));
 
-  servidor.listen(QHostAddress::Any, 8888);
+    servidor.listen(QHostAddress::Any, puerto);
+
+    lecturas = new QList<QByteArray>();
 }
 
 /*
@@ -42,10 +42,9 @@ void Servidor::buscarConexion()
 */
 void Servidor::run()
 {
-    qDebug() << "[Servidor] : El servidor está corriendo ahora.";
     if(servidor.isListening())
     {
-        qDebug() << "[Servidor] : Escuchando, usa la línea de comandos para probarme\n telnet 127.0.0.1 8888\n Vivo en ese puerto.";
+        qDebug() << "[Servidor que escucha en " << servidor.serverPort() << "] : Escuchando, usa la línea de comandos para probarme\n telnet 127.0.0.1 " << servidor.serverPort() << "\n Vivo en ese puerto.";
     }
 }
 
@@ -54,7 +53,25 @@ void Servidor::run()
 */
 void Servidor::recibir()
 {
-  QByteArray lectura =   cliente->readAll();
-  qDebug() << "[Servidor] : Recibí : " << lectura;
+  lectura =   cliente->readAll();
+  qDebug() << "[Servidor que escucha en " << servidor.serverPort() << "] : Recibí : " << lectura;
+  lecturas->append(lectura);
   //client->close();
+}
+
+QByteArray Servidor::obtener_ultima_lectura()
+{
+    QByteArray primero = lecturas->first();
+    lecturas->pop_front();
+    return primero;
+}
+
+bool Servidor::lecturas_vacia()
+{
+    if(lecturas->isEmpty())
+    {
+        return true;
+    } else {
+        return false;
+    }
 }
