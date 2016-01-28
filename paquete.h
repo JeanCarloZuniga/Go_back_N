@@ -17,6 +17,8 @@ public:
     bool esta_abierto() const;
     bool ack_recibido() const;
     void colocar_ack_recibido();
+    void colocar_secuencia(int seq);
+    void colocar_valor(char val);
 
 private:
     int secuencia;

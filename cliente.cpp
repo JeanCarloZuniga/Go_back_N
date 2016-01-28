@@ -61,6 +61,21 @@ bool Cliente::timeout_alcanzado(double tiempo_paquete, clock_t ahora)
 }
 
 /*
+ * Toma el QString "archivo" que contiene la frase a enviar y la parsea en paquetes,
+ * posteriormente encola esos paquetes en la cola de paquetes.
+*/
+void Cliente::enlistar_paquetes()
+{
+    paquete nuevo_paquete(-1, '0', std::clock(), true);
+    for(int i=0; i<archivo.length(); i++)
+    {
+        nuevo_paquete.colocar_secuencia(i);
+        nuevo_paquete.colocar_valor(archivo.at(i).toLatin1());
+        cola_de_paquetes->append(nuevo_paquete);
+    }
+}
+
+/*
  * Envían data al puerto al que se conecta el cliente
 */
 void Cliente::enviar(QString paquete_a_enviar)
@@ -79,15 +94,21 @@ void Cliente::enviar(QString paquete_a_enviar)
 void Cliente::run()
 {
     qDebug() << "[Cliente] : El cliente está corriendo ahora.";
-    //TODO mandar los primeros maes
     if(rol==1)
     {
         //envia los primeros paquetes
-        for(int i=0; i<tamano_ventana; i++)
+        if(!cola_de_paquetes->empty())
         {
-            QString paquete_a_enviar=cola_de_paquetes->at(i).obtener_secuencia() + ":"
-                    + cola_de_paquetes->at(i).obtener_valor();
-            emit enviar(paquete_a_enviar);
+            for(int i=0; i<tamano_ventana; i++)
+            {
+                //Comienza el timer
+                //TODO: buscar takeAt
+                //cola_de_paquetes->at(i).comenzar_timer();
+                //Ensambla paquete a enviar
+                QString paquete_a_enviar=cola_de_paquetes->at(i).obtener_secuencia() + ":"
+                        + cola_de_paquetes->at(i).obtener_valor();
+                emit enviar(paquete_a_enviar);
+            }
         }
         while(!cola_de_paquetes->empty())
         {
@@ -96,9 +117,20 @@ void Cliente::run()
             {
                 //El tiempo pasa
             }
+            //si se venció el timeout
             if(servidor_cliente->lecturas_vacia())
             {
-                //TODO : reenviar
+                for(int i=0; i<tamano_ventana; i++)
+                {
+                    //Reinicia el timer
+                    //TODO: buscar takeAt
+                    //cola_de_paquetes->at(i).comenzar_timer();
+                    //Ensambla el paquete a enviar
+                    QString paquete_a_enviar=cola_de_paquetes->at(i).obtener_secuencia() + ":"
+                            + cola_de_paquetes->at(i).obtener_valor();
+                    emit enviar(paquete_a_enviar);
+                }
+            //si se recibió el ACK
             } else {
                 while(!servidor_cliente->lecturas_vacia())
                 {
@@ -108,7 +140,6 @@ void Cliente::run()
                 }
             }
         }
-        emit enviar("ME CAGO EN TODA LA CONA DE LAS CONADAS");
     }
 }
 

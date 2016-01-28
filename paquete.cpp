@@ -54,4 +54,14 @@ void paquete::colocar_ack_recibido()
     recibido = true;
 }
 
+void paquete::colocar_secuencia(int seq)
+{
+    secuencia=seq;
+}
+
+void paquete::colocar_valor(char val)
+{
+    valor=val;
+}
+
 

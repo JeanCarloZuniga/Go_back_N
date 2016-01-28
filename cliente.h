@@ -24,6 +24,7 @@ public:
     void colocar_total_paquetes(int total);
     int obtener_total_paquetes();
     bool timeout_alcanzado(double tiempo_paquete, std::clock_t ahora);
+    void enlistar_paquetes();
 
 signals:
   void salude_cliente();
