@@ -1,14 +1,19 @@
 #include "cliente.h"
 
-Cliente::Cliente()
+Cliente::Cliente(int _rol)
 {
     connect(&cliente, SIGNAL(connected()),
       this, SLOT(enviar()));
 
+    rol = _rol;
+
+    if(rol == 1)
+    {
     servidor_cliente = new Servidor(8080); // 8080 mientras sirve el input del usuario
     servidor_cliente->start();
 
     cola_de_paquetes = new QList<paquete>();
+    }
 }
 
 /*
@@ -58,10 +63,14 @@ bool Cliente::timeout_alcanzado(double tiempo_paquete, clock_t ahora)
 /*
  * Envían data al puerto al que se conecta el cliente
 */
-void Cliente::enviar()
+void Cliente::enviar(QString paquete_a_enviar)
 {
-  //TODO : hacer que envie lo que debe, recibe un paquete, lo ensambla y lo manda
-  cliente.write("Hello, world", 13);
+    if(rol==1)
+    {
+        //manda el paquete
+        const char *enviar = paquete_a_enviar.toStdString().c_str();
+        cliente.write(enviar, paquete_a_enviar.length());
+    }
 }
 
 /*
@@ -71,24 +80,35 @@ void Cliente::run()
 {
     qDebug() << "[Cliente] : El cliente está corriendo ahora.";
     //TODO mandar los primeros maes
-    while(!cola_de_paquetes->empty())
+    if(rol==1)
     {
-        while(servidor_cliente->lecturas_vacia()
-              && timeout_alcanzado(cola_de_paquetes->first().obtener_reloj(), std::clock()))
+        //envia los primeros paquetes
+        for(int i=0; i<tamano_ventana; i++)
         {
-            //El tiempo pasa
+            QString paquete_a_enviar=cola_de_paquetes->at(i).obtener_secuencia() + ":"
+                    + cola_de_paquetes->at(i).obtener_valor();
+            emit enviar(paquete_a_enviar);
         }
-        if(servidor_cliente->lecturas_vacia())
+        while(!cola_de_paquetes->empty())
         {
-            //TODO : reenviar
-        } else {
-            while(!servidor_cliente->lecturas_vacia())
+            while(servidor_cliente->lecturas_vacia()
+                  && !timeout_alcanzado(cola_de_paquetes->first().obtener_reloj(), std::clock()))
             {
-                servidor_cliente->obtener_ultima_lectura();
-                //TODO imprimir "Llegó ACK de cola paquetes first.seq"
-                cola_de_paquetes->pop_front();
+                //El tiempo pasa
+            }
+            if(servidor_cliente->lecturas_vacia())
+            {
+                //TODO : reenviar
+            } else {
+                while(!servidor_cliente->lecturas_vacia())
+                {
+                    servidor_cliente->obtener_ultima_lectura();
+                    //TODO imprimir "Llegó ACK de cola paquetes first.seq"
+                    cola_de_paquetes->pop_front();
+                }
             }
         }
+        emit enviar("ME CAGO EN TODA LA CONA DE LAS CONADAS");
     }
 }
 

@@ -16,7 +16,7 @@ class Cliente : public QThread
 {
 Q_OBJECT
 public:
-    Cliente();
+    Cliente(int _rol);
     ~Cliente();
 
     void run();
@@ -29,7 +29,7 @@ signals:
   void salude_cliente();
 
 public slots:
-  void enviar();
+  void enviar(QString paquete_a_enviar);
 
 private:
   QTcpSocket cliente;
@@ -41,6 +41,7 @@ private:
   int puerto_intemediario;
   bool modo;
   int timeout;
+  int rol;
 };
 
 #endif // CLIENTE_H

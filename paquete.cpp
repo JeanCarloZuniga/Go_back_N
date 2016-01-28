@@ -24,27 +24,27 @@ void paquete::cerrar_canal()
     abierto=false;
 }
 
-int paquete::obtener_secuencia()
+int paquete::obtener_secuencia() const
 {
     return secuencia;
 }
 
-char paquete::obtener_valor()
+char paquete::obtener_valor() const
 {
     return valor;
 }
 
-clock_t paquete::obtener_reloj()
+clock_t paquete::obtener_reloj() const
 {
     return reloj;
 }
 
-bool paquete::esta_abierto()
+bool paquete::esta_abierto() const
 {
     return abierto;
 }
 
-bool paquete::ack_recibido()
+bool paquete::ack_recibido() const
 {
     return recibido;
 }

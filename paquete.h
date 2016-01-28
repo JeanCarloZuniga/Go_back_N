@@ -11,11 +11,11 @@ public:
     void comenzar_timer();
     void abrir_canal();
     void cerrar_canal();
-    int obtener_secuencia();
-    char obtener_valor();
-    std::clock_t obtener_reloj();
-    bool esta_abierto();
-    bool ack_recibido();
+    int obtener_secuencia() const;
+    char obtener_valor() const;
+    std::clock_t obtener_reloj() const;
+    bool esta_abierto() const;
+    bool ack_recibido() const;
     void colocar_ack_recibido();
 
 private:
