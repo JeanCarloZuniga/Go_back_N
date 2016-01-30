@@ -29,7 +29,7 @@ int paquete::obtener_secuencia() const
     return secuencia;
 }
 
-char paquete::obtener_valor() const
+QChar paquete::obtener_valor() const
 {
     return valor;
 }
@@ -59,7 +59,7 @@ void paquete::colocar_secuencia(int seq)
     secuencia=seq;
 }
 
-void paquete::colocar_valor(char val)
+void paquete::colocar_valor(QChar val)
 {
     valor=val;
 }

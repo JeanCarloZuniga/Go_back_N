@@ -7,7 +7,7 @@
 #include <QtNetwork/QTcpSocket>
 #include "servidor.h"
 #include "paquete.h"
-#include <QList>
+#include <vector>
 #include <cstdio>
 #include <ctime>
 
@@ -25,17 +25,18 @@ public:
     int obtener_total_paquetes();
     bool timeout_alcanzado(double tiempo_paquete, std::clock_t ahora);
     void enlistar_paquetes();
+    void ensamblar_paquete(int indice);
 
 signals:
   void salude_cliente();
 
 public slots:
-  void enviar(QString paquete_a_enviar);
+  void enviar();
 
 private:
   QTcpSocket cliente;
   Servidor *servidor_cliente;
-  QList<paquete> * cola_de_paquetes;
+  std::vector<paquete*> cola_de_paquetes;
   int total_paquetes;
   int tamano_ventana;
   QString archivo;
@@ -43,6 +44,7 @@ private:
   bool modo;
   int timeout;
   int rol;
+  QString paquete_a_enviar;
 };
 
 #endif // CLIENTE_H
