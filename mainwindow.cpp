@@ -6,14 +6,22 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    servidor = new Servidor(8888);
+
+    servidor = new Servidor(10001, 0);
     servidor->start();
+
+    intermediario = new Intermediario(10000, 10001, 0.5, 0);
+    intermediario->start();
+
     cliente = new Cliente(1);
-    cliente->conectar("127.0.0.1", 8888);
     cliente->start();
+    cliente->conectar("127.0.0.1", 10000);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete servidor;
+    delete cliente;
+    delete intermediario;
 }
