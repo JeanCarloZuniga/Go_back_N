@@ -9,8 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
     servidor = new Servidor(8888);
     servidor->start();
     cliente = new Cliente(1);
-    cliente->start();
     cliente->conectar("127.0.0.1", 8888);
+    cliente->start();
 }
 
 MainWindow::~MainWindow()

@@ -56,7 +56,7 @@ void Servidor::recibir()
   lectura =   cliente->readAll();
   qDebug() << "[Servidor que escucha en " << servidor.serverPort() << "] : Recibí : " << lectura;
   lecturas->append(lectura);
-  //client->close();
+  //cliente->close();
 }
 
 QByteArray Servidor::obtener_ultima_lectura()

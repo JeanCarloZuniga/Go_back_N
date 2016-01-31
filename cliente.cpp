@@ -9,15 +9,14 @@ Cliente::Cliente(int _rol)
 
     if(rol == 1)
     {
-
-    //Eliminar luego
-      archivo = "hola mundo";
-      enlistar_paquetes();
-      tamano_ventana = 3;
-    //
-    servidor_cliente = new Servidor(8080); // 8080 mientras sirve el input del usuario
-    servidor_cliente->start();
-
+        servidor_cliente = new Servidor(8080); // 8080 mientras sirve el input del usuario
+        servidor_cliente->start();
+        //Eliminar luego
+        archivo = "hola mundo";
+        enlistar_paquetes();
+        tamano_ventana = 3;
+        timeout=1;
+        //
     }
 }
 
@@ -39,21 +38,8 @@ void Cliente::conectar(QString ip, quint16 puerto)
 }
 
 /*
- * Set para el total de paquetes a enviar
+ * Compara el tiempo del inicio del primer paquete enviado con el tiempo actual
 */
-void Cliente::colocar_total_paquetes(int total)
-{
-    total_paquetes = total;
-}
-
-/*
- * Get para el total de paquetes a enviar
-*/
-int Cliente::obtener_total_paquetes()
-{
-    return total_paquetes;
-}
-
 bool Cliente::timeout_alcanzado(double tiempo_paquete, clock_t ahora)
 {
     double duracion = ( ahora - tiempo_paquete ) / (double) CLOCKS_PER_SEC;
@@ -71,7 +57,6 @@ bool Cliente::timeout_alcanzado(double tiempo_paquete, clock_t ahora)
 */
 void Cliente::enlistar_paquetes()
 {
-    qDebug() << "Archivo.lengh() = " << archivo.length();
     for(int i=0; i<archivo.length(); i++)
     {
         paquete *nuevo_paquete = new paquete(-1, '0', std::clock(), true);
@@ -84,12 +69,14 @@ void Cliente::enlistar_paquetes()
     }
 }
 
+/*
+ * Forma el paquete que será enviado
+*/
 void Cliente::ensamblar_paquete(int indice)
 {
-    qDebug() << "entro!!!!!!!!!!!!!!!!!!!1";
+    paquete_a_enviar="";
     //Ensambla el paquete a enviar
-    qDebug() << "Paquete que debo ensamblar es el: " << cola_de_paquetes[indice]->obtener_secuencia();
-    paquete_a_enviar = cola_de_paquetes[indice]->obtener_secuencia() + ":";
+    paquete_a_enviar = QString::number(cola_de_paquetes[indice]->obtener_secuencia()) + ":";
     paquete_a_enviar = paquete_a_enviar + cola_de_paquetes[indice]->obtener_valor();
     cola_de_paquetes[indice]->comenzar_timer();
 }
@@ -99,13 +86,12 @@ void Cliente::ensamblar_paquete(int indice)
 */
 void Cliente::enviar()
 {
-    if(rol==1)
+    if(rol==1 && id==QThread::currentThreadId())
     {
         //manda el paquete
-        qDebug() << "Ahora enviando: " << paquete_a_enviar;
-        const char *enviar = paquete_a_enviar.toStdString().c_str();
-        cliente.write(enviar, paquete_a_enviar.length());
-        qDebug() << "listo el envio";
+        qDebug() << "[Cliente:" << this->rol << "]" << "Ahora enviando: " << paquete_a_enviar;
+        const char *enviar_str = paquete_a_enviar.toStdString().c_str();
+        cliente.write(enviar_str, paquete_a_enviar.length());
     }
 }
 
@@ -114,7 +100,9 @@ void Cliente::enviar()
 */
 void Cliente::run()
 {
-    qDebug() << "[Cliente] : El cliente está corriendo ahora.";
+
+    this->id = QThread::currentThreadId();
+    qDebug() << "[Cliente] : El cliente " << this->rol << " está corriendo ahora.";
     if(rol==1)
     {
         int indice_ultimo_archivo_enviado;
@@ -124,9 +112,8 @@ void Cliente::run()
             //Esperando a que el usuario seleccione un archivo con la interfaz
         }
         //Envia los primeros "tamaño ventana" paquetes
-        if(!cola_de_paquetes.empty())
+       if(!cola_de_paquetes.empty())
         {
-            qDebug() << "Cola de paquetes tiene cosas";
             int tope_de_primer_envio = tamano_ventana;
             //Caso en el que la ventana sea más grande que el archivo a enviar.
             if(tamano_ventana > archivo.length())
@@ -139,10 +126,12 @@ void Cliente::run()
                 ensamblar_paquete(i);
                 emit enviar();
             }
+            qDebug() << "Envié los primeros tamano_ventana paquetes";
         }
         //Ciclo principal que se encarga de enviar todos los paquetes
         while(!cola_de_paquetes.empty())
         {
+            qDebug() << "----------------------Ciclo principal--------------------";
             while(servidor_cliente->lecturas_vacia()
                   && !timeout_alcanzado(cola_de_paquetes.front()->obtener_reloj(), std::clock()))
             {
@@ -151,11 +140,11 @@ void Cliente::run()
             //si se venció el timeout
             if(servidor_cliente->lecturas_vacia())
             {
-                for(int i=0; i<tamano_ventana; i++)
+                qDebug() << "Se venció el timeout";
+                for(int i=0; i<indice_ultimo_archivo_enviado; i++) //antes tamano ventana
                 {
                     ensamblar_paquete(i);
-
-                    emit enviar();
+                    emit enviar(); //Aqui
                 }
             //si se recibió el ACK
             } else {
@@ -171,7 +160,6 @@ void Cliente::run()
                         {
                             indice_ultimo_archivo_enviado++;
                             ensamblar_paquete(indice_ultimo_archivo_enviado);
-
                             emit enviar();
                         }
                     }

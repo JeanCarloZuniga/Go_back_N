@@ -6,6 +6,7 @@
 #include <QtNetwork/QTcpServer>
 #include <QtNetwork/QTcpSocket>
 #include <QList>
+
 class Servidor : public QThread
 {
 Q_OBJECT

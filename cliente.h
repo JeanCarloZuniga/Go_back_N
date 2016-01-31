@@ -11,7 +11,6 @@
 #include <cstdio>
 #include <ctime>
 
-
 class Cliente : public QThread
 {
 Q_OBJECT
@@ -21,8 +20,6 @@ public:
 
     void run();
     void conectar(QString ip, quint16 puerto);
-    void colocar_total_paquetes(int total);
-    int obtener_total_paquetes();
     bool timeout_alcanzado(double tiempo_paquete, std::clock_t ahora);
     void enlistar_paquetes();
     void ensamblar_paquete(int indice);
@@ -34,6 +31,7 @@ public slots:
   void enviar();
 
 private:
+  Qt::HANDLE id;
   QTcpSocket cliente;
   Servidor *servidor_cliente;
   std::vector<paquete*> cola_de_paquetes;
