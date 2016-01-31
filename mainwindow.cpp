@@ -7,15 +7,15 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    servidor = new Servidor(10001, 0);
-    servidor->start();
+    //servidor = new Servidor(10001, 0);
+    //servidor->start();
 
-    intermediario = new Intermediario(10000, 10001, 0.5, 0);
-    intermediario->start();
+    //intermediario = new Intermediario(10000, 10001, 0.5, 0);
+    //intermediario->start();
 
     cliente = new Cliente(1);
     cliente->start();
-    cliente->conectar("127.0.0.1", 10000);
+    cliente->conectar("127.0.0.1", 10001);
 }
 
 MainWindow::~MainWindow()

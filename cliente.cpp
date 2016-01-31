@@ -9,7 +9,7 @@ Cliente::Cliente(int _rol)
 
     if(rol == 1)
     {
-        servidor_cliente = new Servidor(8080); // 8080 mientras sirve el input del usuario
+        servidor_cliente = new Servidor(8080, 0); // 8080 mientras sirve el input del usuario
         servidor_cliente->start();
         //Eliminar luego
         archivo = "hola mundo";

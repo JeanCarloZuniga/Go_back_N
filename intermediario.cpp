@@ -60,7 +60,7 @@ void Intermediario::comunicacion()
 
        mutex->lock();
        lectura = buffer->takeFirst();
-       cliente_intermediario->enviar(lectura);
+       //cliente_intermediario->enviar(lectura);
        servidor_totem->wakeAll();
        mutex->unlock();
 

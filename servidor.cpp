@@ -15,14 +15,14 @@ Servidor::Servidor(int puerto, int rol)
         connect(&servidor, SIGNAL(newConnection()),
           this, SLOT(buscar_conexion()));
 
-        archivo = new QFile("Datos.txt");
-        if(!archivo->open(QFile::WriteOnly | QFile::Text))
-        {
-            qDebug()<<"El archivo no se pudo abrir";
-            return;
-        }
+       // archivo = new QFile("Datos.txt");
+       // if(!archivo->open(QFile::WriteOnly | QFile::Text))
+        //{
+          //  qDebug()<<"El archivo no se pudo abrir";
+            //return;
+        //}
 
-        escribir = new QTextStream(archivo);
+       // escribir = new QTextStream(archivo);
     }
     else //!1 = false
     {
@@ -114,17 +114,17 @@ void Servidor::recibir()
   qDebug() << "[Servidor que escucha en " << servidor.serverPort() << "] : Recibí : " << lectura;
 
 
-  nuevo = convertir(&lectura);
-  ultimo = convertir(&lecturas->back());
+ // nuevo = convertir(&lectura);
+ // ultimo = convertir(&lecturas->back());
 
-  if(es_paquete_esperado(ultimo,nuevo)) //Pregunta si es el esperado
-  {
-    lecturas->append(lectura); //Lo agrega
-    (*escribir)<<QString(lectura); //Add the information in the file
-    escribir->flush(); //Clean the buffer
+ // if(es_paquete_esperado(ultimo,nuevo)) //Pregunta si es el esperado
+ // {
+ //   lecturas->append(lectura); //Lo agrega
+ //   (*escribir)<<QString(lectura); //Add the information in the file
+  //  escribir->flush(); //Clean the buffer
 
-    enviar_ack(nuevo+1);
-  }
+  //  enviar_ack(nuevo+1);
+ // }
 
   //client->close();
 }
