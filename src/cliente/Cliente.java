@@ -11,37 +11,63 @@ import java.net.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.lang.*;
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
 
 /**
  *
  * @author jean
  */
-public class Cliente {
-
-    Servidor servidor = new Servidor();
+public class Cliente extends Thread {
+    /*
+    Constructor para el cliente, recibe un JTextArea para pintar en la interfaz
+    */
+    public Cliente(JTextArea outputTB){
+        this.outputTB = outputTB;
+    }
+    JTextArea outputTB;
     LinkedList<Paquete> cola_de_paquetes = new LinkedList<Paquete>();
-    int tamano_ventana = 3;
-    String archivo = "Melissa";
+    int tamano_ventana;
+    String archivo;
     int puerto_intemediario;
     Boolean modo;
-    long timeout = 1000;
+    long timeout;
     String paquete_a_enviar;
 
+    /*
+    Verifica si se alcanza el timeout para el primer paquete enviado en el contexto
+    */
     public Boolean timeout_alcanzado(long tiempo_paquete, long ahora) {
         long duracion = (ahora - tiempo_paquete);
         return duracion >= timeout;
     }
-
+    
+    /*
+    Imprime si esta en modo debug, no imprime en caso contrario
+    */
+    public void imprimir(String a_imprimir){
+        if(modo){
+            this.outputTB.append(a_imprimir);
+        }
+    }
+    
+    /*
+    Toma cada caracter del archivo a enviar y le pone un ID representarivo,
+    luego lo encola en la lista de paquetes
+    */
     public void enlistar_paquetes() {
         for (int i = 0; i < archivo.length(); i++) {
             Paquete nuevo_paquete = new Paquete(-1, '0', System.currentTimeMillis());
             nuevo_paquete.secuencia = i;
             nuevo_paquete.valor = archivo.charAt(i);
-            System.out.println("Encolando: " + nuevo_paquete.secuencia + ":" + nuevo_paquete.valor);
+            imprimir("Encolando: " + nuevo_paquete.secuencia + ":" + nuevo_paquete.valor + "\n");
             cola_de_paquetes.addLast(nuevo_paquete);
         }
     }
 
+    /*
+    Se encarga de hacer el par secuencia:valor para enviarlo
+    */
     public void ensamblar_paquete(int indice) {
         paquete_a_enviar = "";
         //Ensambla el paquete a enviar
@@ -50,10 +76,21 @@ public class Cliente {
         paquete_a_enviar = paquete_a_enviar + cola_de_paquetes.get(indice).valor;
         cola_de_paquetes.get(indice).reloj = System.currentTimeMillis();
     }
+    
+    /*
+    Envia un ~ para notificar que ya acabo de enviar los paquetes
+    */
+    public void enviar_ultimo_paquete(){
+        paquete_a_enviar="~";
+        enviar();
+    }
 
+    /*
+    envia un paquete
+    */
     public void enviar() {
         try {
-            Socket clientSocket = new Socket("localhost", 6789);
+            Socket clientSocket = new Socket("localhost", puerto_intemediario);
             DataOutputStream outToServer
                     = new DataOutputStream(clientSocket.getOutputStream());
             outToServer.writeBytes(paquete_a_enviar + '\n');
@@ -63,25 +100,25 @@ public class Cliente {
         }
     }
 
-    public void iniciar() {
+    /*
+    Metodo principal para el go back n
+    */
+    @Override
+    public void run() {
+        Servidor servidor = new Servidor(puerto_intemediario);
         servidor.start();
-//
-        System.out.println("[Cliente] : El cliente está corriendo ahora.");
+        this.outputTB.append("[Cliente] : El cliente está corriendo ahora.\n");
         int tope_a_enviar=tamano_ventana;
-        //Espera hasta que haya un archivo a enviar
-        while (archivo.isEmpty()) {
-            //Esperando a que el usuario seleccione un archivo con la interfaz
-        }
         enlistar_paquetes();
         //Envia los primeros "tamaño ventana" paquetes
         if (!cola_de_paquetes.isEmpty()) {
-            int tope_de_primer_envio = tamano_ventana;
             //Caso en el que la ventana sea más grande que el archivo a enviar.
             if (tamano_ventana > archivo.length()) {
-                tope_de_primer_envio = archivo.length();
+                tope_a_enviar = archivo.length();
             }
-            for (int i = 0; i < tope_de_primer_envio; i++) {
+            for (int i = 0; i < tope_a_enviar; i++) {
                 ensamblar_paquete(i);
+                imprimir("Enviando: " + paquete_a_enviar + "\n");
                 enviar();
             }
         }
@@ -95,10 +132,11 @@ public class Cliente {
             //si se venció el timeout
             if(servidor.cola_de_lecturas.isEmpty())
             {
-                System.out.println("Se venció el timeout\n");
+                imprimir("Se venció el timeout\n");
                 for(int i=0; i<tope_a_enviar; i++) 
                 {
                     ensamblar_paquete(i);
+                    imprimir("Reenviando: " + paquete_a_enviar + "\n");
                     enviar();
                 }
             //si se recibió el ACK
@@ -108,7 +146,7 @@ public class Cliente {
                     String ack_leido = servidor.cola_de_lecturas.pop();
                     if(ack_leido.equals(Integer.toString(cola_de_paquetes.element().secuencia)))
                     {
-                        System.out.println("Llego el ack: " + ack_leido);
+                        imprimir("\n>>> Llego el ack: " + ack_leido + "<<<\n\n");
                         cola_de_paquetes.pop();
                         //Si aun quedan paquetes, deslizo la ventana
                         if(!cola_de_paquetes.isEmpty())
@@ -125,5 +163,7 @@ public class Cliente {
                 }
             }
         }
+        enviar_ultimo_paquete();
+        this.outputTB.append("\n Archivo enviado \n");
     }
 }

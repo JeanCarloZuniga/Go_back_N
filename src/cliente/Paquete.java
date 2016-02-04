@@ -9,6 +9,10 @@ package cliente;
  *
  * @author jean
  */
+
+/*
+Estructura que llevan los paquetes.
+*/
 public class Paquete {
     int secuencia;
     char valor;

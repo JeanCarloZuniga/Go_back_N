@@ -15,29 +15,26 @@ import java.util.logging.Logger;
  */
 public class Servidor extends Thread {
     LinkedList<String> cola_de_lecturas = new LinkedList<String>();
-    public void imprimir(){
-        System.out.println("Me llamaron desde el run");
+    int puerto;
+    public Servidor(int puerto){
+        this.puerto = puerto;
     }
     
     public void run(){
         try {
             String clientSentence;
             //String capitalizedSentence;
-            ServerSocket welcomeSocket = new ServerSocket(6789);
+            ServerSocket welcomeSocket = new ServerSocket(puerto);
             
             while(true){
                 Socket connectionSocket = welcomeSocket.accept();
                 BufferedReader inFromClient =
                         new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-                //  DataOutputStream outToClient =
-                //          new DataOutputStream(connectionSocket.getOutputStream());
                 clientSentence = inFromClient.readLine();
                 if(clientSentence != null){
                     System.out.println("Received: " + clientSentence);
                     cola_de_lecturas.addLast(clientSentence);
                 }
-                // capitalizedSentence = clientSentence.toUpperCase() + '\n';
-                // outToClient.writeBytes(capitalizedSentence);
             }
         } catch (IOException ex) {
             Logger.getLogger(Servidor.class.getName()).log(Level.SEVERE, null, ex);
