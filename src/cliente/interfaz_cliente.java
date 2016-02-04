@@ -11,6 +11,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -197,11 +198,19 @@ public class interfaz_cliente extends javax.swing.JFrame {
     }//GEN-LAST:event_ventanaTBActionPerformed
 
     private void comenzarBTNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comenzarBTNActionPerformed
+        if( (ventanaTB.getText().length()>0) 
+                && (puertoCB.getText().length()>0)
+                && (timeoutCB.getText().length()>0)
+                && (cliente.archivo.length()>0)){
         cliente.tamano_ventana = Integer.parseInt(ventanaTB.getText());
         cliente.puerto_intemediario = Integer.parseInt(puertoCB.getText());
         cliente.timeout = Long.parseLong(timeoutCB.getText());
         cliente.modo = modo;
         cliente.start();
+        } else {
+            JOptionPane.showMessageDialog(null, "Suministre todos los inputs", "Warning",
+                    JOptionPane.WARNING_MESSAGE);
+        }
     }//GEN-LAST:event_comenzarBTNActionPerformed
 
     private void modoCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modoCBActionPerformed
