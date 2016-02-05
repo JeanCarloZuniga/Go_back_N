@@ -105,7 +105,7 @@ public class Cliente extends Thread {
     */
     @Override
     public void run() {
-        Servidor servidor = new Servidor(puerto_intemediario);
+        Servidor servidor = new Servidor(10001);
         servidor.start();
         this.outputTB.append("[Cliente] : El cliente está corriendo ahora.\n");
         int tope_a_enviar=tamano_ventana;
@@ -144,21 +144,22 @@ public class Cliente extends Thread {
                 while(!servidor.cola_de_lecturas.isEmpty())
                 {
                     String ack_leido = servidor.cola_de_lecturas.pop();
-                    if(ack_leido.equals(Integer.toString(cola_de_paquetes.element().secuencia)))
-                    {
-                        imprimir("\n>>> Llego el ack: " + ack_leido + "<<<\n\n");
+                    System.out.println("Ojete que me llega un " + ack_leido);
+                    while ((!cola_de_paquetes.isEmpty()) 
+                            && (Integer.parseInt(ack_leido) >= cola_de_paquetes.element().secuencia)){
+                        imprimir("\n>>> Llego el ack: " + cola_de_paquetes.element().secuencia + "<<<\n\n");
                         cola_de_paquetes.pop();
                         //Si aun quedan paquetes, deslizo la ventana
-                        if(!cola_de_paquetes.isEmpty())
-                        {
-                            if(cola_de_paquetes.size() < tamano_ventana)
-                            {
-                                tope_a_enviar=cola_de_paquetes.size();
+                        if (!cola_de_paquetes.isEmpty()) {
+                            if (cola_de_paquetes.size() < tamano_ventana) {
+                                tope_a_enviar = cola_de_paquetes.size();
                             } else {
                                 ensamblar_paquete(tamano_ventana - 1);
+                                imprimir("Enviando: " + paquete_a_enviar + "\n");
                                 enviar();
                             }
-                        } 
+                        }
+
                     }
                 }
             }

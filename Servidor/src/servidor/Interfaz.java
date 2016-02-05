@@ -93,7 +93,8 @@ public class Interfaz extends javax.swing.JFrame {
                if(validarPaquete(linea)) //Enviamos el ACK
                {
                    System.out.println("Validado!");
-                   enviar(""+(lista_secuencia.get(+lista_secuencia.size()-1)+1));
+                   enviar(""+(lista_secuencia.get(lista_secuencia.size()-1)));
+                   System.out.println("Enviando un ack de: " + lista_secuencia.get(lista_secuencia.size()-1));
                    buffer.write(lista_caracteres.get(lista_caracteres.size()-1)); //Si el paquete era el esperado, se escribe el caracter
                    
                }
