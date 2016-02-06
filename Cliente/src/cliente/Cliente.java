@@ -78,10 +78,10 @@ public class Cliente extends Thread {
     }
     
     /*
-    Envia un ~ para notificar que ya acabo de enviar los paquetes
+    Envia un -1:~ para notificar que ya acabo de enviar los paquetes
     */
     public void enviar_ultimo_paquete(){
-        paquete_a_enviar="~";
+        paquete_a_enviar="-1:~";
         enviar();
     }
 
@@ -144,7 +144,7 @@ public class Cliente extends Thread {
                 while(!servidor.cola_de_lecturas.isEmpty())
                 {
                     String ack_leido = servidor.cola_de_lecturas.pop();
-                    System.out.println("Ojete que me llega un " + ack_leido);
+
                     while ((!cola_de_paquetes.isEmpty()) 
                             && (Integer.parseInt(ack_leido) >= cola_de_paquetes.element().secuencia)){
                         imprimir("\n>>> Llego el ack: " + cola_de_paquetes.element().secuencia + "<<<\n\n");

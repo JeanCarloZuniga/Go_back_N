@@ -80,7 +80,7 @@ public class Interfaz extends javax.swing.JFrame {
         try
         {
             linea = "";
-            while(linea.compareTo("~") != 0)
+            while(linea.compareTo("-1:~") != 0)
             {
                 Socket coneccion =  socket.accept();
 
@@ -116,7 +116,7 @@ public class Interfaz extends javax.swing.JFrame {
         try
         {
             linea = "";
-            while(linea.compareTo("~") != 0)
+            while(linea.compareTo("-1:~") != 0)
             {
                 Socket coneccion =  socket.accept();
 
