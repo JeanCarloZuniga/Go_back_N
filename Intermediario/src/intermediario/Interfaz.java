@@ -116,6 +116,12 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel8.setText("Probabilidad");
 
+        probabilidad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                probabilidadActionPerformed(evt);
+            }
+        });
+
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel9.setText("Modo");
 
@@ -267,7 +273,7 @@ public class Interfaz extends javax.swing.JFrame {
         
         for(int i = 0; i < arrayLength; ++i) //Agregamos los paquetes a la blackList
         {
-            secuencia_perdida.add(array[i]);
+            secuencia_perdida.add(array[i]+":.");
         }
         
         this.listoBtn.setEnabled(true);
@@ -278,14 +284,20 @@ public class Interfaz extends javax.swing.JFrame {
         this.perderBtn.setEnabled(false);
         this.textArea.setEditable(false);
         this.textArea.setText("");
+        this.probabilidad.setText("");
     }//GEN-LAST:event_radio_normalActionPerformed
 
     private void radio_debugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radio_debugActionPerformed
         this.perderBtn.setEnabled(true);
         this.listoBtn.setEnabled(false);
         this.textArea.setEditable(true);
-        this.textArea.setText("Separe con comas la secuencia de números.\nPor ejemplo: 0:A, 1:B");
+        this.textArea.setText("Separe con comas la secuencia de números.\nPor ejemplo: 0, 1");
+        this.probabilidad.setText("0");
     }//GEN-LAST:event_radio_debugActionPerformed
+
+    private void probabilidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_probabilidadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_probabilidadActionPerformed
 
     /**
      * @param args the command line arguments

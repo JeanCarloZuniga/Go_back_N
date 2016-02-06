@@ -60,7 +60,7 @@ public class Servidor_Servidor extends Thread{
                
                /**Se convierte en cliente para enviar los datos al Cliente Principal**/
                rango = (int)(Math.random()*10); //Si la probabilidad es 0.5 => 5 y si el random está entre 0 y 5 se pierde el paquete
-               if(rango > probabilidad)
+               if(rango >= probabilidad)
                {
                    System.out.println("Voy del servidor al cliente y estoy en el intermediario "+paquete);
                     socketCliente = new Socket("localhost", puertoInterCliente);
@@ -82,5 +82,5 @@ public class Servidor_Servidor extends Thread{
         }        
     }
     
-
+    
 }

@@ -12,6 +12,7 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 import javax.swing.JTextArea;
 
 /**
@@ -25,7 +26,7 @@ public class Servidor_Cliente extends Thread{
     private ServerSocket socket;
     private int puertoInterServidor;
     private boolean normal;
-    private ArrayList secuencia;
+    private ArrayList<String> secuencia;
     
     public Servidor_Cliente(boolean normal,ArrayList secuencia,JTextArea textArea, double probabilidad, int puertoClienteInter, int puertoInterServidor) throws IOException
     {
@@ -40,22 +41,31 @@ public class Servidor_Cliente extends Thread{
     @Override
     public void run()
     {
-        System.out.println("Inicia el Servidor_Cliente");
-         
+        
+        if(normal)
+        {
+            modoNormal();
+        }
+        else
+        {
+          modoDebug();   
+        }
+                
+    }
+    
+    private void modoNormal()
+    {
         String paquete = "";
-
+        
         Socket coneccion;
         BufferedReader input;
         DataOutputStream output;
+        Socket socketCliente;
         
         int rango;
         probabilidad = probabilidad * 10;
         
-        Socket socketCliente;
-        
-        if(normal)
-        {
-            try
+        try
            {
                while(paquete.compareTo("~") != 0)
                {
@@ -70,9 +80,8 @@ public class Servidor_Cliente extends Thread{
                   /**Se convierte en cliente para enviar los datos al Cliente Principal**/
                   rango = (int)(Math.random()*10); //Si la probabilidad es 0.5 => 5 y si el random está entre 0 y 5 se pierde el paquete
 
-                  if(rango > probabilidad)
+                  if(rango >= probabilidad)
                   {
-                    // System.out.println("Voy del cliente al servidor y estoy en el intermediario");
                        socketCliente = new Socket("localhost", puertoInterServidor);
                        output = new DataOutputStream(socketCliente.getOutputStream());
                        output.writeBytes(paquete);
@@ -80,7 +89,7 @@ public class Servidor_Cliente extends Thread{
                   }
                   else
                   {
-                      textArea.append("\nSe perdió el paquete "+paquete);
+                      pintar(paquete);
                   }
                }
 
@@ -90,10 +99,22 @@ public class Servidor_Cliente extends Thread{
            {
                System.err.println("Error al recibir los paquetes");
            }   
-        }
-        else
-        {
-            try
+    }
+    
+    private void modoDebug()
+    {
+       
+        String paquete = "";
+        
+        Socket coneccion;
+        BufferedReader input;
+        DataOutputStream output;
+        Socket socketCliente;
+        
+        int rango;
+        probabilidad = probabilidad * 10;
+        
+        try
             {
                 while(paquete.compareTo("~") != 0)
                 {
@@ -106,18 +127,18 @@ public class Servidor_Cliente extends Thread{
 
 
                    /**Se convierte en cliente para enviar los datos al Cliente Principal**/                  
-
-                   if(!secuencia.contains(paquete))
-                   {
+                   
+                   if(!buscar(paquete))
+                  {
                         socketCliente = new Socket("localhost", puertoInterServidor);
                         output = new DataOutputStream(socketCliente.getOutputStream());
                         output.writeBytes(paquete);
                         socketCliente.close();
-                   }
-                   else
-                   {
-                       textArea.append("\nSe perdió el paquete "+paquete);
-                   }
+                  }
+                 else
+                 {
+                    pintar(paquete);
+                 }
                 }
 
             }
@@ -125,7 +146,29 @@ public class Servidor_Cliente extends Thread{
             {
                 System.err.println("Error al recibir los paquetes");
             }
+        
+    }
+    
+    private boolean buscar(String paquete)
+    {
+        boolean encontrado = false;
+        int length = secuencia.size();
+        
+        for(int i = 0; (i < length) && !encontrado; ++i)
+        {
+            System.out.println(secuencia.get(i)+", "+paquete);
+            if(Pattern.matches(secuencia.get(i), paquete))
+            {
+                encontrado = true;
+                secuencia.remove(i);
+            }
         }
-                
+        
+        return encontrado;
+    }
+    
+    private void pintar(String paquete)
+    {
+        textArea.append("\nSe perdió el paquete "+paquete);
     }
 }

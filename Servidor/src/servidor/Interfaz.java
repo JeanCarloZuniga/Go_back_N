@@ -13,6 +13,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 
 /**
@@ -85,7 +86,6 @@ public class Interfaz extends javax.swing.JFrame {
 
                BufferedReader input = new BufferedReader(
                        new InputStreamReader(coneccion.getInputStream())); 
-               //DataOutputStream output = new DataOutputStream(coneccion.getOutputStream());
 
                linea = input.readLine();
                System.out.println("Recibido: "+linea);
@@ -94,9 +94,7 @@ public class Interfaz extends javax.swing.JFrame {
                {
                    System.out.println("Validado!");
                    enviar(""+(lista_secuencia.get(lista_secuencia.size()-1)));
-                   System.out.println("Enviando un ack de: " + lista_secuencia.get(lista_secuencia.size()-1));
-                   buffer.write(lista_caracteres.get(lista_caracteres.size()-1)); //Si el paquete era el esperado, se escribe el caracter
-                   
+                   System.out.println("Enviando un ack de: " + lista_secuencia.get(lista_secuencia.size()-1));                                      
                }
             }
             
@@ -111,6 +109,7 @@ public class Interfaz extends javax.swing.JFrame {
       this.textArea.append("Se recibió el archivo completo");
     }
     
+
     
     public void escucharDebug() throws IOException 
     {
@@ -123,16 +122,17 @@ public class Interfaz extends javax.swing.JFrame {
 
                BufferedReader input = new BufferedReader(
                        new InputStreamReader(coneccion.getInputStream())); 
-               ///DataOutputStream output = new DataOutputStream(coneccion.getOutputStream());
 
                linea = input.readLine();
                
-               this.textArea.append("Recibido: "+linea);
-
+               this.textArea.append("Recibido: "+linea+"\n");
+               
+               this.textArea.update(this.textArea.getGraphics()); //Actualizamos la interfaz
+               
                if(validarPaquete(linea)) //Enviamos el ACK
                {
-                   enviar(""+(lista_secuencia.get(+lista_secuencia.size()-1)+1));
-                   buffer.write(lista_caracteres.get(lista_caracteres.size()-1)); //Si el paquete era el esperado, se escribe el caracter
+                   enviar(""+(lista_secuencia.get(+lista_secuencia.size()-1)));                   
+                   linea = "";
                }
             }
             
@@ -146,31 +146,49 @@ public class Interfaz extends javax.swing.JFrame {
       buffer.close();  //Cerramos el buffer reader cuando terminamos de escuchar
     }
     
-    public boolean validarPaquete(String paquete)
+    public boolean validarPaquete(String paquete) throws IOException
     {
+        
         boolean valido = false;
         String nuevo_paquete[];
         int ultimo;
         int nuevo;
         
+        
         nuevo_paquete = paquete.split(":",2);
         nuevo = Integer.parseInt(nuevo_paquete[0]);
         ultimo = lista_secuencia.get(lista_secuencia.size()-1);
         
-        if(ultimo == nuevo)
+        if(ultimo == nuevo) //Esto es para cuando se pierde un ack
+        {
+            return true;
+        }
+
+        if(ultimo == (nuevo-1))
         {
             valido = true;
-        }
-        else
-        {
-            if(ultimo == (nuevo-1))
-            {
-                valido = true;
-                lista_secuencia.add(nuevo);
-                lista_caracteres.add(nuevo_paquete[1]);
-            }
+            lista_secuencia.add(nuevo);
+            lista_caracteres.add(nuevo_paquete[1]);
+            buffer.write(lista_caracteres.get(lista_caracteres.size()-1)); //Si el paquete era el esperado, se escribe el caracter
         }
         
+        
+        /**
+        ultimo = lista_secuencia.get(lista_secuencia.size()-1);
+        if(Pattern.matches(""+ultimo+":.", paquete))
+        {
+            return true;
+        }
+        
+        if(Pattern.matches(""+(ultimo+1)+":.", paquete))
+        {
+            nuevo_paquete = paquete.split(":",2);
+            nuevo = Integer.parseInt(nuevo_paquete[0]);
+            lista_secuencia.add(nuevo);
+            lista_caracteres.add(nuevo_paquete[1]);
+            valido = true;
+        }
+**/
          
         return valido;
     }
@@ -250,35 +268,33 @@ public class Interfaz extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
+                        .addComponent(jLabel2)
+                        .addGap(50, 50, 50)
+                        .addComponent(puerto_text))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel3)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(78, 78, 78)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(radio_normal)
+                                    .addComponent(jButton1))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addGap(50, 50, 50)
-                                .addComponent(puerto_text))
+                                .addGap(68, 68, 68)
+                                .addComponent(puerto_envio, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel4)
-                                    .addComponent(jLabel3))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(78, 78, 78)
-                                        .addComponent(radio_debug))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(68, 68, 68)
-                                        .addComponent(puerto_envio, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)))))
-                        .addGap(10, 10, 10))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(102, 102, 102)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(radio_normal)
-                            .addComponent(jButton1))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(radio_debug)
+                                .addGap(0, 0, Short.MAX_VALUE)))))
+                .addGap(10, 10, 10)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
