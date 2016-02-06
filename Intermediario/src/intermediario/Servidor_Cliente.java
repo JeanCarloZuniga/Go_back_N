@@ -80,7 +80,7 @@ public class Servidor_Cliente extends Thread{
                   /**Se convierte en cliente para enviar los datos al Cliente Principal**/
                   rango = (int)(Math.random()*10); //Si la probabilidad es 0.5 => 5 y si el random está entre 0 y 5 se pierde el paquete
 
-                  if((rango >= probabilidad) || (paquete.compareTo("-1:~") != 0))
+                  if((rango >= probabilidad) || (paquete.compareTo("-1:~") == 0))
                   {
                        socketCliente = new Socket("localhost", puertoInterServidor);
                        output = new DataOutputStream(socketCliente.getOutputStream());
@@ -128,7 +128,7 @@ public class Servidor_Cliente extends Thread{
 
                    /**Se convierte en cliente para enviar los datos al Cliente Principal**/                  
                    
-                   if(!buscar(paquete) || (paquete.compareTo("-1:~") != 0))
+                   if(!buscar(paquete) || (paquete.compareTo("-1:~") == 0))
                   {
                         socketCliente = new Socket("localhost", puertoInterServidor);
                         output = new DataOutputStream(socketCliente.getOutputStream());
