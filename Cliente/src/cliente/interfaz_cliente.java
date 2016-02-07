@@ -186,6 +186,7 @@ public class interfaz_cliente extends javax.swing.JFrame {
                 scanner.close();
             }
             cliente.archivo = fileContents.toString();
+            cliente.nombre_archivo = filename;
             
         }   catch (FileNotFoundException ex) {
             Logger.getLogger(interfaz_cliente.class.getName()).log(Level.SEVERE, null, ex);

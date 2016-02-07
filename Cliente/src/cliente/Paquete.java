@@ -17,7 +17,9 @@ public class Paquete {
     int secuencia;
     char valor;
     long reloj;
+    int reenvios;
     Paquete(int _secuencia, char _valor, long _reloj){
+        this.reenvios=0;
     }
     
 }

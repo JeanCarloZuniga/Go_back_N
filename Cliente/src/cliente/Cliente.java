@@ -27,12 +27,14 @@ public class Cliente extends Thread {
     }
     JTextArea outputTB;
     LinkedList<Paquete> cola_de_paquetes = new LinkedList<Paquete>();
+    LinkedList<String> resultados = new LinkedList<String>();
     int tamano_ventana;
     String archivo;
     int puerto_intemediario;
     Boolean modo;
     long timeout;
     String paquete_a_enviar;
+    String nombre_archivo;
 
     /*
     Verifica si se alcanza el timeout para el primer paquete enviado en el contexto
@@ -99,6 +101,37 @@ public class Cliente extends Thread {
             Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    public void guardar_dato(){
+        Paquete dato = cola_de_paquetes.element();
+        resultados.addLast("Secuencia "+ Integer.toString(dato.secuencia) 
+        + " -- Valor " + dato.valor
+        + " -- Reenvios " + dato.reenvios
+        + " -- Tiempo " 
+        + Long.toString(System.currentTimeMillis() - dato.reloj + (dato.reenvios*timeout))
+        + "\n");
+    }
+    
+    public void crear_documento(){
+        try {
+            File doc = new File("Informe.txt");
+
+            FileWriter escribir = new FileWriter(doc, true);
+            
+            escribir.write("*---------  Informe para el archivo: " + nombre_archivo
+                + " con un timeout de: " + timeout + " y una ventana de: " 
+                + tamano_ventana + "  ---------*\n");
+            
+            while(!resultados.isEmpty())
+            {
+                escribir.write(resultados.pop());
+            }
+            escribir.close();
+        } 
+        catch (Exception e) {
+            System.out.println("Error al escribir");
+        }
+    }
 
     /*
     Metodo principal para el go back n
@@ -135,6 +168,7 @@ public class Cliente extends Thread {
                 imprimir("Se venció el timeout\n");
                 for(int i=0; i<tope_a_enviar; i++) 
                 {
+                    cola_de_paquetes.get(i).reenvios+=1;
                     ensamblar_paquete(i);
                     imprimir("Reenviando: " + paquete_a_enviar + "\n");
                     enviar();
@@ -148,6 +182,8 @@ public class Cliente extends Thread {
                     while ((!cola_de_paquetes.isEmpty()) 
                             && (Integer.parseInt(ack_leido) >= cola_de_paquetes.element().secuencia)){
                         imprimir("\n>>> Llego el ack: " + cola_de_paquetes.element().secuencia + "<<<\n\n");
+                        //Para efectos del informe
+                        guardar_dato();
                         cola_de_paquetes.pop();
                         //Si aun quedan paquetes, deslizo la ventana
                         if (!cola_de_paquetes.isEmpty()) {
@@ -166,5 +202,6 @@ public class Cliente extends Thread {
         }
         enviar_ultimo_paquete();
         this.outputTB.append("\n Archivo enviado \n");
+        crear_documento();
     }
 }

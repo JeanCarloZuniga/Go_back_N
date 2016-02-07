@@ -1,0 +1,42 @@
+*---------  Informe para el archivo: /home/jean/goback con un timeout de: 2000 y una ventana de: 5  ---------*Secuencia 0 -- Valor E -- Reenvios 4 -- Tiempo 8058
+Secuencia 1 -- Valor l -- Reenvios 4 -- Tiempo 8054
+Secuencia 2 -- Valor   -- Reenvios 4 -- Tiempo 8055
+Secuencia 3 -- Valor m -- Reenvios 4 -- Tiempo 8057
+Secuencia 4 -- Valor a -- Reenvios 6 -- Tiempo 12054
+Secuencia 5 -- Valor c -- Reenvios 2 -- Tiempo 4047
+Secuencia 6 -- Valor h -- Reenvios 2 -- Tiempo 4040
+Secuencia 7 -- Valor o -- Reenvios 2 -- Tiempo 4034
+Secuencia 8 -- Valor   -- Reenvios 2 -- Tiempo 4032
+Secuencia 9 -- Valor n -- Reenvios 1 -- Tiempo 2035
+Secuencia 10 -- Valor o -- Reenvios 2 -- Tiempo 4031
+Secuencia 11 -- Valor   -- Reenvios 2 -- Tiempo 4033
+Secuencia 12 -- Valor p -- Reenvios 4 -- Tiempo 8035
+Secuencia 13 -- Valor u -- Reenvios 6 -- Tiempo 12036
+Secuencia 14 -- Valor e -- Reenvios 5 -- Tiempo 12000
+Secuencia 15 -- Valor d -- Reenvios 4 -- Tiempo 9977
+Secuencia 16 -- Valor e -- Reenvios 4 -- Tiempo 9986
+Secuencia 17 -- Valor   -- Reenvios 2 -- Tiempo 5997
+Secuencia 18 -- Valor c -- Reenvios 5 -- Tiempo 12000
+Secuencia 19 -- Valor o -- Reenvios 5 -- Tiempo 12020
+Secuencia 20 -- Valor n -- Reenvios 5 -- Tiempo 12017
+Secuencia 21 -- Valor e -- Reenvios 5 -- Tiempo 12011
+Secuencia 22 -- Valor c -- Reenvios 5 -- Tiempo 12004
+Secuencia 23 -- Valor t -- Reenvios 2 -- Tiempo 4010
+Secuencia 24 -- Valor a -- Reenvios 5 -- Tiempo 10051
+Secuencia 25 -- Valor r -- Reenvios 5 -- Tiempo 10048
+Secuencia 26 -- Valor s -- Reenvios 5 -- Tiempo 10042
+Secuencia 27 -- Valor e -- Reenvios 7 -- Tiempo 14023
+Secuencia 28 -- Valor   -- Reenvios 9 -- Tiempo 18040
+Secuencia 29 -- Valor a -- Reenvios 6 -- Tiempo 12049
+Secuencia 30 -- Valor   -- Reenvios 6 -- Tiempo 12035
+Secuencia 31 -- Valor i -- Reenvios 6 -- Tiempo 12029
+Secuencia 32 -- Valor n -- Reenvios 4 -- Tiempo 8025
+Secuencia 33 -- Valor t -- Reenvios 0 -- Tiempo 21
+Secuencia 34 -- Valor e -- Reenvios 4 -- Tiempo 8054
+Secuencia 35 -- Valor r -- Reenvios 4 -- Tiempo 8044
+Secuencia 36 -- Valor n -- Reenvios 9 -- Tiempo 18035
+Secuencia 37 -- Valor e -- Reenvios 9 -- Tiempo 18033
+Secuencia 38 -- Valor t -- Reenvios 9 -- Tiempo 18025
+Secuencia 39 -- Valor . -- Reenvios 5 -- Tiempo 10018
+Secuencia 40 -- Valor 
+ -- Reenvios 5 -- Tiempo 10009
