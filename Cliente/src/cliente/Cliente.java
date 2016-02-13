@@ -28,14 +28,11 @@ public class Cliente extends Thread {
     JTextArea outputTB;
     LinkedList<Paquete> cola_de_paquetes = new LinkedList<Paquete>();
     LinkedList<String> resultados = new LinkedList<String>();
-    int tamano_ventana;
-    long total_tiempo_ejecucion;
-    String archivo;
-    int puerto_intemediario;
+    int tamano_ventana, puerto_intemediario;
+    long total_tiempo_ejecucion = 0;
+    long tiempo_inicial, tiempo_final, timeout;
+    String archivo, paquete_a_enviar, nombre_archivo;
     Boolean modo;
-    long timeout;
-    String paquete_a_enviar;
-    String nombre_archivo;
 
     /*
     Verifica si se alcanza el timeout para el primer paquete enviado en el contexto
@@ -78,6 +75,10 @@ public class Cliente extends Thread {
                 + ":";
         paquete_a_enviar = paquete_a_enviar + cola_de_paquetes.get(indice).valor;
         cola_de_paquetes.get(indice).reloj = System.currentTimeMillis();
+        if(cola_de_paquetes.get(indice).reenvios==0)
+        {
+            cola_de_paquetes.get(indice).reloj_inicial = cola_de_paquetes.get(indice).reloj;
+        }
     }
     
     /*
@@ -105,13 +106,18 @@ public class Cliente extends Thread {
     
     public void guardar_dato(){
         Paquete dato = cola_de_paquetes.element();
+        long tiempo_transcurrido = System.currentTimeMillis() - dato.reloj_inicial;
         resultados.addLast("Secuencia "+ Integer.toString(dato.secuencia) 
         + " -- Valor " + dato.valor
         + " -- Reenvios " + dato.reenvios
         + " -- Tiempo " 
-        + Long.toString(System.currentTimeMillis() - dato.reloj + (dato.reenvios*timeout))
+        + Long.toString(tiempo_transcurrido)
         + "\n");
-        total_tiempo_ejecucion+=(System.currentTimeMillis() - dato.reloj + (dato.reenvios*timeout));
+        total_tiempo_ejecucion+=(tiempo_transcurrido);
+        //Pregunto si es el �ltimo paquete
+        if(dato.secuencia == archivo.length()-1){
+            tiempo_final = System.currentTimeMillis() - tiempo_inicial; 
+        }
     }
     
     public void crear_documento(){
@@ -128,8 +134,11 @@ public class Cliente extends Thread {
             {
                 escribir.write(resultados.pop());
             }
-            escribir.write("\n\n **TOTAL TIEMPO TRANSCURRIDO: "
-                    + Long.toString(total_tiempo_ejecucion));
+            escribir.write("\n\n**TOTAL TIEMPO TRANSCURRIDO: "
+                    + Long.toString(tiempo_final)
+                    + "\n**TOTAL RTT TRANSCURRIDO: "
+                    + Long.toString(total_tiempo_ejecucion)
+                    + "\n\n-------fin del informe-------\n\n");
             escribir.close();
         } 
         catch (Exception e) {
@@ -155,6 +164,9 @@ public class Cliente extends Thread {
             }
             for (int i = 0; i < tope_a_enviar; i++) {
                 ensamblar_paquete(i);
+                if(i==0){
+                    tiempo_inicial=cola_de_paquetes.element().reloj_inicial;
+                }
                 imprimir("Enviando: " + paquete_a_enviar + "\n");
                 enviar();
             }
@@ -198,8 +210,7 @@ public class Cliente extends Thread {
                                 imprimir("Enviando: " + paquete_a_enviar + "\n");
                                 enviar();
                             }
-                        }
-
+                        } 
                     }
                 }
             }
