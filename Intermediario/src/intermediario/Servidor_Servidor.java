@@ -36,7 +36,7 @@ public class Servidor_Servidor extends Thread{
     @Override
     public void run()
     {
-        System.out.println("Inicia el Servidor_Servidor");
+        //System.out.println("Inicia el Servidor_Servidor");
         String paquete;
         Socket coneccion;
         BufferedReader input;
@@ -56,13 +56,13 @@ public class Servidor_Servidor extends Thread{
                input = new BufferedReader(new InputStreamReader(coneccion.getInputStream())); 
 
                paquete = input.readLine();
-               System.out.println("Recibido: "+paquete);
+              // System.out.println("Recibido: "+paquete);
                
                /**Se convierte en cliente para enviar los datos al Cliente Principal**/
                rango = (int)(Math.random()*10); //Si la probabilidad es 0.5 => 5 y si el random está entre 0 y 5 se pierde el paquete
                if(rango >= probabilidad)
                {
-                   System.out.println("Voy del servidor al cliente y estoy en el intermediario "+paquete);
+                   //System.out.println("Voy del servidor al cliente y estoy en el intermediario "+paquete);
                     socketCliente = new Socket("localhost", puertoInterCliente);
                     output = new DataOutputStream(socketCliente.getOutputStream());
                     output.writeBytes(paquete);

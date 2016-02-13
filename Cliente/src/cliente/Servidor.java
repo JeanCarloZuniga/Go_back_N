@@ -32,7 +32,7 @@ public class Servidor extends Thread {
                         new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
                 clientSentence = inFromClient.readLine();
                 if(clientSentence != null){
-                    System.out.println("Received: " + clientSentence);
+                    //System.out.println("Received: " + clientSentence);
                     cola_de_lecturas.addLast(clientSentence);
                 }
             }

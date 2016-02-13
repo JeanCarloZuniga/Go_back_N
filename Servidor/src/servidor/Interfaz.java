@@ -88,13 +88,13 @@ public class Interfaz extends javax.swing.JFrame {
                        new InputStreamReader(coneccion.getInputStream())); 
 
                linea = input.readLine();
-               System.out.println("Recibido: "+linea);
+             //  System.out.println("Recibido: "+linea);
 
                if(validarPaquete(linea)) //Enviamos el ACK
                {
-                   System.out.println("Validado!");
+                  // System.out.println("Validado!");
                    enviar(""+(lista_secuencia.get(lista_secuencia.size()-1)));
-                   System.out.println("Enviando un ack de: " + lista_secuencia.get(lista_secuencia.size()-1));                                      
+                  // System.out.println("Enviando un ack de: " + lista_secuencia.get(lista_secuencia.size()-1));                                      
                }
             }
             

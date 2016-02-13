@@ -74,7 +74,7 @@ public class Servidor_Cliente extends Thread{
                   input = new BufferedReader(new InputStreamReader(coneccion.getInputStream())); 
 
                   paquete = input.readLine();
-                  System.out.println("Recibido: "+paquete);
+                  //System.out.println("Recibido: "+paquete);
 
 
                   /**Se convierte en cliente para enviar los datos al Cliente Principal**/
@@ -123,7 +123,7 @@ public class Servidor_Cliente extends Thread{
                    input = new BufferedReader(new InputStreamReader(coneccion.getInputStream())); 
 
                    paquete = input.readLine();
-                   System.out.println("Recibido: "+paquete);
+                 //  System.out.println("Recibido: "+paquete);
 
 
                    /**Se convierte en cliente para enviar los datos al Cliente Principal**/                  
@@ -156,7 +156,7 @@ public class Servidor_Cliente extends Thread{
         
         for(int i = 0; (i < length) && !encontrado; ++i)
         {
-            System.out.println(secuencia.get(i)+", "+paquete);
+           // System.out.println(secuencia.get(i)+", "+paquete);
             if(Pattern.matches(secuencia.get(i), paquete))
             {
                 encontrado = true;
