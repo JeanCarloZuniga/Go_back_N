@@ -17,9 +17,11 @@ public class Paquete {
     int secuencia;
     char valor;
     long reloj;
+    long reloj_inicial;
     int reenvios;
     Paquete(int _secuencia, char _valor, long _reloj){
         this.reenvios=0;
+        this.reloj_inicial=0;
     }
     
 }
