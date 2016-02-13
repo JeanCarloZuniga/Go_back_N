@@ -29,6 +29,7 @@ public class Cliente extends Thread {
     LinkedList<Paquete> cola_de_paquetes = new LinkedList<Paquete>();
     LinkedList<String> resultados = new LinkedList<String>();
     int tamano_ventana;
+    long total_tiempo_ejecucion;
     String archivo;
     int puerto_intemediario;
     Boolean modo;
@@ -110,6 +111,7 @@ public class Cliente extends Thread {
         + " -- Tiempo " 
         + Long.toString(System.currentTimeMillis() - dato.reloj + (dato.reenvios*timeout))
         + "\n");
+        total_tiempo_ejecucion+=(System.currentTimeMillis() - dato.reloj + (dato.reenvios*timeout));
     }
     
     public void crear_documento(){
@@ -126,6 +128,8 @@ public class Cliente extends Thread {
             {
                 escribir.write(resultados.pop());
             }
+            escribir.write("\n\n **TOTAL TIEMPO TRANSCURRIDO: "
+                    + Long.toString(total_tiempo_ejecucion));
             escribir.close();
         } 
         catch (Exception e) {
