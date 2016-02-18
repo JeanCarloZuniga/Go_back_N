@@ -98,3 +98,153 @@ Secuencia 40 -- Valor
 
 -------fin del informe-------
 
+*---------  Informe para el archivo: /home/jean/goback con un timeout de: 1000 y una ventana de: 56789  ---------*
+Secuencia 0 -- Valor E -- Reenvios 0 -- Tiempo 331
+Secuencia 1 -- Valor l -- Reenvios 0 -- Tiempo 295
+Secuencia 2 -- Valor   -- Reenvios 0 -- Tiempo 301
+Secuencia 3 -- Valor m -- Reenvios 0 -- Tiempo 300
+Secuencia 4 -- Valor a -- Reenvios 0 -- Tiempo 298
+Secuencia 5 -- Valor c -- Reenvios 0 -- Tiempo 281
+Secuencia 6 -- Valor h -- Reenvios 0 -- Tiempo 262
+Secuencia 7 -- Valor o -- Reenvios 0 -- Tiempo 248
+Secuencia 8 -- Valor   -- Reenvios 0 -- Tiempo 249
+Secuencia 9 -- Valor n -- Reenvios 0 -- Tiempo 242
+Secuencia 10 -- Valor o -- Reenvios 0 -- Tiempo 234
+Secuencia 11 -- Valor   -- Reenvios 0 -- Tiempo 229
+Secuencia 12 -- Valor p -- Reenvios 0 -- Tiempo 225
+Secuencia 13 -- Valor u -- Reenvios 0 -- Tiempo 216
+Secuencia 14 -- Valor e -- Reenvios 0 -- Tiempo 211
+Secuencia 15 -- Valor d -- Reenvios 0 -- Tiempo 202
+Secuencia 16 -- Valor e -- Reenvios 0 -- Tiempo 191
+Secuencia 17 -- Valor   -- Reenvios 0 -- Tiempo 190
+Secuencia 18 -- Valor c -- Reenvios 0 -- Tiempo 189
+Secuencia 19 -- Valor o -- Reenvios 0 -- Tiempo 181
+Secuencia 20 -- Valor n -- Reenvios 0 -- Tiempo 178
+Secuencia 21 -- Valor e -- Reenvios 0 -- Tiempo 207
+Secuencia 22 -- Valor c -- Reenvios 0 -- Tiempo 203
+Secuencia 23 -- Valor t -- Reenvios 0 -- Tiempo 218
+Secuencia 24 -- Valor a -- Reenvios 0 -- Tiempo 209
+Secuencia 25 -- Valor r -- Reenvios 0 -- Tiempo 226
+Secuencia 26 -- Valor s -- Reenvios 0 -- Tiempo 219
+Secuencia 27 -- Valor e -- Reenvios 0 -- Tiempo 217
+Secuencia 28 -- Valor   -- Reenvios 0 -- Tiempo 227
+Secuencia 29 -- Valor a -- Reenvios 0 -- Tiempo 225
+Secuencia 30 -- Valor   -- Reenvios 0 -- Tiempo 218
+Secuencia 31 -- Valor i -- Reenvios 0 -- Tiempo 216
+Secuencia 32 -- Valor n -- Reenvios 0 -- Tiempo 213
+Secuencia 33 -- Valor t -- Reenvios 0 -- Tiempo 262
+Secuencia 34 -- Valor e -- Reenvios 0 -- Tiempo 275
+Secuencia 35 -- Valor r -- Reenvios 0 -- Tiempo 279
+Secuencia 36 -- Valor n -- Reenvios 0 -- Tiempo 291
+Secuencia 37 -- Valor e -- Reenvios 0 -- Tiempo 310
+Secuencia 38 -- Valor t -- Reenvios 0 -- Tiempo 311
+Secuencia 39 -- Valor . -- Reenvios 0 -- Tiempo 310
+Secuencia 40 -- Valor 
+ -- Reenvios 0 -- Tiempo 325
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 648
+**TOTAL RTT TRANSCURRIDO: 10014
+
+-------fin del informe-------
+
+*---------  Informe para el archivo: /home/jean/goback con un timeout de: 1000 y una ventana de: 13456  ---------*
+Secuencia 0 -- Valor E -- Reenvios 1 -- Tiempo 1336
+Secuencia 1 -- Valor l -- Reenvios 1 -- Tiempo 1293
+Secuencia 2 -- Valor   -- Reenvios 1 -- Tiempo 1279
+Secuencia 3 -- Valor m -- Reenvios 2 -- Tiempo 2213
+Secuencia 4 -- Valor a -- Reenvios 2 -- Tiempo 2225
+Secuencia 5 -- Valor c -- Reenvios 2 -- Tiempo 2229
+Secuencia 6 -- Valor h -- Reenvios 2 -- Tiempo 2225
+Secuencia 7 -- Valor o -- Reenvios 2 -- Tiempo 2221
+Secuencia 8 -- Valor   -- Reenvios 4 -- Tiempo 4320
+Secuencia 9 -- Valor n -- Reenvios 4 -- Tiempo 4313
+Secuencia 10 -- Valor o -- Reenvios 4 -- Tiempo 4300
+Secuencia 11 -- Valor   -- Reenvios 4 -- Tiempo 4297
+Secuencia 12 -- Valor p -- Reenvios 4 -- Tiempo 4292
+Secuencia 13 -- Valor u -- Reenvios 6 -- Tiempo 6473
+Secuencia 14 -- Valor e -- Reenvios 6 -- Tiempo 6458
+Secuencia 15 -- Valor d -- Reenvios 6 -- Tiempo 6457
+Secuencia 16 -- Valor e -- Reenvios 6 -- Tiempo 6456
+Secuencia 17 -- Valor   -- Reenvios 6 -- Tiempo 6455
+Secuencia 18 -- Valor c -- Reenvios 6 -- Tiempo 6453
+Secuencia 19 -- Valor o -- Reenvios 6 -- Tiempo 6453
+Secuencia 20 -- Valor n -- Reenvios 6 -- Tiempo 6453
+Secuencia 21 -- Valor e -- Reenvios 6 -- Tiempo 6445
+Secuencia 22 -- Valor c -- Reenvios 6 -- Tiempo 6439
+Secuencia 23 -- Valor t -- Reenvios 6 -- Tiempo 6430
+Secuencia 24 -- Valor a -- Reenvios 6 -- Tiempo 6430
+Secuencia 25 -- Valor r -- Reenvios 6 -- Tiempo 6429
+Secuencia 26 -- Valor s -- Reenvios 6 -- Tiempo 6427
+Secuencia 27 -- Valor e -- Reenvios 6 -- Tiempo 6423
+Secuencia 28 -- Valor   -- Reenvios 7 -- Tiempo 7440
+Secuencia 29 -- Valor a -- Reenvios 7 -- Tiempo 7438
+Secuencia 30 -- Valor   -- Reenvios 7 -- Tiempo 7437
+Secuencia 31 -- Valor i -- Reenvios 7 -- Tiempo 7435
+Secuencia 32 -- Valor n -- Reenvios 8 -- Tiempo 8454
+Secuencia 33 -- Valor t -- Reenvios 8 -- Tiempo 8453
+Secuencia 34 -- Valor e -- Reenvios 8 -- Tiempo 8451
+Secuencia 35 -- Valor r -- Reenvios 8 -- Tiempo 8450
+Secuencia 36 -- Valor n -- Reenvios 8 -- Tiempo 8444
+Secuencia 37 -- Valor e -- Reenvios 8 -- Tiempo 8438
+Secuencia 38 -- Valor t -- Reenvios 8 -- Tiempo 8436
+Secuencia 39 -- Valor . -- Reenvios 8 -- Tiempo 8432
+Secuencia 40 -- Valor 
+ -- Reenvios 8 -- Tiempo 8430
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 8625
+**TOTAL RTT TRANSCURRIDO: 238962
+
+-------fin del informe-------
+
+*---------  Informe para el archivo: /home/jean/goback con un timeout de: 1000 y una ventana de: 9  ---------*
+Secuencia 0 -- Valor E -- Reenvios 1 -- Tiempo 1099
+Secuencia 1 -- Valor l -- Reenvios 1 -- Tiempo 1080
+Secuencia 2 -- Valor   -- Reenvios 1 -- Tiempo 1073
+Secuencia 3 -- Valor m -- Reenvios 1 -- Tiempo 1074
+Secuencia 4 -- Valor a -- Reenvios 1 -- Tiempo 1083
+Secuencia 5 -- Valor c -- Reenvios 1 -- Tiempo 1094
+Secuencia 6 -- Valor h -- Reenvios 1 -- Tiempo 1118
+Secuencia 7 -- Valor o -- Reenvios 1 -- Tiempo 1116
+Secuencia 8 -- Valor   -- Reenvios 1 -- Tiempo 1119
+Secuencia 9 -- Valor n -- Reenvios 0 -- Tiempo 110
+Secuencia 10 -- Valor o -- Reenvios 0 -- Tiempo 106
+Secuencia 11 -- Valor   -- Reenvios 0 -- Tiempo 103
+Secuencia 12 -- Valor p -- Reenvios 1 -- Tiempo 1095
+Secuencia 13 -- Valor u -- Reenvios 1 -- Tiempo 1097
+Secuencia 14 -- Valor e -- Reenvios 1 -- Tiempo 1081
+Secuencia 15 -- Valor d -- Reenvios 3 -- Tiempo 3140
+Secuencia 16 -- Valor e -- Reenvios 4 -- Tiempo 4151
+Secuencia 17 -- Valor   -- Reenvios 4 -- Tiempo 4152
+Secuencia 18 -- Valor c -- Reenvios 4 -- Tiempo 4143
+Secuencia 19 -- Valor o -- Reenvios 4 -- Tiempo 4155
+Secuencia 20 -- Valor n -- Reenvios 4 -- Tiempo 4149
+Secuencia 21 -- Valor e -- Reenvios 3 -- Tiempo 3155
+Secuencia 22 -- Valor c -- Reenvios 3 -- Tiempo 3145
+Secuencia 23 -- Valor t -- Reenvios 3 -- Tiempo 3145
+Secuencia 24 -- Valor a -- Reenvios 2 -- Tiempo 2100
+Secuencia 25 -- Valor r -- Reenvios 3 -- Tiempo 3097
+Secuencia 26 -- Valor s -- Reenvios 3 -- Tiempo 3103
+Secuencia 27 -- Valor e -- Reenvios 5 -- Tiempo 5108
+Secuencia 28 -- Valor   -- Reenvios 5 -- Tiempo 5094
+Secuencia 29 -- Valor a -- Reenvios 5 -- Tiempo 5091
+Secuencia 30 -- Valor   -- Reenvios 5 -- Tiempo 5085
+Secuencia 31 -- Valor i -- Reenvios 6 -- Tiempo 6124
+Secuencia 32 -- Valor n -- Reenvios 6 -- Tiempo 6128
+Secuencia 33 -- Valor t -- Reenvios 5 -- Tiempo 5088
+Secuencia 34 -- Valor e -- Reenvios 4 -- Tiempo 4102
+Secuencia 35 -- Valor r -- Reenvios 4 -- Tiempo 4092
+Secuencia 36 -- Valor n -- Reenvios 2 -- Tiempo 2079
+Secuencia 37 -- Valor e -- Reenvios 2 -- Tiempo 2078
+Secuencia 38 -- Valor t -- Reenvios 2 -- Tiempo 2078
+Secuencia 39 -- Valor . -- Reenvios 2 -- Tiempo 2076
+Secuencia 40 -- Valor 
+ -- Reenvios 1 -- Tiempo 1034
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 12540
+**TOTAL RTT TRANSCURRIDO: 110340
+
+-------fin del informe-------
+
