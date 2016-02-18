@@ -28,7 +28,7 @@ public class Cliente extends Thread {
     JTextArea outputTB;
     LinkedList<Paquete> cola_de_paquetes = new LinkedList<Paquete>();
     LinkedList<String> resultados = new LinkedList<String>();
-    int tamano_ventana, puerto_intemediario;
+    int tamano_ventana, puerto_intemediario, puerto_cliente;
     long total_tiempo_ejecucion = 0;
     long tiempo_inicial, tiempo_final, timeout;
     String archivo, paquete_a_enviar, nombre_archivo;
@@ -151,7 +151,7 @@ public class Cliente extends Thread {
     */
     @Override
     public void run() {
-        Servidor servidor = new Servidor(10001);
+        Servidor servidor = new Servidor(puerto_cliente);
         servidor.start();
         this.outputTB.append("[Cliente] : El cliente está corriendo ahora.\n");
         int tope_a_enviar=tamano_ventana;

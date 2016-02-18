@@ -20,6 +20,7 @@ import javax.swing.JOptionPane;
 public class interfaz_cliente extends javax.swing.JFrame {
     Cliente cliente;
     Boolean modo;
+    String archivo = "", nombre = "";
     /**
      * Creates new form interfaz_cliente
      */
@@ -50,6 +51,8 @@ public class interfaz_cliente extends javax.swing.JFrame {
         comenzarBTN = new javax.swing.JButton();
         timeoutCB = new javax.swing.JTextField();
         puertoCB = new javax.swing.JTextField();
+        puerto_clienteLB = new javax.swing.JLabel();
+        puerto_clienteTB = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -94,6 +97,8 @@ public class interfaz_cliente extends javax.swing.JFrame {
             }
         });
 
+        puerto_clienteLB.setText("Puerto cliente");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -115,17 +120,21 @@ public class interfaz_cliente extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(ventanaTB, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
                                     .addComponent(timeoutCB)
-                                    .addComponent(puertoCB))
+                                    .addComponent(puertoCB)
+                                    .addComponent(puerto_clienteTB, javax.swing.GroupLayout.Alignment.TRAILING))
                                 .addGap(32, 32, 32))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(29, 29, 29)
+                                .addGap(71, 71, 71)
+                                .addComponent(comenzarBTN))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(38, 38, 38)
                                 .addComponent(archivoBTN, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(66, 66, 66)
-                                .addComponent(comenzarBTN)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)))
+                                .addContainerGap()
+                                .addComponent(puerto_clienteLB)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)))
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
@@ -136,33 +145,35 @@ public class interfaz_cliente extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(clienteLB)
-                        .addGap(38, 38, 38)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(ventanaLB)
-                            .addComponent(ventanaTB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(36, 36, 36)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(timeoutLB)
-                            .addComponent(timeoutCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(36, 36, 36)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(PuertoLB)
-                            .addComponent(puertoCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(27, 27, 27)
-                        .addComponent(archivoBTN)
-                        .addGap(18, 18, 18)
-                        .addComponent(modoCB)
-                        .addGap(30, 30, 30)
-                        .addComponent(comenzarBTN)
-                        .addGap(0, 13, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(53, 53, 53)
-                        .addComponent(jScrollPane1)))
+                .addGap(53, 53, 53)
+                .addComponent(jScrollPane1)
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(clienteLB)
+                .addGap(38, 38, 38)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(ventanaLB)
+                    .addComponent(ventanaTB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(36, 36, 36)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(timeoutLB)
+                    .addComponent(timeoutCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(31, 31, 31)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PuertoLB)
+                    .addComponent(puertoCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(33, 33, 33)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(puerto_clienteLB)
+                    .addComponent(puerto_clienteTB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                .addComponent(archivoBTN)
+                .addGap(26, 26, 26)
+                .addComponent(modoCB)
+                .addGap(27, 27, 27)
+                .addComponent(comenzarBTN)
+                .addGap(36, 36, 36))
         );
 
         pack();
@@ -185,8 +196,8 @@ public class interfaz_cliente extends javax.swing.JFrame {
             } finally {
                 scanner.close();
             }
-            cliente.archivo = fileContents.toString();
-            cliente.nombre_archivo = filename;
+            archivo = fileContents.toString();
+            nombre = filename;
             
         }   catch (FileNotFoundException ex) {
             Logger.getLogger(interfaz_cliente.class.getName()).log(Level.SEVERE, null, ex);
@@ -202,11 +213,15 @@ public class interfaz_cliente extends javax.swing.JFrame {
         if( (ventanaTB.getText().length()>0) 
                 && (puertoCB.getText().length()>0)
                 && (timeoutCB.getText().length()>0)
-                && (cliente.archivo.length()>0)){
+                && (archivo.length()>0)
+                && (puerto_clienteTB.getText().length()>0)){
+        cliente.archivo = archivo;
+        cliente.nombre_archivo = nombre;
         cliente.tamano_ventana = Integer.parseInt(ventanaTB.getText());
         cliente.puerto_intemediario = Integer.parseInt(puertoCB.getText());
         cliente.timeout = Long.parseLong(timeoutCB.getText());
         cliente.modo = modo;
+        cliente.puerto_cliente = Integer.parseInt(puerto_clienteTB.getText());
         cliente.start();
         } else {
             JOptionPane.showMessageDialog(null, "Suministre todos los inputs", "Warning",
@@ -264,6 +279,8 @@ public class interfaz_cliente extends javax.swing.JFrame {
     private javax.swing.JCheckBox modoCB;
     private javax.swing.JTextArea outputTB;
     private javax.swing.JTextField puertoCB;
+    private javax.swing.JLabel puerto_clienteLB;
+    private javax.swing.JTextField puerto_clienteTB;
     private javax.swing.JTextField timeoutCB;
     private javax.swing.JLabel timeoutLB;
     private javax.swing.JLabel ventanaLB;
