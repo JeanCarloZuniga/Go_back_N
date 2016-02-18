@@ -1,0 +1,2011 @@
+*---------  Informe para el archivo: C:\Users\andre\Desktop\prueba2000 con un timeout de: 2000 y una ventana de: 50  ---------*
+Secuencia 0 -- Valor L -- Reenvios 9 -- Tiempo 18026
+Secuencia 1 -- Valor o -- Reenvios 9 -- Tiempo 18020
+Secuencia 2 -- Valor r -- Reenvios 9 -- Tiempo 18020
+Secuencia 3 -- Valor e -- Reenvios 31 -- Tiempo 62003
+Secuencia 4 -- Valor m -- Reenvios 31 -- Tiempo 62003
+Secuencia 5 -- Valor   -- Reenvios 31 -- Tiempo 62003
+Secuencia 6 -- Valor i -- Reenvios 36 -- Tiempo 72005
+Secuencia 7 -- Valor p -- Reenvios 36 -- Tiempo 72005
+Secuencia 8 -- Valor s -- Reenvios 36 -- Tiempo 72005
+Secuencia 9 -- Valor u -- Reenvios 41 -- Tiempo 82003
+Secuencia 10 -- Valor m -- Reenvios 54 -- Tiempo 108021
+Secuencia 11 -- Valor   -- Reenvios 54 -- Tiempo 108021
+Secuencia 12 -- Valor d -- Reenvios 54 -- Tiempo 108020
+Secuencia 13 -- Valor o -- Reenvios 54 -- Tiempo 108021
+Secuencia 14 -- Valor l -- Reenvios 54 -- Tiempo 108021
+Secuencia 15 -- Valor o -- Reenvios 68 -- Tiempo 136003
+Secuencia 16 -- Valor r -- Reenvios 68 -- Tiempo 136003
+Secuencia 17 -- Valor   -- Reenvios 68 -- Tiempo 136002
+Secuencia 18 -- Valor s -- Reenvios 69 -- Tiempo 138004
+Secuencia 19 -- Valor i -- Reenvios 104 -- Tiempo 208003
+Secuencia 20 -- Valor t -- Reenvios 104 -- Tiempo 208002
+Secuencia 21 -- Valor   -- Reenvios 104 -- Tiempo 208002
+Secuencia 22 -- Valor a -- Reenvios 129 -- Tiempo 258000
+Secuencia 23 -- Valor m -- Reenvios 129 -- Tiempo 257998
+Secuencia 24 -- Valor e -- Reenvios 129 -- Tiempo 257997
+Secuencia 25 -- Valor t -- Reenvios 155 -- Tiempo 309997
+Secuencia 26 -- Valor , -- Reenvios 155 -- Tiempo 309997
+Secuencia 27 -- Valor   -- Reenvios 155 -- Tiempo 309996
+Secuencia 28 -- Valor c -- Reenvios 155 -- Tiempo 309996
+Secuencia 29 -- Valor o -- Reenvios 156 -- Tiempo 311996
+Secuencia 30 -- Valor n -- Reenvios 159 -- Tiempo 317996
+Secuencia 31 -- Valor s -- Reenvios 159 -- Tiempo 317995
+Secuencia 32 -- Valor e -- Reenvios 159 -- Tiempo 317996
+Secuencia 33 -- Valor c -- Reenvios 161 -- Tiempo 321995
+Secuencia 34 -- Valor t -- Reenvios 161 -- Tiempo 321995
+Secuencia 35 -- Valor e -- Reenvios 167 -- Tiempo 333993
+Secuencia 36 -- Valor t -- Reenvios 177 -- Tiempo 353993
+Secuencia 37 -- Valor u -- Reenvios 177 -- Tiempo 353992
+Secuencia 38 -- Valor e -- Reenvios 186 -- Tiempo 371992
+Secuencia 39 -- Valor r -- Reenvios 186 -- Tiempo 371991
+Secuencia 40 -- Valor   -- Reenvios 186 -- Tiempo 371990
+Secuencia 41 -- Valor a -- Reenvios 222 -- Tiempo 443991
+Secuencia 42 -- Valor d -- Reenvios 222 -- Tiempo 443991
+Secuencia 43 -- Valor i -- Reenvios 222 -- Tiempo 443988
+Secuencia 44 -- Valor p -- Reenvios 222 -- Tiempo 443985
+Secuencia 45 -- Valor i -- Reenvios 222 -- Tiempo 443983
+Secuencia 46 -- Valor s -- Reenvios 222 -- Tiempo 443984
+Secuencia 47 -- Valor c -- Reenvios 222 -- Tiempo 443983
+Secuencia 48 -- Valor i -- Reenvios 222 -- Tiempo 443983
+Secuencia 49 -- Valor n -- Reenvios 222 -- Tiempo 443983
+Secuencia 50 -- Valor g -- Reenvios 213 -- Tiempo 425992
+Secuencia 51 -- Valor   -- Reenvios 213 -- Tiempo 425991
+Secuencia 52 -- Valor e -- Reenvios 216 -- Tiempo 431991
+Secuencia 53 -- Valor l -- Reenvios 194 -- Tiempo 388008
+Secuencia 54 -- Valor i -- Reenvios 194 -- Tiempo 388007
+Secuencia 55 -- Valor t -- Reenvios 199 -- Tiempo 398008
+Secuencia 56 -- Valor . -- Reenvios 194 -- Tiempo 388006
+Secuencia 57 -- Valor   -- Reenvios 204 -- Tiempo 408005
+Secuencia 58 -- Valor A -- Reenvios 204 -- Tiempo 408004
+Secuencia 59 -- Valor e -- Reenvios 199 -- Tiempo 398006
+Secuencia 60 -- Valor n -- Reenvios 187 -- Tiempo 373987
+Secuencia 61 -- Valor e -- Reenvios 187 -- Tiempo 373988
+Secuencia 62 -- Valor a -- Reenvios 190 -- Tiempo 379988
+Secuencia 63 -- Valor n -- Reenvios 193 -- Tiempo 385987
+Secuencia 64 -- Valor   -- Reenvios 214 -- Tiempo 427993
+Secuencia 65 -- Valor c -- Reenvios 200 -- Tiempo 400012
+Secuencia 66 -- Valor o -- Reenvios 202 -- Tiempo 404005
+Secuencia 67 -- Valor m -- Reenvios 205 -- Tiempo 410007
+Secuencia 68 -- Valor m -- Reenvios 207 -- Tiempo 414003
+Secuencia 69 -- Valor o -- Reenvios 172 -- Tiempo 344004
+Secuencia 70 -- Valor d -- Reenvios 194 -- Tiempo 388005
+Secuencia 71 -- Valor o -- Reenvios 194 -- Tiempo 388004
+Secuencia 72 -- Valor   -- Reenvios 169 -- Tiempo 338006
+Secuencia 73 -- Valor l -- Reenvios 176 -- Tiempo 352007
+Secuencia 74 -- Valor i -- Reenvios 182 -- Tiempo 364007
+Secuencia 75 -- Valor g -- Reenvios 158 -- Tiempo 316006
+Secuencia 76 -- Valor u -- Reenvios 158 -- Tiempo 316006
+Secuencia 77 -- Valor l -- Reenvios 158 -- Tiempo 316006
+Secuencia 78 -- Valor a -- Reenvios 158 -- Tiempo 316005
+Secuencia 79 -- Valor   -- Reenvios 192 -- Tiempo 384005
+Secuencia 80 -- Valor e -- Reenvios 189 -- Tiempo 378005
+Secuencia 81 -- Valor g -- Reenvios 189 -- Tiempo 378005
+Secuencia 82 -- Valor e -- Reenvios 189 -- Tiempo 378004
+Secuencia 83 -- Valor t -- Reenvios 187 -- Tiempo 374005
+Secuencia 84 -- Valor   -- Reenvios 187 -- Tiempo 374005
+Secuencia 85 -- Valor d -- Reenvios 181 -- Tiempo 362007
+Secuencia 86 -- Valor o -- Reenvios 171 -- Tiempo 342007
+Secuencia 87 -- Valor l -- Reenvios 173 -- Tiempo 346007
+Secuencia 88 -- Valor o -- Reenvios 182 -- Tiempo 364006
+Secuencia 89 -- Valor r -- Reenvios 182 -- Tiempo 364006
+Secuencia 90 -- Valor . -- Reenvios 182 -- Tiempo 364006
+Secuencia 91 -- Valor   -- Reenvios 146 -- Tiempo 292004
+Secuencia 92 -- Valor A -- Reenvios 172 -- Tiempo 344005
+Secuencia 93 -- Valor e -- Reenvios 172 -- Tiempo 344006
+Secuencia 94 -- Valor n -- Reenvios 172 -- Tiempo 344006
+Secuencia 95 -- Valor e -- Reenvios 175 -- Tiempo 350007
+Secuencia 96 -- Valor a -- Reenvios 175 -- Tiempo 350006
+Secuencia 97 -- Valor n -- Reenvios 175 -- Tiempo 350006
+Secuencia 98 -- Valor   -- Reenvios 175 -- Tiempo 350006
+Secuencia 99 -- Valor m -- Reenvios 175 -- Tiempo 350006
+Secuencia 100 -- Valor a -- Reenvios 175 -- Tiempo 350006
+Secuencia 101 -- Valor s -- Reenvios 187 -- Tiempo 374006
+Secuencia 102 -- Valor s -- Reenvios 189 -- Tiempo 378006
+Secuencia 103 -- Valor a -- Reenvios 189 -- Tiempo 378006
+Secuencia 104 -- Valor . -- Reenvios 191 -- Tiempo 382006
+Secuencia 105 -- Valor   -- Reenvios 186 -- Tiempo 372005
+Secuencia 106 -- Valor C -- Reenvios 186 -- Tiempo 372005
+Secuencia 107 -- Valor u -- Reenvios 179 -- Tiempo 358008
+Secuencia 108 -- Valor m -- Reenvios 183 -- Tiempo 366007
+Secuencia 109 -- Valor   -- Reenvios 183 -- Tiempo 366007
+Secuencia 110 -- Valor s -- Reenvios 191 -- Tiempo 382008
+Secuencia 111 -- Valor o -- Reenvios 191 -- Tiempo 382007
+Secuencia 112 -- Valor c -- Reenvios 188 -- Tiempo 376008
+Secuencia 113 -- Valor i -- Reenvios 185 -- Tiempo 370008
+Secuencia 114 -- Valor i -- Reenvios 168 -- Tiempo 336002
+Secuencia 115 -- Valor s -- Reenvios 199 -- Tiempo 398000
+Secuencia 116 -- Valor   -- Reenvios 197 -- Tiempo 394007
+Secuencia 117 -- Valor n -- Reenvios 194 -- Tiempo 388005
+Secuencia 118 -- Valor a -- Reenvios 191 -- Tiempo 382008
+Secuencia 119 -- Valor t -- Reenvios 191 -- Tiempo 382008
+Secuencia 120 -- Valor o -- Reenvios 173 -- Tiempo 346006
+Secuencia 121 -- Valor q -- Reenvios 177 -- Tiempo 354006
+Secuencia 122 -- Valor u -- Reenvios 177 -- Tiempo 354007
+Secuencia 123 -- Valor e -- Reenvios 170 -- Tiempo 340006
+Secuencia 124 -- Valor   -- Reenvios 184 -- Tiempo 368006
+Secuencia 125 -- Valor p -- Reenvios 196 -- Tiempo 392007
+Secuencia 126 -- Valor e -- Reenvios 196 -- Tiempo 392007
+Secuencia 127 -- Valor n -- Reenvios 196 -- Tiempo 392007
+Secuencia 128 -- Valor a -- Reenvios 200 -- Tiempo 400008
+Secuencia 129 -- Valor t -- Reenvios 171 -- Tiempo 342009
+Secuencia 130 -- Valor i -- Reenvios 181 -- Tiempo 362010
+Secuencia 131 -- Valor b -- Reenvios 202 -- Tiempo 404008
+Secuencia 132 -- Valor u -- Reenvios 202 -- Tiempo 404009
+Secuencia 133 -- Valor s -- Reenvios 202 -- Tiempo 404008
+Secuencia 134 -- Valor   -- Reenvios 202 -- Tiempo 404008
+Secuencia 135 -- Valor e -- Reenvios 203 -- Tiempo 406008
+Secuencia 136 -- Valor t -- Reenvios 213 -- Tiempo 426018
+Secuencia 137 -- Valor   -- Reenvios 211 -- Tiempo 422017
+Secuencia 138 -- Valor m -- Reenvios 193 -- Tiempo 386018
+Secuencia 139 -- Valor a -- Reenvios 193 -- Tiempo 386019
+Secuencia 140 -- Valor g -- Reenvios 218 -- Tiempo 436010
+Secuencia 141 -- Valor n -- Reenvios 218 -- Tiempo 436010
+Secuencia 142 -- Valor i -- Reenvios 192 -- Tiempo 384009
+Secuencia 143 -- Valor s -- Reenvios 192 -- Tiempo 384008
+Secuencia 144 -- Valor   -- Reenvios 192 -- Tiempo 384009
+Secuencia 145 -- Valor d -- Reenvios 189 -- Tiempo 378008
+Secuencia 146 -- Valor i -- Reenvios 189 -- Tiempo 378008
+Secuencia 147 -- Valor s -- Reenvios 189 -- Tiempo 378008
+Secuencia 148 -- Valor   -- Reenvios 189 -- Tiempo 378008
+Secuencia 149 -- Valor p -- Reenvios 189 -- Tiempo 378008
+Secuencia 150 -- Valor a -- Reenvios 189 -- Tiempo 378009
+Secuencia 151 -- Valor r -- Reenvios 184 -- Tiempo 368008
+Secuencia 152 -- Valor t -- Reenvios 179 -- Tiempo 358008
+Secuencia 153 -- Valor u -- Reenvios 183 -- Tiempo 366008
+Secuencia 154 -- Valor r -- Reenvios 208 -- Tiempo 416009
+Secuencia 155 -- Valor i -- Reenvios 208 -- Tiempo 416010
+Secuencia 156 -- Valor e -- Reenvios 208 -- Tiempo 416010
+Secuencia 157 -- Valor n -- Reenvios 205 -- Tiempo 410008
+Secuencia 158 -- Valor t -- Reenvios 201 -- Tiempo 402009
+Secuencia 159 -- Valor   -- Reenvios 201 -- Tiempo 402009
+Secuencia 160 -- Valor m -- Reenvios 243 -- Tiempo 486011
+Secuencia 161 -- Valor o -- Reenvios 243 -- Tiempo 486011
+Secuencia 162 -- Valor n -- Reenvios 243 -- Tiempo 486010
+Secuencia 163 -- Valor t -- Reenvios 243 -- Tiempo 486011
+Secuencia 164 -- Valor e -- Reenvios 239 -- Tiempo 478011
+Secuencia 165 -- Valor s -- Reenvios 208 -- Tiempo 416012
+Secuencia 166 -- Valor , -- Reenvios 208 -- Tiempo 416012
+Secuencia 167 -- Valor   -- Reenvios 208 -- Tiempo 416012
+Secuencia 168 -- Valor n -- Reenvios 208 -- Tiempo 416012
+Secuencia 169 -- Valor a -- Reenvios 226 -- Tiempo 452011
+Secuencia 170 -- Valor s -- Reenvios 222 -- Tiempo 444012
+Secuencia 171 -- Valor c -- Reenvios 218 -- Tiempo 436013
+Secuencia 172 -- Valor e -- Reenvios 218 -- Tiempo 436012
+Secuencia 173 -- Valor t -- Reenvios 218 -- Tiempo 436012
+Secuencia 174 -- Valor u -- Reenvios 200 -- Tiempo 400013
+Secuencia 175 -- Valor r -- Reenvios 192 -- Tiempo 384018
+Secuencia 176 -- Valor   -- Reenvios 192 -- Tiempo 384018
+Secuencia 177 -- Valor r -- Reenvios 192 -- Tiempo 384018
+Secuencia 178 -- Valor i -- Reenvios 188 -- Tiempo 376017
+Secuencia 179 -- Valor d -- Reenvios 185 -- Tiempo 370011
+Secuencia 180 -- Valor i -- Reenvios 175 -- Tiempo 350010
+Secuencia 181 -- Valor c -- Reenvios 157 -- Tiempo 314015
+Secuencia 182 -- Valor u -- Reenvios 162 -- Tiempo 324013
+Secuencia 183 -- Valor l -- Reenvios 184 -- Tiempo 368020
+Secuencia 184 -- Valor u -- Reenvios 184 -- Tiempo 368020
+Secuencia 185 -- Valor s -- Reenvios 225 -- Tiempo 450012
+Secuencia 186 -- Valor   -- Reenvios 215 -- Tiempo 430002
+Secuencia 187 -- Valor m -- Reenvios 215 -- Tiempo 430002
+Secuencia 188 -- Valor u -- Reenvios 215 -- Tiempo 430002
+Secuencia 189 -- Valor s -- Reenvios 215 -- Tiempo 430002
+Secuencia 190 -- Valor . -- Reenvios 190 -- Tiempo 380011
+Secuencia 191 -- Valor   -- Reenvios 196 -- Tiempo 392009
+Secuencia 192 -- Valor D -- Reenvios 204 -- Tiempo 408011
+Secuencia 193 -- Valor o -- Reenvios 204 -- Tiempo 408011
+Secuencia 194 -- Valor n -- Reenvios 204 -- Tiempo 408010
+Secuencia 195 -- Valor e -- Reenvios 204 -- Tiempo 408010
+Secuencia 196 -- Valor c -- Reenvios 205 -- Tiempo 410014
+Secuencia 197 -- Valor   -- Reenvios 205 -- Tiempo 410014
+Secuencia 198 -- Valor q -- Reenvios 226 -- Tiempo 452014
+Secuencia 199 -- Valor u -- Reenvios 226 -- Tiempo 452014
+Secuencia 200 -- Valor a -- Reenvios 226 -- Tiempo 452013
+Secuencia 201 -- Valor m -- Reenvios 222 -- Tiempo 444012
+Secuencia 202 -- Valor   -- Reenvios 222 -- Tiempo 444012
+Secuencia 203 -- Valor f -- Reenvios 226 -- Tiempo 452041
+Secuencia 204 -- Valor e -- Reenvios 199 -- Tiempo 398041
+Secuencia 205 -- Valor l -- Reenvios 205 -- Tiempo 410015
+Secuencia 206 -- Valor i -- Reenvios 205 -- Tiempo 410015
+Secuencia 207 -- Valor s -- Reenvios 205 -- Tiempo 410015
+Secuencia 208 -- Valor , -- Reenvios 205 -- Tiempo 410015
+Secuencia 209 -- Valor   -- Reenvios 205 -- Tiempo 410016
+Secuencia 210 -- Valor u -- Reenvios 175 -- Tiempo 350013
+Secuencia 211 -- Valor l -- Reenvios 175 -- Tiempo 350013
+Secuencia 212 -- Valor t -- Reenvios 175 -- Tiempo 350013
+Secuencia 213 -- Valor r -- Reenvios 175 -- Tiempo 350013
+Secuencia 214 -- Valor i -- Reenvios 180 -- Tiempo 360013
+Secuencia 215 -- Valor c -- Reenvios 180 -- Tiempo 360013
+Secuencia 216 -- Valor i -- Reenvios 180 -- Tiempo 360013
+Secuencia 217 -- Valor e -- Reenvios 180 -- Tiempo 360014
+Secuencia 218 -- Valor s -- Reenvios 193 -- Tiempo 386019
+Secuencia 219 -- Valor   -- Reenvios 175 -- Tiempo 350020
+Secuencia 220 -- Valor n -- Reenvios 183 -- Tiempo 366013
+Secuencia 221 -- Valor e -- Reenvios 183 -- Tiempo 366012
+Secuencia 222 -- Valor c -- Reenvios 183 -- Tiempo 366013
+Secuencia 223 -- Valor , -- Reenvios 191 -- Tiempo 382026
+Secuencia 224 -- Valor   -- Reenvios 202 -- Tiempo 404017
+Secuencia 225 -- Valor p -- Reenvios 196 -- Tiempo 392011
+Secuencia 226 -- Valor e -- Reenvios 196 -- Tiempo 392011
+Secuencia 227 -- Valor l -- Reenvios 202 -- Tiempo 404006
+Secuencia 228 -- Valor l -- Reenvios 210 -- Tiempo 420008
+Secuencia 229 -- Valor e -- Reenvios 216 -- Tiempo 432012
+Secuencia 230 -- Valor n -- Reenvios 216 -- Tiempo 432012
+Secuencia 231 -- Valor t -- Reenvios 213 -- Tiempo 426009
+Secuencia 232 -- Valor e -- Reenvios 219 -- Tiempo 438044
+Secuencia 233 -- Valor s -- Reenvios 197 -- Tiempo 394037
+Secuencia 234 -- Valor q -- Reenvios 197 -- Tiempo 394038
+Secuencia 235 -- Valor u -- Reenvios 157 -- Tiempo 314017
+Secuencia 236 -- Valor e -- Reenvios 157 -- Tiempo 314017
+Secuencia 237 -- Valor   -- Reenvios 157 -- Tiempo 314017
+Secuencia 238 -- Valor e -- Reenvios 163 -- Tiempo 326013
+Secuencia 239 -- Valor u -- Reenvios 163 -- Tiempo 326012
+Secuencia 240 -- Valor , -- Reenvios 173 -- Tiempo 346015
+Secuencia 241 -- Valor   -- Reenvios 167 -- Tiempo 334017
+Secuencia 242 -- Valor p -- Reenvios 159 -- Tiempo 318015
+Secuencia 243 -- Valor r -- Reenvios 179 -- Tiempo 358020
+Secuencia 244 -- Valor e -- Reenvios 179 -- Tiempo 358020
+Secuencia 245 -- Valor t -- Reenvios 179 -- Tiempo 358020
+Secuencia 246 -- Valor i -- Reenvios 178 -- Tiempo 356016
+Secuencia 247 -- Valor u -- Reenvios 179 -- Tiempo 358011
+Secuencia 248 -- Valor m -- Reenvios 159 -- Tiempo 318014
+Secuencia 249 -- Valor   -- Reenvios 164 -- Tiempo 328013
+Secuencia 250 -- Valor q -- Reenvios 164 -- Tiempo 328014
+Secuencia 251 -- Valor u -- Reenvios 170 -- Tiempo 340031
+Secuencia 252 -- Valor i -- Reenvios 170 -- Tiempo 340031
+Secuencia 253 -- Valor s -- Reenvios 162 -- Tiempo 324002
+Secuencia 254 -- Valor , -- Reenvios 162 -- Tiempo 324001
+Secuencia 255 -- Valor   -- Reenvios 156 -- Tiempo 312027
+Secuencia 256 -- Valor s -- Reenvios 156 -- Tiempo 312027
+Secuencia 257 -- Valor e -- Reenvios 156 -- Tiempo 312027
+Secuencia 258 -- Valor m -- Reenvios 159 -- Tiempo 318023
+Secuencia 259 -- Valor . -- Reenvios 162 -- Tiempo 324012
+Secuencia 260 -- Valor   -- Reenvios 166 -- Tiempo 332016
+Secuencia 261 -- Valor N -- Reenvios 166 -- Tiempo 332016
+Secuencia 262 -- Valor u -- Reenvios 166 -- Tiempo 332015
+Secuencia 263 -- Valor l -- Reenvios 166 -- Tiempo 332016
+Secuencia 264 -- Valor l -- Reenvios 180 -- Tiempo 360013
+Secuencia 265 -- Valor a -- Reenvios 182 -- Tiempo 364022
+Secuencia 266 -- Valor   -- Reenvios 189 -- Tiempo 378014
+Secuencia 267 -- Valor c -- Reenvios 200 -- Tiempo 400012
+Secuencia 268 -- Valor o -- Reenvios 187 -- Tiempo 374007
+Secuencia 269 -- Valor n -- Reenvios 197 -- Tiempo 394011
+Secuencia 270 -- Valor s -- Reenvios 189 -- Tiempo 378018
+Secuencia 271 -- Valor e -- Reenvios 189 -- Tiempo 378018
+Secuencia 272 -- Valor q -- Reenvios 218 -- Tiempo 436017
+Secuencia 273 -- Valor u -- Reenvios 210 -- Tiempo 420004
+Secuencia 274 -- Valor a -- Reenvios 197 -- Tiempo 394012
+Secuencia 275 -- Valor t -- Reenvios 197 -- Tiempo 394012
+Secuencia 276 -- Valor   -- Reenvios 197 -- Tiempo 394013
+Secuencia 277 -- Valor m -- Reenvios 191 -- Tiempo 382018
+Secuencia 278 -- Valor a -- Reenvios 183 -- Tiempo 366015
+Secuencia 279 -- Valor s -- Reenvios 174 -- Tiempo 348017
+Secuencia 280 -- Valor s -- Reenvios 174 -- Tiempo 348017
+Secuencia 281 -- Valor a -- Reenvios 174 -- Tiempo 348017
+Secuencia 282 -- Valor   -- Reenvios 163 -- Tiempo 325984
+Secuencia 283 -- Valor q -- Reenvios 163 -- Tiempo 325984
+Secuencia 284 -- Valor u -- Reenvios 163 -- Tiempo 325983
+Secuencia 285 -- Valor i -- Reenvios 166 -- Tiempo 332017
+Secuencia 286 -- Valor s -- Reenvios 176 -- Tiempo 352017
+Secuencia 287 -- Valor   -- Reenvios 176 -- Tiempo 352018
+Secuencia 288 -- Valor e -- Reenvios 186 -- Tiempo 372021
+Secuencia 289 -- Valor n -- Reenvios 186 -- Tiempo 372021
+Secuencia 290 -- Valor i -- Reenvios 176 -- Tiempo 352018
+Secuencia 291 -- Valor m -- Reenvios 176 -- Tiempo 352018
+Secuencia 292 -- Valor . -- Reenvios 176 -- Tiempo 352019
+Secuencia 293 -- Valor   -- Reenvios 156 -- Tiempo 312014
+Secuencia 294 -- Valor D -- Reenvios 169 -- Tiempo 338015
+Secuencia 295 -- Valor o -- Reenvios 169 -- Tiempo 338015
+Secuencia 296 -- Valor n -- Reenvios 179 -- Tiempo 358010
+Secuencia 297 -- Valor e -- Reenvios 178 -- Tiempo 356015
+Secuencia 298 -- Valor c -- Reenvios 177 -- Tiempo 354012
+Secuencia 299 -- Valor   -- Reenvios 188 -- Tiempo 376030
+Secuencia 300 -- Valor p -- Reenvios 188 -- Tiempo 376029
+Secuencia 301 -- Valor e -- Reenvios 179 -- Tiempo 358014
+Secuencia 302 -- Valor d -- Reenvios 187 -- Tiempo 373998
+Secuencia 303 -- Valor e -- Reenvios 187 -- Tiempo 373998
+Secuencia 304 -- Valor   -- Reenvios 187 -- Tiempo 373999
+Secuencia 305 -- Valor j -- Reenvios 187 -- Tiempo 373998
+Secuencia 306 -- Valor u -- Reenvios 204 -- Tiempo 408002
+Secuencia 307 -- Valor s -- Reenvios 204 -- Tiempo 408002
+Secuencia 308 -- Valor t -- Reenvios 201 -- Tiempo 402006
+Secuencia 309 -- Valor o -- Reenvios 198 -- Tiempo 396017
+Secuencia 310 -- Valor , -- Reenvios 204 -- Tiempo 408010
+Secuencia 311 -- Valor   -- Reenvios 204 -- Tiempo 408010
+Secuencia 312 -- Valor f -- Reenvios 204 -- Tiempo 408010
+Secuencia 313 -- Valor r -- Reenvios 204 -- Tiempo 408009
+Secuencia 314 -- Valor i -- Reenvios 185 -- Tiempo 370013
+Secuencia 315 -- Valor n -- Reenvios 183 -- Tiempo 366004
+Secuencia 316 -- Valor g -- Reenvios 176 -- Tiempo 352012
+Secuencia 317 -- Valor i -- Reenvios 167 -- Tiempo 334012
+Secuencia 318 -- Valor l -- Reenvios 184 -- Tiempo 368015
+Secuencia 319 -- Valor l -- Reenvios 174 -- Tiempo 348011
+Secuencia 320 -- Valor a -- Reenvios 174 -- Tiempo 348011
+Secuencia 321 -- Valor   -- Reenvios 201 -- Tiempo 402009
+Secuencia 322 -- Valor v -- Reenvios 172 -- Tiempo 344009
+Secuencia 323 -- Valor e -- Reenvios 172 -- Tiempo 344010
+Secuencia 324 -- Valor l -- Reenvios 172 -- Tiempo 344010
+Secuencia 325 -- Valor , -- Reenvios 180 -- Tiempo 360010
+Secuencia 326 -- Valor   -- Reenvios 180 -- Tiempo 360009
+Secuencia 327 -- Valor a -- Reenvios 182 -- Tiempo 364010
+Secuencia 328 -- Valor l -- Reenvios 196 -- Tiempo 392018
+Secuencia 329 -- Valor i -- Reenvios 196 -- Tiempo 392018
+Secuencia 330 -- Valor q -- Reenvios 196 -- Tiempo 392018
+Secuencia 331 -- Valor u -- Reenvios 196 -- Tiempo 392019
+Secuencia 332 -- Valor e -- Reenvios 196 -- Tiempo 392018
+Secuencia 333 -- Valor t -- Reenvios 196 -- Tiempo 392018
+Secuencia 334 -- Valor   -- Reenvios 204 -- Tiempo 408017
+Secuencia 335 -- Valor n -- Reenvios 199 -- Tiempo 398012
+Secuencia 336 -- Valor e -- Reenvios 195 -- Tiempo 390008
+Secuencia 337 -- Valor c -- Reenvios 195 -- Tiempo 390007
+Secuencia 338 -- Valor , -- Reenvios 179 -- Tiempo 358008
+Secuencia 339 -- Valor   -- Reenvios 189 -- Tiempo 378008
+Secuencia 340 -- Valor v -- Reenvios 207 -- Tiempo 414007
+Secuencia 341 -- Valor u -- Reenvios 207 -- Tiempo 414007
+Secuencia 342 -- Valor l -- Reenvios 207 -- Tiempo 414006
+Secuencia 343 -- Valor p -- Reenvios 231 -- Tiempo 462008
+Secuencia 344 -- Valor u -- Reenvios 218 -- Tiempo 436007
+Secuencia 345 -- Valor t -- Reenvios 218 -- Tiempo 436008
+Secuencia 346 -- Valor a -- Reenvios 208 -- Tiempo 416013
+Secuencia 347 -- Valor t -- Reenvios 208 -- Tiempo 416013
+Secuencia 348 -- Valor e -- Reenvios 208 -- Tiempo 416013
+Secuencia 349 -- Valor   -- Reenvios 192 -- Tiempo 383996
+Secuencia 350 -- Valor e -- Reenvios 192 -- Tiempo 383996
+Secuencia 351 -- Valor g -- Reenvios 192 -- Tiempo 383997
+Secuencia 352 -- Valor e -- Reenvios 184 -- Tiempo 368013
+Secuencia 353 -- Valor t -- Reenvios 184 -- Tiempo 368013
+Secuencia 354 -- Valor , -- Reenvios 184 -- Tiempo 368013
+Secuencia 355 -- Valor   -- Reenvios 202 -- Tiempo 404025
+Secuencia 356 -- Valor a -- Reenvios 185 -- Tiempo 370022
+Secuencia 357 -- Valor r -- Reenvios 185 -- Tiempo 370022
+Secuencia 358 -- Valor c -- Reenvios 185 -- Tiempo 370023
+Secuencia 359 -- Valor u -- Reenvios 197 -- Tiempo 394007
+Secuencia 360 -- Valor . -- Reenvios 166 -- Tiempo 332012
+Secuencia 361 -- Valor   -- Reenvios 168 -- Tiempo 336017
+Secuencia 362 -- Valor I -- Reenvios 172 -- Tiempo 344012
+Secuencia 363 -- Valor n -- Reenvios 176 -- Tiempo 352011
+Secuencia 364 -- Valor   -- Reenvios 193 -- Tiempo 386013
+Secuencia 365 -- Valor e -- Reenvios 193 -- Tiempo 386013
+Secuencia 366 -- Valor n -- Reenvios 193 -- Tiempo 386013
+Secuencia 367 -- Valor i -- Reenvios 191 -- Tiempo 382014
+Secuencia 368 -- Valor m -- Reenvios 182 -- Tiempo 364021
+Secuencia 369 -- Valor   -- Reenvios 182 -- Tiempo 364022
+Secuencia 370 -- Valor j -- Reenvios 182 -- Tiempo 364022
+Secuencia 371 -- Valor u -- Reenvios 155 -- Tiempo 310024
+Secuencia 372 -- Valor s -- Reenvios 155 -- Tiempo 310024
+Secuencia 373 -- Valor t -- Reenvios 165 -- Tiempo 330021
+Secuencia 374 -- Valor o -- Reenvios 165 -- Tiempo 330021
+Secuencia 375 -- Valor , -- Reenvios 163 -- Tiempo 326020
+Secuencia 376 -- Valor   -- Reenvios 166 -- Tiempo 332012
+Secuencia 377 -- Valor r -- Reenvios 183 -- Tiempo 366013
+Secuencia 378 -- Valor h -- Reenvios 169 -- Tiempo 338006
+Secuencia 379 -- Valor o -- Reenvios 169 -- Tiempo 338006
+Secuencia 380 -- Valor n -- Reenvios 169 -- Tiempo 338006
+Secuencia 381 -- Valor c -- Reenvios 180 -- Tiempo 360004
+Secuencia 382 -- Valor u -- Reenvios 184 -- Tiempo 368004
+Secuencia 383 -- Valor s -- Reenvios 184 -- Tiempo 368005
+Secuencia 384 -- Valor   -- Reenvios 176 -- Tiempo 352006
+Secuencia 385 -- Valor u -- Reenvios 187 -- Tiempo 374006
+Secuencia 386 -- Valor t -- Reenvios 181 -- Tiempo 362010
+Secuencia 387 -- Valor , -- Reenvios 181 -- Tiempo 362010
+Secuencia 388 -- Valor   -- Reenvios 189 -- Tiempo 378011
+Secuencia 389 -- Valor i -- Reenvios 179 -- Tiempo 358011
+Secuencia 390 -- Valor m -- Reenvios 161 -- Tiempo 322012
+Secuencia 391 -- Valor p -- Reenvios 161 -- Tiempo 322012
+Secuencia 392 -- Valor e -- Reenvios 175 -- Tiempo 350014
+Secuencia 393 -- Valor r -- Reenvios 151 -- Tiempo 302012
+Secuencia 394 -- Valor d -- Reenvios 151 -- Tiempo 302012
+Secuencia 395 -- Valor i -- Reenvios 164 -- Tiempo 328010
+Secuencia 396 -- Valor e -- Reenvios 164 -- Tiempo 328010
+Secuencia 397 -- Valor t -- Reenvios 164 -- Tiempo 328011
+Secuencia 398 -- Valor   -- Reenvios 164 -- Tiempo 328011
+Secuencia 399 -- Valor a -- Reenvios 164 -- Tiempo 328011
+Secuencia 400 -- Valor , -- Reenvios 164 -- Tiempo 328011
+Secuencia 401 -- Valor   -- Reenvios 185 -- Tiempo 370015
+Secuencia 402 -- Valor v -- Reenvios 185 -- Tiempo 370015
+Secuencia 403 -- Valor e -- Reenvios 203 -- Tiempo 406017
+Secuencia 404 -- Valor n -- Reenvios 203 -- Tiempo 406016
+Secuencia 405 -- Valor e -- Reenvios 185 -- Tiempo 370005
+Secuencia 406 -- Valor n -- Reenvios 206 -- Tiempo 411999
+Secuencia 407 -- Valor a -- Reenvios 206 -- Tiempo 411999
+Secuencia 408 -- Valor t -- Reenvios 206 -- Tiempo 411998
+Secuencia 409 -- Valor i -- Reenvios 194 -- Tiempo 388013
+Secuencia 410 -- Valor s -- Reenvios 194 -- Tiempo 388012
+Secuencia 411 -- Valor   -- Reenvios 192 -- Tiempo 384008
+Secuencia 412 -- Valor v -- Reenvios 188 -- Tiempo 376013
+Secuencia 413 -- Valor i -- Reenvios 184 -- Tiempo 368014
+Secuencia 414 -- Valor t -- Reenvios 167 -- Tiempo 334011
+Secuencia 415 -- Valor a -- Reenvios 172 -- Tiempo 344014
+Secuencia 416 -- Valor e -- Reenvios 172 -- Tiempo 344014
+Secuencia 417 -- Valor , -- Reenvios 178 -- Tiempo 356012
+Secuencia 418 -- Valor   -- Reenvios 170 -- Tiempo 340000
+Secuencia 419 -- Valor j -- Reenvios 170 -- Tiempo 340000
+Secuencia 420 -- Valor u -- Reenvios 170 -- Tiempo 340001
+Secuencia 421 -- Valor s -- Reenvios 220 -- Tiempo 440001
+Secuencia 422 -- Valor t -- Reenvios 220 -- Tiempo 440001
+Secuencia 423 -- Valor o -- Reenvios 210 -- Tiempo 420003
+Secuencia 424 -- Valor . -- Reenvios 210 -- Tiempo 420004
+Secuencia 425 -- Valor   -- Reenvios 204 -- Tiempo 408005
+Secuencia 426 -- Valor N -- Reenvios 201 -- Tiempo 402013
+Secuencia 427 -- Valor u -- Reenvios 182 -- Tiempo 364010
+Secuencia 428 -- Valor l -- Reenvios 182 -- Tiempo 364010
+Secuencia 429 -- Valor l -- Reenvios 182 -- Tiempo 364010
+Secuencia 430 -- Valor a -- Reenvios 182 -- Tiempo 364010
+Secuencia 431 -- Valor m -- Reenvios 177 -- Tiempo 354020
+Secuencia 432 -- Valor   -- Reenvios 173 -- Tiempo 346020
+Secuencia 433 -- Valor d -- Reenvios 192 -- Tiempo 384011
+Secuencia 434 -- Valor i -- Reenvios 192 -- Tiempo 384011
+Secuencia 435 -- Valor c -- Reenvios 181 -- Tiempo 362011
+Secuencia 436 -- Valor t -- Reenvios 181 -- Tiempo 362012
+Secuencia 437 -- Valor u -- Reenvios 184 -- Tiempo 368013
+Secuencia 438 -- Valor m -- Reenvios 219 -- Tiempo 438017
+Secuencia 439 -- Valor   -- Reenvios 219 -- Tiempo 438018
+Secuencia 440 -- Valor f -- Reenvios 219 -- Tiempo 438018
+Secuencia 441 -- Valor e -- Reenvios 219 -- Tiempo 438018
+Secuencia 442 -- Valor l -- Reenvios 205 -- Tiempo 410016
+Secuencia 443 -- Valor i -- Reenvios 205 -- Tiempo 410016
+Secuencia 444 -- Valor s -- Reenvios 205 -- Tiempo 410016
+Secuencia 445 -- Valor   -- Reenvios 195 -- Tiempo 390017
+Secuencia 446 -- Valor e -- Reenvios 219 -- Tiempo 438017
+Secuencia 447 -- Valor u -- Reenvios 220 -- Tiempo 440013
+Secuencia 448 -- Valor   -- Reenvios 231 -- Tiempo 462023
+Secuencia 449 -- Valor p -- Reenvios 231 -- Tiempo 462024
+Secuencia 450 -- Valor e -- Reenvios 232 -- Tiempo 464028
+Secuencia 451 -- Valor d -- Reenvios 214 -- Tiempo 428024
+Secuencia 452 -- Valor e -- Reenvios 214 -- Tiempo 428024
+Secuencia 453 -- Valor   -- Reenvios 197 -- Tiempo 394023
+Secuencia 454 -- Valor m -- Reenvios 220 -- Tiempo 440007
+Secuencia 455 -- Valor o -- Reenvios 220 -- Tiempo 440006
+Secuencia 456 -- Valor l -- Reenvios 199 -- Tiempo 398011
+Secuencia 457 -- Valor l -- Reenvios 199 -- Tiempo 398011
+Secuencia 458 -- Valor i -- Reenvios 199 -- Tiempo 398011
+Secuencia 459 -- Valor s -- Reenvios 199 -- Tiempo 398011
+Secuencia 460 -- Valor   -- Reenvios 199 -- Tiempo 398012
+Secuencia 461 -- Valor p -- Reenvios 218 -- Tiempo 436012
+Secuencia 462 -- Valor r -- Reenvios 218 -- Tiempo 436012
+Secuencia 463 -- Valor e -- Reenvios 218 -- Tiempo 436012
+Secuencia 464 -- Valor t -- Reenvios 218 -- Tiempo 436012
+Secuencia 465 -- Valor i -- Reenvios 219 -- Tiempo 438009
+Secuencia 466 -- Valor u -- Reenvios 229 -- Tiempo 458015
+Secuencia 467 -- Valor m -- Reenvios 223 -- Tiempo 446017
+Secuencia 468 -- Valor . -- Reenvios 224 -- Tiempo 448017
+Secuencia 469 -- Valor   -- Reenvios 224 -- Tiempo 448017
+Secuencia 470 -- Valor I -- Reenvios 233 -- Tiempo 466012
+Secuencia 471 -- Valor n -- Reenvios 183 -- Tiempo 366012
+Secuencia 472 -- Valor t -- Reenvios 184 -- Tiempo 368011
+Secuencia 473 -- Valor e -- Reenvios 199 -- Tiempo 398013
+Secuencia 474 -- Valor g -- Reenvios 199 -- Tiempo 398012
+Secuencia 475 -- Valor e -- Reenvios 199 -- Tiempo 398012
+Secuencia 476 -- Valor r -- Reenvios 199 -- Tiempo 398012
+Secuencia 477 -- Valor   -- Reenvios 225 -- Tiempo 450013
+Secuencia 478 -- Valor t -- Reenvios 225 -- Tiempo 450013
+Secuencia 479 -- Valor i -- Reenvios 225 -- Tiempo 450013
+Secuencia 480 -- Valor n -- Reenvios 225 -- Tiempo 450013
+Secuencia 481 -- Valor c -- Reenvios 219 -- Tiempo 438004
+Secuencia 482 -- Valor i -- Reenvios 219 -- Tiempo 438005
+Secuencia 483 -- Valor d -- Reenvios 200 -- Tiempo 400013
+Secuencia 484 -- Valor u -- Reenvios 219 -- Tiempo 438014
+Secuencia 485 -- Valor n -- Reenvios 219 -- Tiempo 438014
+Secuencia 486 -- Valor t -- Reenvios 221 -- Tiempo 442012
+Secuencia 487 -- Valor . -- Reenvios 218 -- Tiempo 436011
+Secuencia 488 -- Valor   -- Reenvios 189 -- Tiempo 378006
+Secuencia 489 -- Valor C -- Reenvios 189 -- Tiempo 378005
+Secuencia 490 -- Valor r -- Reenvios 189 -- Tiempo 378006
+Secuencia 491 -- Valor a -- Reenvios 189 -- Tiempo 378006
+Secuencia 492 -- Valor s -- Reenvios 190 -- Tiempo 380005
+Secuencia 493 -- Valor   -- Reenvios 191 -- Tiempo 382004
+Secuencia 494 -- Valor d -- Reenvios 197 -- Tiempo 394006
+Secuencia 495 -- Valor a -- Reenvios 194 -- Tiempo 388006
+Secuencia 496 -- Valor p -- Reenvios 170 -- Tiempo 340006
+Secuencia 497 -- Valor i -- Reenvios 172 -- Tiempo 344008
+Secuencia 498 -- Valor b -- Reenvios 218 -- Tiempo 436000
+Secuencia 499 -- Valor u -- Reenvios 218 -- Tiempo 435999
+Secuencia 500 -- Valor s -- Reenvios 217 -- Tiempo 433995
+Secuencia 501 -- Valor . -- Reenvios 214 -- Tiempo 427995
+Secuencia 502 -- Valor   -- Reenvios 214 -- Tiempo 427995
+Secuencia 503 -- Valor V -- Reenvios 213 -- Tiempo 425994
+Secuencia 504 -- Valor i -- Reenvios 190 -- Tiempo 380010
+Secuencia 505 -- Valor v -- Reenvios 190 -- Tiempo 380010
+Secuencia 506 -- Valor a -- Reenvios 190 -- Tiempo 380011
+Secuencia 507 -- Valor m -- Reenvios 190 -- Tiempo 380011
+Secuencia 508 -- Valor u -- Reenvios 190 -- Tiempo 380011
+Secuencia 509 -- Valor s -- Reenvios 190 -- Tiempo 380011
+Secuencia 510 -- Valor   -- Reenvios 190 -- Tiempo 380010
+Secuencia 511 -- Valor e -- Reenvios 171 -- Tiempo 342009
+Secuencia 512 -- Valor l -- Reenvios 171 -- Tiempo 342010
+Secuencia 513 -- Valor e -- Reenvios 174 -- Tiempo 348020
+Secuencia 514 -- Valor m -- Reenvios 174 -- Tiempo 348020
+Secuencia 515 -- Valor e -- Reenvios 168 -- Tiempo 336020
+Secuencia 516 -- Valor n -- Reenvios 195 -- Tiempo 390008
+Secuencia 517 -- Valor t -- Reenvios 195 -- Tiempo 390008
+Secuencia 518 -- Valor u -- Reenvios 194 -- Tiempo 388008
+Secuencia 519 -- Valor m -- Reenvios 194 -- Tiempo 388008
+Secuencia 520 -- Valor   -- Reenvios 185 -- Tiempo 370012
+Secuencia 521 -- Valor s -- Reenvios 185 -- Tiempo 370013
+Secuencia 522 -- Valor e -- Reenvios 184 -- Tiempo 368014
+Secuencia 523 -- Valor m -- Reenvios 174 -- Tiempo 348015
+Secuencia 524 -- Valor p -- Reenvios 174 -- Tiempo 348016
+Secuencia 525 -- Valor e -- Reenvios 174 -- Tiempo 348016
+Secuencia 526 -- Valor r -- Reenvios 175 -- Tiempo 350013
+Secuencia 527 -- Valor   -- Reenvios 149 -- Tiempo 298012
+Secuencia 528 -- Valor n -- Reenvios 157 -- Tiempo 314012
+Secuencia 529 -- Valor i -- Reenvios 157 -- Tiempo 314013
+Secuencia 530 -- Valor s -- Reenvios 168 -- Tiempo 336012
+Secuencia 531 -- Valor i -- Reenvios 168 -- Tiempo 336013
+Secuencia 532 -- Valor . -- Reenvios 168 -- Tiempo 336012
+Secuencia 533 -- Valor   -- Reenvios 180 -- Tiempo 360018
+Secuencia 534 -- Valor A -- Reenvios 161 -- Tiempo 322018
+Secuencia 535 -- Valor e -- Reenvios 162 -- Tiempo 324011
+Secuencia 536 -- Valor n -- Reenvios 162 -- Tiempo 324011
+Secuencia 537 -- Valor e -- Reenvios 162 -- Tiempo 324012
+Secuencia 538 -- Valor a -- Reenvios 180 -- Tiempo 360012
+Secuencia 539 -- Valor n -- Reenvios 180 -- Tiempo 360011
+Secuencia 540 -- Valor   -- Reenvios 180 -- Tiempo 360011
+Secuencia 541 -- Valor v -- Reenvios 180 -- Tiempo 360011
+Secuencia 542 -- Valor u -- Reenvios 179 -- Tiempo 358012
+Secuencia 543 -- Valor l -- Reenvios 178 -- Tiempo 356013
+Secuencia 544 -- Valor p -- Reenvios 172 -- Tiempo 344012
+Secuencia 545 -- Valor u -- Reenvios 172 -- Tiempo 344012
+Secuencia 546 -- Valor t -- Reenvios 172 -- Tiempo 344012
+Secuencia 547 -- Valor a -- Reenvios 169 -- Tiempo 338013
+Secuencia 548 -- Valor t -- Reenvios 112 -- Tiempo 224011
+Secuencia 549 -- Valor e -- Reenvios 112 -- Tiempo 224012
+Secuencia 550 -- Valor   -- Reenvios 112 -- Tiempo 224012
+Secuencia 551 -- Valor e -- Reenvios 112 -- Tiempo 224011
+Secuencia 552 -- Valor l -- Reenvios 112 -- Tiempo 224011
+Secuencia 553 -- Valor e -- Reenvios 112 -- Tiempo 224012
+Secuencia 554 -- Valor i -- Reenvios 122 -- Tiempo 244012
+Secuencia 555 -- Valor f -- Reenvios 126 -- Tiempo 252032
+Secuencia 556 -- Valor e -- Reenvios 126 -- Tiempo 252031
+Secuencia 557 -- Valor n -- Reenvios 151 -- Tiempo 302014
+Secuencia 558 -- Valor d -- Reenvios 151 -- Tiempo 302014
+Secuencia 559 -- Valor   -- Reenvios 151 -- Tiempo 302015
+Secuencia 560 -- Valor t -- Reenvios 151 -- Tiempo 302015
+Secuencia 561 -- Valor e -- Reenvios 151 -- Tiempo 302015
+Secuencia 562 -- Valor l -- Reenvios 151 -- Tiempo 302014
+Secuencia 563 -- Valor l -- Reenvios 148 -- Tiempo 296004
+Secuencia 564 -- Valor u -- Reenvios 148 -- Tiempo 296005
+Secuencia 565 -- Valor s -- Reenvios 148 -- Tiempo 296005
+Secuencia 566 -- Valor . -- Reenvios 111 -- Tiempo 222011
+Secuencia 567 -- Valor   -- Reenvios 111 -- Tiempo 222011
+Secuencia 568 -- Valor A -- Reenvios 111 -- Tiempo 222012
+Secuencia 569 -- Valor e -- Reenvios 111 -- Tiempo 222012
+Secuencia 570 -- Valor n -- Reenvios 111 -- Tiempo 222012
+Secuencia 571 -- Valor e -- Reenvios 111 -- Tiempo 222011
+Secuencia 572 -- Valor a -- Reenvios 111 -- Tiempo 222011
+Secuencia 573 -- Valor n -- Reenvios 116 -- Tiempo 232008
+Secuencia 574 -- Valor   -- Reenvios 116 -- Tiempo 232007
+Secuencia 575 -- Valor l -- Reenvios 116 -- Tiempo 232007
+Secuencia 576 -- Valor e -- Reenvios 115 -- Tiempo 230011
+Secuencia 577 -- Valor o -- Reenvios 115 -- Tiempo 230011
+Secuencia 578 -- Valor   -- Reenvios 107 -- Tiempo 214011
+Secuencia 579 -- Valor l -- Reenvios 125 -- Tiempo 250010
+Secuencia 580 -- Valor i -- Reenvios 128 -- Tiempo 256021
+Secuencia 581 -- Valor g -- Reenvios 128 -- Tiempo 256021
+Secuencia 582 -- Valor u -- Reenvios 128 -- Tiempo 256021
+Secuencia 583 -- Valor l -- Reenvios 116 -- Tiempo 232015
+Secuencia 584 -- Valor a -- Reenvios 151 -- Tiempo 302005
+Secuencia 585 -- Valor , -- Reenvios 150 -- Tiempo 300012
+Secuencia 586 -- Valor   -- Reenvios 148 -- Tiempo 296013
+Secuencia 587 -- Valor p -- Reenvios 148 -- Tiempo 296012
+Secuencia 588 -- Valor o -- Reenvios 116 -- Tiempo 232013
+Secuencia 589 -- Valor r -- Reenvios 132 -- Tiempo 264032
+Secuencia 590 -- Valor t -- Reenvios 132 -- Tiempo 264032
+Secuencia 591 -- Valor t -- Reenvios 132 -- Tiempo 264032
+Secuencia 592 -- Valor i -- Reenvios 132 -- Tiempo 264032
+Secuencia 593 -- Valor t -- Reenvios 132 -- Tiempo 264032
+Secuencia 594 -- Valor o -- Reenvios 144 -- Tiempo 288014
+Secuencia 595 -- Valor r -- Reenvios 144 -- Tiempo 288014
+Secuencia 596 -- Valor   -- Reenvios 152 -- Tiempo 304019
+Secuencia 597 -- Valor e -- Reenvios 152 -- Tiempo 304019
+Secuencia 598 -- Valor u -- Reenvios 185 -- Tiempo 370015
+Secuencia 599 -- Valor , -- Reenvios 185 -- Tiempo 370014
+Secuencia 600 -- Valor   -- Reenvios 185 -- Tiempo 370014
+Secuencia 601 -- Valor c -- Reenvios 185 -- Tiempo 370014
+Secuencia 602 -- Valor o -- Reenvios 185 -- Tiempo 370015
+Secuencia 603 -- Valor n -- Reenvios 185 -- Tiempo 370014
+Secuencia 604 -- Valor s -- Reenvios 175 -- Tiempo 350014
+Secuencia 605 -- Valor e -- Reenvios 171 -- Tiempo 341994
+Secuencia 606 -- Valor q -- Reenvios 171 -- Tiempo 341994
+Secuencia 607 -- Valor u -- Reenvios 146 -- Tiempo 292011
+Secuencia 608 -- Valor a -- Reenvios 185 -- Tiempo 370025
+Secuencia 609 -- Valor t -- Reenvios 185 -- Tiempo 370024
+Secuencia 610 -- Valor   -- Reenvios 185 -- Tiempo 370025
+Secuencia 611 -- Valor v -- Reenvios 185 -- Tiempo 370025
+Secuencia 612 -- Valor i -- Reenvios 185 -- Tiempo 370025
+Secuencia 613 -- Valor t -- Reenvios 203 -- Tiempo 406013
+Secuencia 614 -- Valor a -- Reenvios 203 -- Tiempo 406013
+Secuencia 615 -- Valor e -- Reenvios 203 -- Tiempo 406013
+Secuencia 616 -- Valor , -- Reenvios 203 -- Tiempo 406013
+Secuencia 617 -- Valor   -- Reenvios 203 -- Tiempo 406013
+Secuencia 618 -- Valor e -- Reenvios 203 -- Tiempo 406012
+Secuencia 619 -- Valor l -- Reenvios 266 -- Tiempo 532017
+Secuencia 620 -- Valor e -- Reenvios 266 -- Tiempo 532017
+Secuencia 621 -- Valor i -- Reenvios 266 -- Tiempo 532017
+Secuencia 622 -- Valor f -- Reenvios 266 -- Tiempo 532017
+Secuencia 623 -- Valor e -- Reenvios 256 -- Tiempo 512017
+Secuencia 624 -- Valor n -- Reenvios 256 -- Tiempo 512018
+Secuencia 625 -- Valor d -- Reenvios 256 -- Tiempo 512018
+Secuencia 626 -- Valor   -- Reenvios 256 -- Tiempo 512017
+Secuencia 627 -- Valor a -- Reenvios 256 -- Tiempo 512017
+Secuencia 628 -- Valor c -- Reenvios 256 -- Tiempo 512017
+Secuencia 629 -- Valor , -- Reenvios 240 -- Tiempo 480016
+Secuencia 630 -- Valor   -- Reenvios 226 -- Tiempo 452006
+Secuencia 631 -- Valor e -- Reenvios 243 -- Tiempo 486007
+Secuencia 632 -- Valor n -- Reenvios 243 -- Tiempo 486008
+Secuencia 633 -- Valor i -- Reenvios 243 -- Tiempo 486008
+Secuencia 634 -- Valor m -- Reenvios 208 -- Tiempo 416017
+Secuencia 635 -- Valor . -- Reenvios 215 -- Tiempo 430016
+Secuencia 636 -- Valor   -- Reenvios 215 -- Tiempo 430017
+Secuencia 637 -- Valor A -- Reenvios 215 -- Tiempo 430017
+Secuencia 638 -- Valor l -- Reenvios 215 -- Tiempo 430016
+Secuencia 639 -- Valor i -- Reenvios 210 -- Tiempo 419999
+Secuencia 640 -- Valor q -- Reenvios 210 -- Tiempo 419999
+Secuencia 641 -- Valor u -- Reenvios 210 -- Tiempo 419999
+Secuencia 642 -- Valor a -- Reenvios 215 -- Tiempo 429997
+Secuencia 643 -- Valor m -- Reenvios 222 -- Tiempo 443999
+Secuencia 644 -- Valor   -- Reenvios 210 -- Tiempo 420016
+Secuencia 645 -- Valor l -- Reenvios 216 -- Tiempo 432022
+Secuencia 646 -- Valor o -- Reenvios 230 -- Tiempo 460010
+Secuencia 647 -- Valor r -- Reenvios 230 -- Tiempo 460010
+Secuencia 648 -- Valor e -- Reenvios 197 -- Tiempo 394014
+Secuencia 649 -- Valor m -- Reenvios 197 -- Tiempo 394014
+Secuencia 650 -- Valor   -- Reenvios 197 -- Tiempo 394015
+Secuencia 651 -- Valor a -- Reenvios 198 -- Tiempo 396015
+Secuencia 652 -- Valor n -- Reenvios 198 -- Tiempo 396014
+Secuencia 653 -- Valor t -- Reenvios 231 -- Tiempo 462016
+Secuencia 654 -- Valor e -- Reenvios 231 -- Tiempo 462016
+Secuencia 655 -- Valor , -- Reenvios 231 -- Tiempo 462016
+Secuencia 656 -- Valor   -- Reenvios 231 -- Tiempo 462016
+Secuencia 657 -- Valor d -- Reenvios 231 -- Tiempo 462017
+Secuencia 658 -- Valor a -- Reenvios 192 -- Tiempo 384003
+Secuencia 659 -- Valor p -- Reenvios 192 -- Tiempo 384003
+Secuencia 660 -- Valor i -- Reenvios 228 -- Tiempo 456006
+Secuencia 661 -- Valor b -- Reenvios 228 -- Tiempo 456007
+Secuencia 662 -- Valor u -- Reenvios 228 -- Tiempo 456007
+Secuencia 663 -- Valor s -- Reenvios 210 -- Tiempo 420018
+Secuencia 664 -- Valor   -- Reenvios 210 -- Tiempo 420018
+Secuencia 665 -- Valor i -- Reenvios 224 -- Tiempo 448015
+Secuencia 666 -- Valor n -- Reenvios 224 -- Tiempo 448015
+Secuencia 667 -- Valor , -- Reenvios 224 -- Tiempo 448015
+Secuencia 668 -- Valor   -- Reenvios 224 -- Tiempo 448015
+Secuencia 669 -- Valor v -- Reenvios 161 -- Tiempo 322011
+Secuencia 670 -- Valor i -- Reenvios 164 -- Tiempo 328010
+Secuencia 671 -- Valor v -- Reenvios 164 -- Tiempo 328010
+Secuencia 672 -- Valor e -- Reenvios 182 -- Tiempo 364012
+Secuencia 673 -- Valor r -- Reenvios 182 -- Tiempo 364012
+Secuencia 674 -- Valor r -- Reenvios 182 -- Tiempo 364012
+Secuencia 675 -- Valor a -- Reenvios 182 -- Tiempo 364012
+Secuencia 676 -- Valor   -- Reenvios 182 -- Tiempo 364012
+Secuencia 677 -- Valor q -- Reenvios 201 -- Tiempo 402015
+Secuencia 678 -- Valor u -- Reenvios 201 -- Tiempo 402015
+Secuencia 679 -- Valor i -- Reenvios 199 -- Tiempo 398016
+Secuencia 680 -- Valor s -- Reenvios 199 -- Tiempo 398016
+Secuencia 681 -- Valor , -- Reenvios 182 -- Tiempo 364015
+Secuencia 682 -- Valor   -- Reenvios 188 -- Tiempo 376009
+Secuencia 683 -- Valor f -- Reenvios 188 -- Tiempo 376010
+Secuencia 684 -- Valor e -- Reenvios 201 -- Tiempo 402011
+Secuencia 685 -- Valor u -- Reenvios 194 -- Tiempo 388012
+Secuencia 686 -- Valor g -- Reenvios 199 -- Tiempo 398018
+Secuencia 687 -- Valor i -- Reenvios 199 -- Tiempo 398018
+Secuencia 688 -- Valor a -- Reenvios 199 -- Tiempo 398018
+Secuencia 689 -- Valor t -- Reenvios 188 -- Tiempo 376017
+Secuencia 690 -- Valor   -- Reenvios 188 -- Tiempo 376017
+Secuencia 691 -- Valor a -- Reenvios 195 -- Tiempo 390011
+Secuencia 692 -- Valor , -- Reenvios 190 -- Tiempo 380013
+Secuencia 693 -- Valor   -- Reenvios 234 -- Tiempo 468011
+Secuencia 694 -- Valor t -- Reenvios 234 -- Tiempo 468011
+Secuencia 695 -- Valor e -- Reenvios 228 -- Tiempo 456006
+Secuencia 696 -- Valor l -- Reenvios 206 -- Tiempo 412013
+Secuencia 697 -- Valor l -- Reenvios 206 -- Tiempo 412013
+Secuencia 698 -- Valor u -- Reenvios 206 -- Tiempo 412013
+Secuencia 699 -- Valor s -- Reenvios 206 -- Tiempo 412013
+Secuencia 700 -- Valor . -- Reenvios 206 -- Tiempo 412012
+Secuencia 701 -- Valor   -- Reenvios 213 -- Tiempo 426013
+Secuencia 702 -- Valor P -- Reenvios 220 -- Tiempo 440025
+Secuencia 703 -- Valor h -- Reenvios 195 -- Tiempo 390018
+Secuencia 704 -- Valor a -- Reenvios 195 -- Tiempo 390018
+Secuencia 705 -- Valor s -- Reenvios 195 -- Tiempo 390018
+Secuencia 706 -- Valor e -- Reenvios 233 -- Tiempo 466013
+Secuencia 707 -- Valor l -- Reenvios 233 -- Tiempo 466012
+Secuencia 708 -- Valor l -- Reenvios 233 -- Tiempo 466013
+Secuencia 709 -- Valor u -- Reenvios 233 -- Tiempo 466013
+Secuencia 710 -- Valor s -- Reenvios 215 -- Tiempo 430013
+Secuencia 711 -- Valor   -- Reenvios 215 -- Tiempo 430012
+Secuencia 712 -- Valor v -- Reenvios 217 -- Tiempo 434010
+Secuencia 713 -- Valor i -- Reenvios 224 -- Tiempo 448009
+Secuencia 714 -- Valor v -- Reenvios 227 -- Tiempo 454016
+Secuencia 715 -- Valor e -- Reenvios 213 -- Tiempo 426020
+Secuencia 716 -- Valor r -- Reenvios 213 -- Tiempo 426020
+Secuencia 717 -- Valor r -- Reenvios 230 -- Tiempo 460015
+Secuencia 718 -- Valor a -- Reenvios 230 -- Tiempo 460015
+Secuencia 719 -- Valor   -- Reenvios 230 -- Tiempo 460015
+Secuencia 720 -- Valor n -- Reenvios 227 -- Tiempo 454016
+Secuencia 721 -- Valor u -- Reenvios 249 -- Tiempo 498018
+Secuencia 722 -- Valor l -- Reenvios 231 -- Tiempo 462016
+Secuencia 723 -- Valor l -- Reenvios 231 -- Tiempo 462016
+Secuencia 724 -- Valor a -- Reenvios 231 -- Tiempo 462016
+Secuencia 725 -- Valor   -- Reenvios 231 -- Tiempo 462016
+Secuencia 726 -- Valor u -- Reenvios 231 -- Tiempo 462016
+Secuencia 727 -- Valor t -- Reenvios 212 -- Tiempo 424013
+Secuencia 728 -- Valor   -- Reenvios 257 -- Tiempo 514021
+Secuencia 729 -- Valor m -- Reenvios 257 -- Tiempo 514024
+Secuencia 730 -- Valor e -- Reenvios 257 -- Tiempo 514025
+Secuencia 731 -- Valor t -- Reenvios 257 -- Tiempo 514024
+Secuencia 732 -- Valor u -- Reenvios 251 -- Tiempo 502029
+Secuencia 733 -- Valor s -- Reenvios 251 -- Tiempo 502028
+Secuencia 734 -- Valor   -- Reenvios 266 -- Tiempo 532016
+Secuencia 735 -- Valor v -- Reenvios 266 -- Tiempo 532016
+Secuencia 736 -- Valor a -- Reenvios 261 -- Tiempo 522009
+Secuencia 737 -- Valor r -- Reenvios 261 -- Tiempo 522009
+Secuencia 738 -- Valor i -- Reenvios 261 -- Tiempo 522010
+Secuencia 739 -- Valor u -- Reenvios 261 -- Tiempo 522009
+Secuencia 740 -- Valor s -- Reenvios 261 -- Tiempo 522009
+Secuencia 741 -- Valor   -- Reenvios 254 -- Tiempo 508015
+Secuencia 742 -- Valor l -- Reenvios 255 -- Tiempo 510014
+Secuencia 743 -- Valor a -- Reenvios 204 -- Tiempo 408014
+Secuencia 744 -- Valor o -- Reenvios 226 -- Tiempo 452014
+Secuencia 745 -- Valor r -- Reenvios 226 -- Tiempo 452013
+Secuencia 746 -- Valor e -- Reenvios 226 -- Tiempo 452013
+Secuencia 747 -- Valor e -- Reenvios 226 -- Tiempo 452014
+Secuencia 748 -- Valor t -- Reenvios 226 -- Tiempo 452014
+Secuencia 749 -- Valor . -- Reenvios 226 -- Tiempo 452014
+Secuencia 750 -- Valor   -- Reenvios 226 -- Tiempo 452013
+Secuencia 751 -- Valor Q -- Reenvios 227 -- Tiempo 454013
+Secuencia 752 -- Valor u -- Reenvios 220 -- Tiempo 440000
+Secuencia 753 -- Valor i -- Reenvios 212 -- Tiempo 424007
+Secuencia 754 -- Valor s -- Reenvios 212 -- Tiempo 424007
+Secuencia 755 -- Valor q -- Reenvios 212 -- Tiempo 424007
+Secuencia 756 -- Valor u -- Reenvios 185 -- Tiempo 370013
+Secuencia 757 -- Valor e -- Reenvios 185 -- Tiempo 370013
+Secuencia 758 -- Valor   -- Reenvios 185 -- Tiempo 370013
+Secuencia 759 -- Valor r -- Reenvios 185 -- Tiempo 370013
+Secuencia 760 -- Valor u -- Reenvios 167 -- Tiempo 334009
+Secuencia 761 -- Valor t -- Reenvios 167 -- Tiempo 334009
+Secuencia 762 -- Valor r -- Reenvios 181 -- Tiempo 362014
+Secuencia 763 -- Valor u -- Reenvios 174 -- Tiempo 348015
+Secuencia 764 -- Valor m -- Reenvios 171 -- Tiempo 342008
+Secuencia 765 -- Valor . -- Reenvios 171 -- Tiempo 342008
+Secuencia 766 -- Valor   -- Reenvios 174 -- Tiempo 348006
+Secuencia 767 -- Valor A -- Reenvios 159 -- Tiempo 318016
+Secuencia 768 -- Valor e -- Reenvios 159 -- Tiempo 318016
+Secuencia 769 -- Valor n -- Reenvios 177 -- Tiempo 354023
+Secuencia 770 -- Valor e -- Reenvios 250 -- Tiempo 500016
+Secuencia 771 -- Valor a -- Reenvios 228 -- Tiempo 456014
+Secuencia 772 -- Valor n -- Reenvios 228 -- Tiempo 456014
+Secuencia 773 -- Valor   -- Reenvios 228 -- Tiempo 456015
+Secuencia 774 -- Valor i -- Reenvios 228 -- Tiempo 456014
+Secuencia 775 -- Valor m -- Reenvios 228 -- Tiempo 456014
+Secuencia 776 -- Valor p -- Reenvios 228 -- Tiempo 456014
+Secuencia 777 -- Valor e -- Reenvios 228 -- Tiempo 456014
+Secuencia 778 -- Valor r -- Reenvios 183 -- Tiempo 366006
+Secuencia 779 -- Valor d -- Reenvios 183 -- Tiempo 366003
+Secuencia 780 -- Valor i -- Reenvios 183 -- Tiempo 366003
+Secuencia 781 -- Valor e -- Reenvios 183 -- Tiempo 366003
+Secuencia 782 -- Valor t -- Reenvios 185 -- Tiempo 370005
+Secuencia 783 -- Valor . -- Reenvios 196 -- Tiempo 392004
+Secuencia 784 -- Valor   -- Reenvios 168 -- Tiempo 336015
+Secuencia 785 -- Valor E -- Reenvios 168 -- Tiempo 336016
+Secuencia 786 -- Valor t -- Reenvios 168 -- Tiempo 336016
+Secuencia 787 -- Valor i -- Reenvios 168 -- Tiempo 336016
+Secuencia 788 -- Valor a -- Reenvios 168 -- Tiempo 336015
+Secuencia 789 -- Valor m -- Reenvios 168 -- Tiempo 336016
+Secuencia 790 -- Valor   -- Reenvios 168 -- Tiempo 336016
+Secuencia 791 -- Valor u -- Reenvios 168 -- Tiempo 336016
+Secuencia 792 -- Valor l -- Reenvios 175 -- Tiempo 350018
+Secuencia 793 -- Valor t -- Reenvios 175 -- Tiempo 350018
+Secuencia 794 -- Valor r -- Reenvios 153 -- Tiempo 306018
+Secuencia 795 -- Valor i -- Reenvios 153 -- Tiempo 306018
+Secuencia 796 -- Valor c -- Reenvios 153 -- Tiempo 306019
+Secuencia 797 -- Valor i -- Reenvios 166 -- Tiempo 332030
+Secuencia 798 -- Valor e -- Reenvios 166 -- Tiempo 332030
+Secuencia 799 -- Valor s -- Reenvios 166 -- Tiempo 332030
+Secuencia 800 -- Valor   -- Reenvios 166 -- Tiempo 332030
+Secuencia 801 -- Valor n -- Reenvios 157 -- Tiempo 314030
+Secuencia 802 -- Valor i -- Reenvios 157 -- Tiempo 314031
+Secuencia 803 -- Valor s -- Reenvios 159 -- Tiempo 318016
+Secuencia 804 -- Valor i -- Reenvios 172 -- Tiempo 344017
+Secuencia 805 -- Valor   -- Reenvios 176 -- Tiempo 352017
+Secuencia 806 -- Valor v -- Reenvios 170 -- Tiempo 340024
+Secuencia 807 -- Valor e -- Reenvios 182 -- Tiempo 364022
+Secuencia 808 -- Valor l -- Reenvios 182 -- Tiempo 364021
+Secuencia 809 -- Valor   -- Reenvios 182 -- Tiempo 364022
+Secuencia 810 -- Valor a -- Reenvios 201 -- Tiempo 402017
+Secuencia 811 -- Valor u -- Reenvios 201 -- Tiempo 402017
+Secuencia 812 -- Valor g -- Reenvios 185 -- Tiempo 370014
+Secuencia 813 -- Valor u -- Reenvios 185 -- Tiempo 370015
+Secuencia 814 -- Valor e -- Reenvios 185 -- Tiempo 370015
+Secuencia 815 -- Valor . -- Reenvios 185 -- Tiempo 370014
+Secuencia 816 -- Valor   -- Reenvios 188 -- Tiempo 376016
+Secuencia 817 -- Valor C -- Reenvios 186 -- Tiempo 372011
+Secuencia 818 -- Valor u -- Reenvios 186 -- Tiempo 372011
+Secuencia 819 -- Valor r -- Reenvios 168 -- Tiempo 336003
+Secuencia 820 -- Valor a -- Reenvios 101 -- Tiempo 202015
+Secuencia 821 -- Valor b -- Reenvios 101 -- Tiempo 202016
+Secuencia 822 -- Valor i -- Reenvios 136 -- Tiempo 272019
+Secuencia 823 -- Valor t -- Reenvios 136 -- Tiempo 272019
+Secuencia 824 -- Valor u -- Reenvios 136 -- Tiempo 272019
+Secuencia 825 -- Valor r -- Reenvios 136 -- Tiempo 272019
+Secuencia 826 -- Valor   -- Reenvios 136 -- Tiempo 272019
+Secuencia 827 -- Valor u -- Reenvios 141 -- Tiempo 282011
+Secuencia 828 -- Valor l -- Reenvios 141 -- Tiempo 282012
+Secuencia 829 -- Valor l -- Reenvios 190 -- Tiempo 380011
+Secuencia 830 -- Valor a -- Reenvios 190 -- Tiempo 380010
+Secuencia 831 -- Valor m -- Reenvios 190 -- Tiempo 380011
+Secuencia 832 -- Valor c -- Reenvios 188 -- Tiempo 376009
+Secuencia 833 -- Valor o -- Reenvios 177 -- Tiempo 354010
+Secuencia 834 -- Valor r -- Reenvios 177 -- Tiempo 354010
+Secuencia 835 -- Valor p -- Reenvios 177 -- Tiempo 354009
+Secuencia 836 -- Valor e -- Reenvios 177 -- Tiempo 354009
+Secuencia 837 -- Valor r -- Reenvios 177 -- Tiempo 354010
+Secuencia 838 -- Valor   -- Reenvios 177 -- Tiempo 354010
+Secuencia 839 -- Valor u -- Reenvios 177 -- Tiempo 354009
+Secuencia 840 -- Valor l -- Reenvios 177 -- Tiempo 354009
+Secuencia 841 -- Valor t -- Reenvios 177 -- Tiempo 354009
+Secuencia 842 -- Valor r -- Reenvios 169 -- Tiempo 338008
+Secuencia 843 -- Valor i -- Reenvios 169 -- Tiempo 338009
+Secuencia 844 -- Valor c -- Reenvios 172 -- Tiempo 344021
+Secuencia 845 -- Valor i -- Reenvios 172 -- Tiempo 344021
+Secuencia 846 -- Valor e -- Reenvios 189 -- Tiempo 378012
+Secuencia 847 -- Valor s -- Reenvios 176 -- Tiempo 352000
+Secuencia 848 -- Valor   -- Reenvios 176 -- Tiempo 352000
+Secuencia 849 -- Valor n -- Reenvios 179 -- Tiempo 357998
+Secuencia 850 -- Valor i -- Reenvios 197 -- Tiempo 393997
+Secuencia 851 -- Valor s -- Reenvios 197 -- Tiempo 393998
+Secuencia 852 -- Valor i -- Reenvios 197 -- Tiempo 393997
+Secuencia 853 -- Valor . -- Reenvios 195 -- Tiempo 390011
+Secuencia 854 -- Valor   -- Reenvios 182 -- Tiempo 364010
+Secuencia 855 -- Valor N -- Reenvios 187 -- Tiempo 374011
+Secuencia 856 -- Valor a -- Reenvios 186 -- Tiempo 372002
+Secuencia 857 -- Valor m -- Reenvios 199 -- Tiempo 398006
+Secuencia 858 -- Valor   -- Reenvios 199 -- Tiempo 398006
+Secuencia 859 -- Valor e -- Reenvios 199 -- Tiempo 398005
+Secuencia 860 -- Valor g -- Reenvios 180 -- Tiempo 360010
+Secuencia 861 -- Valor e -- Reenvios 180 -- Tiempo 360011
+Secuencia 862 -- Valor t -- Reenvios 180 -- Tiempo 360011
+Secuencia 863 -- Valor   -- Reenvios 197 -- Tiempo 394018
+Secuencia 864 -- Valor d -- Reenvios 197 -- Tiempo 394018
+Secuencia 865 -- Valor u -- Reenvios 197 -- Tiempo 394019
+Secuencia 866 -- Valor i -- Reenvios 191 -- Tiempo 382019
+Secuencia 867 -- Valor . -- Reenvios 191 -- Tiempo 382019
+Secuencia 868 -- Valor   -- Reenvios 191 -- Tiempo 382020
+Secuencia 869 -- Valor E -- Reenvios 211 -- Tiempo 422031
+Secuencia 870 -- Valor t -- Reenvios 205 -- Tiempo 410026
+Secuencia 871 -- Valor i -- Reenvios 211 -- Tiempo 422008
+Secuencia 872 -- Valor a -- Reenvios 202 -- Tiempo 404010
+Secuencia 873 -- Valor m -- Reenvios 202 -- Tiempo 404009
+Secuencia 874 -- Valor   -- Reenvios 202 -- Tiempo 404009
+Secuencia 875 -- Valor r -- Reenvios 202 -- Tiempo 404010
+Secuencia 876 -- Valor h -- Reenvios 202 -- Tiempo 404010
+Secuencia 877 -- Valor o -- Reenvios 197 -- Tiempo 394018
+Secuencia 878 -- Valor n -- Reenvios 197 -- Tiempo 394017
+Secuencia 879 -- Valor c -- Reenvios 149 -- Tiempo 298014
+Secuencia 880 -- Valor u -- Reenvios 151 -- Tiempo 302015
+Secuencia 881 -- Valor s -- Reenvios 158 -- Tiempo 316014
+Secuencia 882 -- Valor . -- Reenvios 158 -- Tiempo 316014
+Secuencia 883 -- Valor   -- Reenvios 170 -- Tiempo 340014
+Secuencia 884 -- Valor M -- Reenvios 170 -- Tiempo 340014
+Secuencia 885 -- Valor a -- Reenvios 170 -- Tiempo 340014
+Secuencia 886 -- Valor e -- Reenvios 170 -- Tiempo 340014
+Secuencia 887 -- Valor c -- Reenvios 170 -- Tiempo 340013
+Secuencia 888 -- Valor e -- Reenvios 170 -- Tiempo 340014
+Secuencia 889 -- Valor n -- Reenvios 194 -- Tiempo 388015
+Secuencia 890 -- Valor a -- Reenvios 194 -- Tiempo 388015
+Secuencia 891 -- Valor s -- Reenvios 194 -- Tiempo 388016
+Secuencia 892 -- Valor   -- Reenvios 194 -- Tiempo 388016
+Secuencia 893 -- Valor t -- Reenvios 194 -- Tiempo 388015
+Secuencia 894 -- Valor e -- Reenvios 196 -- Tiempo 392007
+Secuencia 895 -- Valor m -- Reenvios 196 -- Tiempo 392008
+Secuencia 896 -- Valor p -- Reenvios 188 -- Tiempo 376012
+Secuencia 897 -- Valor u -- Reenvios 211 -- Tiempo 422013
+Secuencia 898 -- Valor s -- Reenvios 211 -- Tiempo 422013
+Secuencia 899 -- Valor , -- Reenvios 208 -- Tiempo 416016
+Secuencia 900 -- Valor   -- Reenvios 190 -- Tiempo 380017
+Secuencia 901 -- Valor t -- Reenvios 212 -- Tiempo 424016
+Secuencia 902 -- Valor e -- Reenvios 212 -- Tiempo 424016
+Secuencia 903 -- Valor l -- Reenvios 212 -- Tiempo 424017
+Secuencia 904 -- Valor l -- Reenvios 212 -- Tiempo 424017
+Secuencia 905 -- Valor u -- Reenvios 203 -- Tiempo 406016
+Secuencia 906 -- Valor s -- Reenvios 218 -- Tiempo 436016
+Secuencia 907 -- Valor   -- Reenvios 193 -- Tiempo 386015
+Secuencia 908 -- Valor e -- Reenvios 193 -- Tiempo 386015
+Secuencia 909 -- Valor g -- Reenvios 193 -- Tiempo 386015
+Secuencia 910 -- Valor e -- Reenvios 206 -- Tiempo 412035
+Secuencia 911 -- Valor t -- Reenvios 206 -- Tiempo 412034
+Secuencia 912 -- Valor   -- Reenvios 210 -- Tiempo 420017
+Secuencia 913 -- Valor c -- Reenvios 193 -- Tiempo 386009
+Secuencia 914 -- Valor o -- Reenvios 219 -- Tiempo 438007
+Secuencia 915 -- Valor n -- Reenvios 219 -- Tiempo 438006
+Secuencia 916 -- Valor d -- Reenvios 247 -- Tiempo 494008
+Secuencia 917 -- Valor i -- Reenvios 247 -- Tiempo 494008
+Secuencia 918 -- Valor m -- Reenvios 247 -- Tiempo 494007
+Secuencia 919 -- Valor e -- Reenvios 227 -- Tiempo 453997
+Secuencia 920 -- Valor n -- Reenvios 227 -- Tiempo 453997
+Secuencia 921 -- Valor t -- Reenvios 221 -- Tiempo 442014
+Secuencia 922 -- Valor u -- Reenvios 195 -- Tiempo 390009
+Secuencia 923 -- Valor m -- Reenvios 195 -- Tiempo 390009
+Secuencia 924 -- Valor   -- Reenvios 195 -- Tiempo 390010
+Secuencia 925 -- Valor r -- Reenvios 195 -- Tiempo 390009
+Secuencia 926 -- Valor h -- Reenvios 195 -- Tiempo 390009
+Secuencia 927 -- Valor o -- Reenvios 233 -- Tiempo 466013
+Secuencia 928 -- Valor n -- Reenvios 233 -- Tiempo 466013
+Secuencia 929 -- Valor c -- Reenvios 232 -- Tiempo 464017
+Secuencia 930 -- Valor u -- Reenvios 230 -- Tiempo 460016
+Secuencia 931 -- Valor s -- Reenvios 223 -- Tiempo 446017
+Secuencia 932 -- Valor , -- Reenvios 223 -- Tiempo 446017
+Secuencia 933 -- Valor   -- Reenvios 211 -- Tiempo 422017
+Secuencia 934 -- Valor s -- Reenvios 211 -- Tiempo 422017
+Secuencia 935 -- Valor e -- Reenvios 251 -- Tiempo 502014
+Secuencia 936 -- Valor m -- Reenvios 251 -- Tiempo 502015
+Secuencia 937 -- Valor   -- Reenvios 251 -- Tiempo 502015
+Secuencia 938 -- Valor q -- Reenvios 251 -- Tiempo 502014
+Secuencia 939 -- Valor u -- Reenvios 227 -- Tiempo 454013
+Secuencia 940 -- Valor a -- Reenvios 227 -- Tiempo 454014
+Secuencia 941 -- Valor m -- Reenvios 227 -- Tiempo 454013
+Secuencia 942 -- Valor   -- Reenvios 240 -- Tiempo 480014
+Secuencia 943 -- Valor s -- Reenvios 240 -- Tiempo 480014
+Secuencia 944 -- Valor e -- Reenvios 235 -- Tiempo 470010
+Secuencia 945 -- Valor m -- Reenvios 235 -- Tiempo 470010
+Secuencia 946 -- Valor p -- Reenvios 291 -- Tiempo 582021
+Secuencia 947 -- Valor e -- Reenvios 268 -- Tiempo 536020
+Secuencia 948 -- Valor r -- Reenvios 268 -- Tiempo 536020
+Secuencia 949 -- Valor   -- Reenvios 268 -- Tiempo 536019
+Secuencia 950 -- Valor l -- Reenvios 268 -- Tiempo 536019
+Secuencia 951 -- Valor i -- Reenvios 246 -- Tiempo 492020
+Secuencia 952 -- Valor b -- Reenvios 246 -- Tiempo 492020
+Secuencia 953 -- Valor e -- Reenvios 246 -- Tiempo 492019
+Secuencia 954 -- Valor r -- Reenvios 246 -- Tiempo 492019
+Secuencia 955 -- Valor o -- Reenvios 246 -- Tiempo 492019
+Secuencia 956 -- Valor , -- Reenvios 227 -- Tiempo 454020
+Secuencia 957 -- Valor   -- Reenvios 227 -- Tiempo 454020
+Secuencia 958 -- Valor s -- Reenvios 243 -- Tiempo 486016
+Secuencia 959 -- Valor i -- Reenvios 243 -- Tiempo 486016
+Secuencia 960 -- Valor t -- Reenvios 257 -- Tiempo 513995
+Secuencia 961 -- Valor   -- Reenvios 257 -- Tiempo 513995
+Secuencia 962 -- Valor a -- Reenvios 253 -- Tiempo 506013
+Secuencia 963 -- Valor m -- Reenvios 253 -- Tiempo 506013
+Secuencia 964 -- Valor e -- Reenvios 275 -- Tiempo 550016
+Secuencia 965 -- Valor t -- Reenvios 275 -- Tiempo 550016
+Secuencia 966 -- Valor   -- Reenvios 247 -- Tiempo 494014
+Secuencia 967 -- Valor a -- Reenvios 247 -- Tiempo 494014
+Secuencia 968 -- Valor d -- Reenvios 247 -- Tiempo 494014
+Secuencia 969 -- Valor i -- Reenvios 247 -- Tiempo 494014
+Secuencia 970 -- Valor p -- Reenvios 247 -- Tiempo 494014
+Secuencia 971 -- Valor i -- Reenvios 247 -- Tiempo 494014
+Secuencia 972 -- Valor s -- Reenvios 257 -- Tiempo 514014
+Secuencia 973 -- Valor c -- Reenvios 257 -- Tiempo 514014
+Secuencia 974 -- Valor i -- Reenvios 257 -- Tiempo 514013
+Secuencia 975 -- Valor n -- Reenvios 303 -- Tiempo 606022
+Secuencia 976 -- Valor g -- Reenvios 303 -- Tiempo 606022
+Secuencia 977 -- Valor   -- Reenvios 265 -- Tiempo 530018
+Secuencia 978 -- Valor s -- Reenvios 265 -- Tiempo 530019
+Secuencia 979 -- Valor e -- Reenvios 265 -- Tiempo 530019
+Secuencia 980 -- Valor m -- Reenvios 265 -- Tiempo 530019
+Secuencia 981 -- Valor   -- Reenvios 265 -- Tiempo 530018
+Secuencia 982 -- Valor n -- Reenvios 265 -- Tiempo 530018
+Secuencia 983 -- Valor e -- Reenvios 265 -- Tiempo 530018
+Secuencia 984 -- Valor q -- Reenvios 265 -- Tiempo 530019
+Secuencia 985 -- Valor u -- Reenvios 225 -- Tiempo 450022
+Secuencia 986 -- Valor e -- Reenvios 225 -- Tiempo 450021
+Secuencia 987 -- Valor   -- Reenvios 225 -- Tiempo 450021
+Secuencia 988 -- Valor s -- Reenvios 225 -- Tiempo 450021
+Secuencia 989 -- Valor e -- Reenvios 225 -- Tiempo 450022
+Secuencia 990 -- Valor d -- Reenvios 236 -- Tiempo 472016
+Secuencia 991 -- Valor   -- Reenvios 238 -- Tiempo 476027
+Secuencia 992 -- Valor i -- Reenvios 225 -- Tiempo 450026
+Secuencia 993 -- Valor p -- Reenvios 233 -- Tiempo 466022
+Secuencia 994 -- Valor s -- Reenvios 233 -- Tiempo 466022
+Secuencia 995 -- Valor u -- Reenvios 238 -- Tiempo 476013
+Secuencia 996 -- Valor m -- Reenvios 173 -- Tiempo 346006
+Secuencia 997 -- Valor . -- Reenvios 174 -- Tiempo 348007
+Secuencia 998 -- Valor   -- Reenvios 190 -- Tiempo 380013
+Secuencia 999 -- Valor N -- Reenvios 190 -- Tiempo 380014
+Secuencia 1000 -- Valor a -- Reenvios 190 -- Tiempo 380014
+Secuencia 1001 -- Valor m -- Reenvios 190 -- Tiempo 380013
+Secuencia 1002 -- Valor   -- Reenvios 190 -- Tiempo 380013
+Secuencia 1003 -- Valor q -- Reenvios 190 -- Tiempo 380014
+Secuencia 1004 -- Valor u -- Reenvios 194 -- Tiempo 388008
+Secuencia 1005 -- Valor a -- Reenvios 230 -- Tiempo 460008
+Secuencia 1006 -- Valor m -- Reenvios 230 -- Tiempo 460008
+Secuencia 1007 -- Valor   -- Reenvios 230 -- Tiempo 460007
+Secuencia 1008 -- Valor n -- Reenvios 214 -- Tiempo 428011
+Secuencia 1009 -- Valor u -- Reenvios 214 -- Tiempo 428012
+Secuencia 1010 -- Valor n -- Reenvios 187 -- Tiempo 374013
+Secuencia 1011 -- Valor c -- Reenvios 187 -- Tiempo 374013
+Secuencia 1012 -- Valor , -- Reenvios 187 -- Tiempo 374012
+Secuencia 1013 -- Valor   -- Reenvios 187 -- Tiempo 374012
+Secuencia 1014 -- Valor b -- Reenvios 139 -- Tiempo 278012
+Secuencia 1015 -- Valor l -- Reenvios 139 -- Tiempo 278012
+Secuencia 1016 -- Valor a -- Reenvios 139 -- Tiempo 278012
+Secuencia 1017 -- Valor n -- Reenvios 139 -- Tiempo 278012
+Secuencia 1018 -- Valor d -- Reenvios 139 -- Tiempo 278012
+Secuencia 1019 -- Valor i -- Reenvios 140 -- Tiempo 280020
+Secuencia 1020 -- Valor t -- Reenvios 142 -- Tiempo 284014
+Secuencia 1021 -- Valor   -- Reenvios 142 -- Tiempo 284014
+Secuencia 1022 -- Valor v -- Reenvios 132 -- Tiempo 264014
+Secuencia 1023 -- Valor e -- Reenvios 132 -- Tiempo 264015
+Secuencia 1024 -- Valor l -- Reenvios 164 -- Tiempo 328032
+Secuencia 1025 -- Valor , -- Reenvios 118 -- Tiempo 236023
+Secuencia 1026 -- Valor   -- Reenvios 118 -- Tiempo 236023
+Secuencia 1027 -- Valor l -- Reenvios 118 -- Tiempo 236024
+Secuencia 1028 -- Valor u -- Reenvios 122 -- Tiempo 244008
+Secuencia 1029 -- Valor c -- Reenvios 123 -- Tiempo 246006
+Secuencia 1030 -- Valor t -- Reenvios 129 -- Tiempo 258005
+Secuencia 1031 -- Valor u -- Reenvios 131 -- Tiempo 262022
+Secuencia 1032 -- Valor s -- Reenvios 131 -- Tiempo 262022
+Secuencia 1033 -- Valor   -- Reenvios 136 -- Tiempo 272007
+Secuencia 1034 -- Valor p -- Reenvios 136 -- Tiempo 272006
+Secuencia 1035 -- Valor u -- Reenvios 136 -- Tiempo 272006
+Secuencia 1036 -- Valor l -- Reenvios 139 -- Tiempo 278007
+Secuencia 1037 -- Valor v -- Reenvios 139 -- Tiempo 278007
+Secuencia 1038 -- Valor i -- Reenvios 183 -- Tiempo 366035
+Secuencia 1039 -- Valor n -- Reenvios 183 -- Tiempo 366035
+Secuencia 1040 -- Valor a -- Reenvios 172 -- Tiempo 344040
+Secuencia 1041 -- Valor r -- Reenvios 170 -- Tiempo 340030
+Secuencia 1042 -- Valor , -- Reenvios 170 -- Tiempo 340031
+Secuencia 1043 -- Valor   -- Reenvios 162 -- Tiempo 324036
+Secuencia 1044 -- Valor h -- Reenvios 164 -- Tiempo 328005
+Secuencia 1045 -- Valor e -- Reenvios 159 -- Tiempo 318013
+Secuencia 1046 -- Valor n -- Reenvios 170 -- Tiempo 340014
+Secuencia 1047 -- Valor d -- Reenvios 230 -- Tiempo 460017
+Secuencia 1048 -- Valor r -- Reenvios 214 -- Tiempo 428011
+Secuencia 1049 -- Valor e -- Reenvios 214 -- Tiempo 428010
+Secuencia 1050 -- Valor r -- Reenvios 214 -- Tiempo 428010
+Secuencia 1051 -- Valor i -- Reenvios 214 -- Tiempo 428011
+Secuencia 1052 -- Valor t -- Reenvios 214 -- Tiempo 428011
+Secuencia 1053 -- Valor   -- Reenvios 214 -- Tiempo 428010
+Secuencia 1054 -- Valor i -- Reenvios 210 -- Tiempo 420016
+Secuencia 1055 -- Valor d -- Reenvios 174 -- Tiempo 348016
+Secuencia 1056 -- Valor , -- Reenvios 174 -- Tiempo 348016
+Secuencia 1057 -- Valor   -- Reenvios 174 -- Tiempo 348017
+Secuencia 1058 -- Valor l -- Reenvios 174 -- Tiempo 348017
+Secuencia 1059 -- Valor o -- Reenvios 174 -- Tiempo 348016
+Secuencia 1060 -- Valor r -- Reenvios 174 -- Tiempo 348016
+Secuencia 1061 -- Valor e -- Reenvios 202 -- Tiempo 404023
+Secuencia 1062 -- Valor m -- Reenvios 202 -- Tiempo 404023
+Secuencia 1063 -- Valor . -- Reenvios 202 -- Tiempo 404023
+Secuencia 1064 -- Valor   -- Reenvios 202 -- Tiempo 404022
+Secuencia 1065 -- Valor M -- Reenvios 202 -- Tiempo 404022
+Secuencia 1066 -- Valor a -- Reenvios 202 -- Tiempo 404022
+Secuencia 1067 -- Valor e -- Reenvios 202 -- Tiempo 404023
+Secuencia 1068 -- Valor c -- Reenvios 202 -- Tiempo 404023
+Secuencia 1069 -- Valor e -- Reenvios 201 -- Tiempo 402014
+Secuencia 1070 -- Valor n -- Reenvios 212 -- Tiempo 424038
+Secuencia 1071 -- Valor a -- Reenvios 212 -- Tiempo 424038
+Secuencia 1072 -- Valor s -- Reenvios 212 -- Tiempo 424038
+Secuencia 1073 -- Valor   -- Reenvios 212 -- Tiempo 424038
+Secuencia 1074 -- Valor n -- Reenvios 180 -- Tiempo 360021
+Secuencia 1075 -- Valor e -- Reenvios 180 -- Tiempo 360021
+Secuencia 1076 -- Valor c -- Reenvios 189 -- Tiempo 378007
+Secuencia 1077 -- Valor   -- Reenvios 197 -- Tiempo 394001
+Secuencia 1078 -- Valor o -- Reenvios 193 -- Tiempo 386016
+Secuencia 1079 -- Valor d -- Reenvios 192 -- Tiempo 384019
+Secuencia 1080 -- Valor i -- Reenvios 186 -- Tiempo 372020
+Secuencia 1081 -- Valor o -- Reenvios 184 -- Tiempo 368003
+Secuencia 1082 -- Valor   -- Reenvios 192 -- Tiempo 384001
+Secuencia 1083 -- Valor e -- Reenvios 189 -- Tiempo 378017
+Secuencia 1084 -- Valor t -- Reenvios 189 -- Tiempo 378017
+Secuencia 1085 -- Valor   -- Reenvios 197 -- Tiempo 394018
+Secuencia 1086 -- Valor a -- Reenvios 194 -- Tiempo 388017
+Secuencia 1087 -- Valor n -- Reenvios 194 -- Tiempo 388017
+Secuencia 1088 -- Valor t -- Reenvios 153 -- Tiempo 305995
+Secuencia 1089 -- Valor e -- Reenvios 153 -- Tiempo 305995
+Secuencia 1090 -- Valor   -- Reenvios 153 -- Tiempo 305995
+Secuencia 1091 -- Valor t -- Reenvios 161 -- Tiempo 321987
+Secuencia 1092 -- Valor i -- Reenvios 161 -- Tiempo 321986
+Secuencia 1093 -- Valor n -- Reenvios 161 -- Tiempo 321986
+Secuencia 1094 -- Valor c -- Reenvios 159 -- Tiempo 318017
+Secuencia 1095 -- Valor i -- Reenvios 159 -- Tiempo 318017
+Secuencia 1096 -- Valor d -- Reenvios 179 -- Tiempo 358017
+Secuencia 1097 -- Valor u -- Reenvios 119 -- Tiempo 238012
+Secuencia 1098 -- Valor n -- Reenvios 119 -- Tiempo 238012
+Secuencia 1099 -- Valor t -- Reenvios 120 -- Tiempo 240013
+Secuencia 1100 -- Valor   -- Reenvios 145 -- Tiempo 290016
+Secuencia 1101 -- Valor t -- Reenvios 145 -- Tiempo 290016
+Secuencia 1102 -- Valor e -- Reenvios 145 -- Tiempo 290016
+Secuencia 1103 -- Valor m -- Reenvios 145 -- Tiempo 290017
+Secuencia 1104 -- Valor p -- Reenvios 145 -- Tiempo 290017
+Secuencia 1105 -- Valor u -- Reenvios 145 -- Tiempo 290017
+Secuencia 1106 -- Valor s -- Reenvios 145 -- Tiempo 290017
+Secuencia 1107 -- Valor . -- Reenvios 145 -- Tiempo 290016
+Secuencia 1108 -- Valor   -- Reenvios 145 -- Tiempo 290017
+Secuencia 1109 -- Valor D -- Reenvios 145 -- Tiempo 290017
+Secuencia 1110 -- Valor o -- Reenvios 145 -- Tiempo 290017
+Secuencia 1111 -- Valor n -- Reenvios 117 -- Tiempo 234010
+Secuencia 1112 -- Valor e -- Reenvios 117 -- Tiempo 234010
+Secuencia 1113 -- Valor c -- Reenvios 119 -- Tiempo 238010
+Secuencia 1114 -- Valor   -- Reenvios 119 -- Tiempo 238010
+Secuencia 1115 -- Valor v -- Reenvios 119 -- Tiempo 238011
+Secuencia 1116 -- Valor i -- Reenvios 119 -- Tiempo 238011
+Secuencia 1117 -- Valor t -- Reenvios 122 -- Tiempo 244012
+Secuencia 1118 -- Valor a -- Reenvios 122 -- Tiempo 244012
+Secuencia 1119 -- Valor e -- Reenvios 138 -- Tiempo 276010
+Secuencia 1120 -- Valor   -- Reenvios 125 -- Tiempo 249992
+Secuencia 1121 -- Valor s -- Reenvios 132 -- Tiempo 264000
+Secuencia 1122 -- Valor a -- Reenvios 132 -- Tiempo 264000
+Secuencia 1123 -- Valor p -- Reenvios 132 -- Tiempo 263999
+Secuencia 1124 -- Valor i -- Reenvios 132 -- Tiempo 264000
+Secuencia 1125 -- Valor e -- Reenvios 132 -- Tiempo 264000
+Secuencia 1126 -- Valor n -- Reenvios 131 -- Tiempo 262007
+Secuencia 1127 -- Valor   -- Reenvios 137 -- Tiempo 274013
+Secuencia 1128 -- Valor u -- Reenvios 137 -- Tiempo 274013
+Secuencia 1129 -- Valor t -- Reenvios 137 -- Tiempo 274012
+Secuencia 1130 -- Valor   -- Reenvios 137 -- Tiempo 274013
+Secuencia 1131 -- Valor l -- Reenvios 147 -- Tiempo 294014
+Secuencia 1132 -- Valor i -- Reenvios 139 -- Tiempo 278016
+Secuencia 1133 -- Valor b -- Reenvios 137 -- Tiempo 274015
+Secuencia 1134 -- Valor e -- Reenvios 152 -- Tiempo 304021
+Secuencia 1135 -- Valor r -- Reenvios 144 -- Tiempo 288020
+Secuencia 1136 -- Valor o -- Reenvios 144 -- Tiempo 288020
+Secuencia 1137 -- Valor   -- Reenvios 144 -- Tiempo 288020
+Secuencia 1138 -- Valor v -- Reenvios 141 -- Tiempo 282015
+Secuencia 1139 -- Valor e -- Reenvios 162 -- Tiempo 324015
+Secuencia 1140 -- Valor n -- Reenvios 162 -- Tiempo 324015
+Secuencia 1141 -- Valor e -- Reenvios 154 -- Tiempo 308022
+Secuencia 1142 -- Valor n -- Reenvios 154 -- Tiempo 308022
+Secuencia 1143 -- Valor a -- Reenvios 154 -- Tiempo 308022
+Secuencia 1144 -- Valor t -- Reenvios 154 -- Tiempo 308022
+Secuencia 1145 -- Valor i -- Reenvios 154 -- Tiempo 308022
+Secuencia 1146 -- Valor s -- Reenvios 123 -- Tiempo 246021
+Secuencia 1147 -- Valor   -- Reenvios 122 -- Tiempo 244022
+Secuencia 1148 -- Valor f -- Reenvios 125 -- Tiempo 250019
+Secuencia 1149 -- Valor a -- Reenvios 124 -- Tiempo 248019
+Secuencia 1150 -- Valor u -- Reenvios 105 -- Tiempo 210016
+Secuencia 1151 -- Valor c -- Reenvios 113 -- Tiempo 226016
+Secuencia 1152 -- Valor i -- Reenvios 113 -- Tiempo 226016
+Secuencia 1153 -- Valor b -- Reenvios 113 -- Tiempo 226015
+Secuencia 1154 -- Valor u -- Reenvios 116 -- Tiempo 232016
+Secuencia 1155 -- Valor s -- Reenvios 116 -- Tiempo 232016
+Secuencia 1156 -- Valor . -- Reenvios 126 -- Tiempo 252032
+Secuencia 1157 -- Valor   -- Reenvios 126 -- Tiempo 252032
+Secuencia 1158 -- Valor N -- Reenvios 178 -- Tiempo 356018
+Secuencia 1159 -- Valor u -- Reenvios 178 -- Tiempo 356018
+Secuencia 1160 -- Valor l -- Reenvios 178 -- Tiempo 356018
+Secuencia 1161 -- Valor l -- Reenvios 178 -- Tiempo 356018
+Secuencia 1162 -- Valor a -- Reenvios 178 -- Tiempo 356018
+Secuencia 1163 -- Valor m -- Reenvios 176 -- Tiempo 352019
+Secuencia 1164 -- Valor   -- Reenvios 176 -- Tiempo 352019
+Secuencia 1165 -- Valor q -- Reenvios 176 -- Tiempo 352018
+Secuencia 1166 -- Valor u -- Reenvios 176 -- Tiempo 352018
+Secuencia 1167 -- Valor i -- Reenvios 177 -- Tiempo 354016
+Secuencia 1168 -- Valor s -- Reenvios 177 -- Tiempo 354017
+Secuencia 1169 -- Valor   -- Reenvios 165 -- Tiempo 330014
+Secuencia 1170 -- Valor a -- Reenvios 182 -- Tiempo 364015
+Secuencia 1171 -- Valor n -- Reenvios 175 -- Tiempo 350007
+Secuencia 1172 -- Valor t -- Reenvios 175 -- Tiempo 350007
+Secuencia 1173 -- Valor e -- Reenvios 175 -- Tiempo 350007
+Secuencia 1174 -- Valor . -- Reenvios 175 -- Tiempo 350006
+Secuencia 1175 -- Valor   -- Reenvios 175 -- Tiempo 350007
+Secuencia 1176 -- Valor E -- Reenvios 167 -- Tiempo 334014
+Secuencia 1177 -- Valor t -- Reenvios 153 -- Tiempo 306013
+Secuencia 1178 -- Valor i -- Reenvios 181 -- Tiempo 362014
+Secuencia 1179 -- Valor a -- Reenvios 181 -- Tiempo 362015
+Secuencia 1180 -- Valor m -- Reenvios 181 -- Tiempo 362014
+Secuencia 1181 -- Valor   -- Reenvios 171 -- Tiempo 342013
+Secuencia 1182 -- Valor s -- Reenvios 171 -- Tiempo 342013
+Secuencia 1183 -- Valor i -- Reenvios 171 -- Tiempo 342014
+Secuencia 1184 -- Valor t -- Reenvios 156 -- Tiempo 312008
+Secuencia 1185 -- Valor   -- Reenvios 158 -- Tiempo 316008
+Secuencia 1186 -- Valor a -- Reenvios 158 -- Tiempo 316008
+Secuencia 1187 -- Valor m -- Reenvios 173 -- Tiempo 346008
+Secuencia 1188 -- Valor e -- Reenvios 173 -- Tiempo 346007
+Secuencia 1189 -- Valor t -- Reenvios 167 -- Tiempo 334005
+Secuencia 1190 -- Valor   -- Reenvios 167 -- Tiempo 334005
+Secuencia 1191 -- Valor o -- Reenvios 167 -- Tiempo 334005
+Secuencia 1192 -- Valor r -- Reenvios 167 -- Tiempo 334006
+Secuencia 1193 -- Valor c -- Reenvios 167 -- Tiempo 334005
+Secuencia 1194 -- Valor i -- Reenvios 181 -- Tiempo 362005
+Secuencia 1195 -- Valor   -- Reenvios 199 -- Tiempo 398005
+Secuencia 1196 -- Valor e -- Reenvios 199 -- Tiempo 398005
+Secuencia 1197 -- Valor g -- Reenvios 211 -- Tiempo 422006
+Secuencia 1198 -- Valor e -- Reenvios 208 -- Tiempo 416010
+Secuencia 1199 -- Valor t -- Reenvios 208 -- Tiempo 416009
+Secuencia 1200 -- Valor   -- Reenvios 202 -- Tiempo 404008
+Secuencia 1201 -- Valor e -- Reenvios 194 -- Tiempo 388008
+Secuencia 1202 -- Valor r -- Reenvios 200 -- Tiempo 400008
+Secuencia 1203 -- Valor o -- Reenvios 200 -- Tiempo 400008
+Secuencia 1204 -- Valor s -- Reenvios 213 -- Tiempo 426007
+Secuencia 1205 -- Valor   -- Reenvios 213 -- Tiempo 426007
+Secuencia 1206 -- Valor f -- Reenvios 203 -- Tiempo 405991
+Secuencia 1207 -- Valor a -- Reenvios 203 -- Tiempo 405992
+Secuencia 1208 -- Valor u -- Reenvios 151 -- Tiempo 302005
+Secuencia 1209 -- Valor c -- Reenvios 155 -- Tiempo 310004
+Secuencia 1210 -- Valor i -- Reenvios 158 -- Tiempo 316004
+Secuencia 1211 -- Valor b -- Reenvios 167 -- Tiempo 334005
+Secuencia 1212 -- Valor u -- Reenvios 192 -- Tiempo 384015
+Secuencia 1213 -- Valor s -- Reenvios 192 -- Tiempo 384014
+Secuencia 1214 -- Valor   -- Reenvios 192 -- Tiempo 384015
+Secuencia 1215 -- Valor t -- Reenvios 202 -- Tiempo 404005
+Secuencia 1216 -- Valor i -- Reenvios 202 -- Tiempo 404005
+Secuencia 1217 -- Valor n -- Reenvios 198 -- Tiempo 396006
+Secuencia 1218 -- Valor c -- Reenvios 198 -- Tiempo 396005
+Secuencia 1219 -- Valor i -- Reenvios 209 -- Tiempo 418010
+Secuencia 1220 -- Valor d -- Reenvios 192 -- Tiempo 384009
+Secuencia 1221 -- Valor u -- Reenvios 192 -- Tiempo 384009
+Secuencia 1222 -- Valor n -- Reenvios 192 -- Tiempo 384010
+Secuencia 1223 -- Valor t -- Reenvios 192 -- Tiempo 384010
+Secuencia 1224 -- Valor . -- Reenvios 199 -- Tiempo 398010
+Secuencia 1225 -- Valor   -- Reenvios 199 -- Tiempo 398009
+Secuencia 1226 -- Valor D -- Reenvios 231 -- Tiempo 462011
+Secuencia 1227 -- Valor u -- Reenvios 231 -- Tiempo 462011
+Secuencia 1228 -- Valor i -- Reenvios 203 -- Tiempo 406010
+Secuencia 1229 -- Valor s -- Reenvios 203 -- Tiempo 406009
+Secuencia 1230 -- Valor   -- Reenvios 203 -- Tiempo 406010
+Secuencia 1231 -- Valor l -- Reenvios 203 -- Tiempo 406010
+Secuencia 1232 -- Valor e -- Reenvios 203 -- Tiempo 406010
+Secuencia 1233 -- Valor o -- Reenvios 203 -- Tiempo 406009
+Secuencia 1234 -- Valor . -- Reenvios 203 -- Tiempo 406009
+Secuencia 1235 -- Valor   -- Reenvios 220 -- Tiempo 440014
+Secuencia 1236 -- Valor S -- Reenvios 220 -- Tiempo 440014
+Secuencia 1237 -- Valor e -- Reenvios 205 -- Tiempo 410014
+Secuencia 1238 -- Valor d -- Reenvios 205 -- Tiempo 410015
+Secuencia 1239 -- Valor   -- Reenvios 190 -- Tiempo 380016
+Secuencia 1240 -- Valor f -- Reenvios 190 -- Tiempo 380016
+Secuencia 1241 -- Valor r -- Reenvios 200 -- Tiempo 400016
+Secuencia 1242 -- Valor i -- Reenvios 200 -- Tiempo 400016
+Secuencia 1243 -- Valor n -- Reenvios 200 -- Tiempo 400016
+Secuencia 1244 -- Valor g -- Reenvios 186 -- Tiempo 372016
+Secuencia 1245 -- Valor i -- Reenvios 173 -- Tiempo 346015
+Secuencia 1246 -- Valor l -- Reenvios 177 -- Tiempo 354031
+Secuencia 1247 -- Valor l -- Reenvios 165 -- Tiempo 330030
+Secuencia 1248 -- Valor a -- Reenvios 169 -- Tiempo 338013
+Secuencia 1249 -- Valor   -- Reenvios 206 -- Tiempo 412027
+Secuencia 1250 -- Valor m -- Reenvios 206 -- Tiempo 412028
+Secuencia 1251 -- Valor a -- Reenvios 206 -- Tiempo 412028
+Secuencia 1252 -- Valor u -- Reenvios 200 -- Tiempo 400028
+Secuencia 1253 -- Valor r -- Reenvios 200 -- Tiempo 400028
+Secuencia 1254 -- Valor i -- Reenvios 184 -- Tiempo 368028
+Secuencia 1255 -- Valor s -- Reenvios 184 -- Tiempo 368028
+Secuencia 1256 -- Valor   -- Reenvios 184 -- Tiempo 368029
+Secuencia 1257 -- Valor s -- Reenvios 184 -- Tiempo 368028
+Secuencia 1258 -- Valor i -- Reenvios 198 -- Tiempo 396016
+Secuencia 1259 -- Valor t -- Reenvios 231 -- Tiempo 462017
+Secuencia 1260 -- Valor   -- Reenvios 228 -- Tiempo 456018
+Secuencia 1261 -- Valor a -- Reenvios 219 -- Tiempo 438017
+Secuencia 1262 -- Valor m -- Reenvios 194 -- Tiempo 388007
+Secuencia 1263 -- Valor e -- Reenvios 194 -- Tiempo 388007
+Secuencia 1264 -- Valor t -- Reenvios 194 -- Tiempo 388006
+Secuencia 1265 -- Valor   -- Reenvios 184 -- Tiempo 368017
+Secuencia 1266 -- Valor n -- Reenvios 184 -- Tiempo 368017
+Secuencia 1267 -- Valor i -- Reenvios 184 -- Tiempo 368016
+Secuencia 1268 -- Valor b -- Reenvios 184 -- Tiempo 368016
+Secuencia 1269 -- Valor h -- Reenvios 169 -- Tiempo 338016
+Secuencia 1270 -- Valor . -- Reenvios 169 -- Tiempo 338016
+Secuencia 1271 -- Valor   -- Reenvios 169 -- Tiempo 338017
+Secuencia 1272 -- Valor D -- Reenvios 169 -- Tiempo 338016
+Secuencia 1273 -- Valor o -- Reenvios 170 -- Tiempo 340016
+Secuencia 1274 -- Valor n -- Reenvios 179 -- Tiempo 358018
+Secuencia 1275 -- Valor e -- Reenvios 179 -- Tiempo 358019
+Secuencia 1276 -- Valor c -- Reenvios 150 -- Tiempo 300014
+Secuencia 1277 -- Valor   -- Reenvios 153 -- Tiempo 306012
+Secuencia 1278 -- Valor s -- Reenvios 162 -- Tiempo 324014
+Secuencia 1279 -- Valor o -- Reenvios 162 -- Tiempo 324014
+Secuencia 1280 -- Valor d -- Reenvios 171 -- Tiempo 342014
+Secuencia 1281 -- Valor a -- Reenvios 171 -- Tiempo 342014
+Secuencia 1282 -- Valor l -- Reenvios 172 -- Tiempo 344014
+Secuencia 1283 -- Valor e -- Reenvios 179 -- Tiempo 358016
+Secuencia 1284 -- Valor s -- Reenvios 179 -- Tiempo 358016
+Secuencia 1285 -- Valor   -- Reenvios 160 -- Tiempo 320011
+Secuencia 1286 -- Valor s -- Reenvios 160 -- Tiempo 320011
+Secuencia 1287 -- Valor a -- Reenvios 160 -- Tiempo 320012
+Secuencia 1288 -- Valor g -- Reenvios 160 -- Tiempo 320011
+Secuencia 1289 -- Valor i -- Reenvios 176 -- Tiempo 352019
+Secuencia 1290 -- Valor t -- Reenvios 176 -- Tiempo 352020
+Secuencia 1291 -- Valor t -- Reenvios 166 -- Tiempo 332020
+Secuencia 1292 -- Valor i -- Reenvios 166 -- Tiempo 332019
+Secuencia 1293 -- Valor s -- Reenvios 178 -- Tiempo 356012
+Secuencia 1294 -- Valor   -- Reenvios 178 -- Tiempo 356012
+Secuencia 1295 -- Valor m -- Reenvios 190 -- Tiempo 380022
+Secuencia 1296 -- Valor a -- Reenvios 186 -- Tiempo 372006
+Secuencia 1297 -- Valor g -- Reenvios 186 -- Tiempo 372006
+Secuencia 1298 -- Valor n -- Reenvios 182 -- Tiempo 364022
+Secuencia 1299 -- Valor a -- Reenvios 145 -- Tiempo 290008
+Secuencia 1300 -- Valor . -- Reenvios 145 -- Tiempo 290008
+Secuencia 1301 -- Valor   -- Reenvios 156 -- Tiempo 312000
+Secuencia 1302 -- Valor S -- Reenvios 156 -- Tiempo 312001
+Secuencia 1303 -- Valor e -- Reenvios 156 -- Tiempo 312001
+Secuencia 1304 -- Valor d -- Reenvios 158 -- Tiempo 316004
+Secuencia 1305 -- Valor   -- Reenvios 213 -- Tiempo 426007
+Secuencia 1306 -- Valor c -- Reenvios 213 -- Tiempo 426006
+Secuencia 1307 -- Valor o -- Reenvios 213 -- Tiempo 426006
+Secuencia 1308 -- Valor n -- Reenvios 199 -- Tiempo 398018
+Secuencia 1309 -- Valor s -- Reenvios 162 -- Tiempo 324019
+Secuencia 1310 -- Valor e -- Reenvios 162 -- Tiempo 324018
+Secuencia 1311 -- Valor q -- Reenvios 162 -- Tiempo 324018
+Secuencia 1312 -- Valor u -- Reenvios 162 -- Tiempo 324018
+Secuencia 1313 -- Valor a -- Reenvios 162 -- Tiempo 324019
+Secuencia 1314 -- Valor t -- Reenvios 162 -- Tiempo 324019
+Secuencia 1315 -- Valor , -- Reenvios 164 -- Tiempo 328016
+Secuencia 1316 -- Valor   -- Reenvios 164 -- Tiempo 328016
+Secuencia 1317 -- Valor l -- Reenvios 168 -- Tiempo 336018
+Secuencia 1318 -- Valor e -- Reenvios 168 -- Tiempo 336018
+Secuencia 1319 -- Valor o -- Reenvios 171 -- Tiempo 342017
+Secuencia 1320 -- Valor   -- Reenvios 184 -- Tiempo 368017
+Secuencia 1321 -- Valor e -- Reenvios 184 -- Tiempo 368016
+Secuencia 1322 -- Valor g -- Reenvios 184 -- Tiempo 368016
+Secuencia 1323 -- Valor e -- Reenvios 183 -- Tiempo 366016
+Secuencia 1324 -- Valor t -- Reenvios 173 -- Tiempo 346017
+Secuencia 1325 -- Valor   -- Reenvios 173 -- Tiempo 346016
+Secuencia 1326 -- Valor b -- Reenvios 170 -- Tiempo 340019
+Secuencia 1327 -- Valor i -- Reenvios 167 -- Tiempo 334022
+Secuencia 1328 -- Valor b -- Reenvios 171 -- Tiempo 342016
+Secuencia 1329 -- Valor e -- Reenvios 171 -- Tiempo 342017
+Secuencia 1330 -- Valor n -- Reenvios 166 -- Tiempo 332017
+Secuencia 1331 -- Valor d -- Reenvios 166 -- Tiempo 332018
+Secuencia 1332 -- Valor u -- Reenvios 180 -- Tiempo 360017
+Secuencia 1333 -- Valor m -- Reenvios 182 -- Tiempo 364015
+Secuencia 1334 -- Valor   -- Reenvios 182 -- Tiempo 364015
+Secuencia 1335 -- Valor s -- Reenvios 182 -- Tiempo 364015
+Secuencia 1336 -- Valor o -- Reenvios 189 -- Tiempo 378014
+Secuencia 1337 -- Valor d -- Reenvios 189 -- Tiempo 378013
+Secuencia 1338 -- Valor a -- Reenvios 189 -- Tiempo 378013
+Secuencia 1339 -- Valor l -- Reenvios 183 -- Tiempo 366011
+Secuencia 1340 -- Valor e -- Reenvios 183 -- Tiempo 366011
+Secuencia 1341 -- Valor s -- Reenvios 183 -- Tiempo 366011
+Secuencia 1342 -- Valor , -- Reenvios 196 -- Tiempo 392012
+Secuencia 1343 -- Valor   -- Reenvios 184 -- Tiempo 368019
+Secuencia 1344 -- Valor a -- Reenvios 188 -- Tiempo 376015
+Secuencia 1345 -- Valor u -- Reenvios 171 -- Tiempo 342006
+Secuencia 1346 -- Valor g -- Reenvios 175 -- Tiempo 350005
+Secuencia 1347 -- Valor u -- Reenvios 181 -- Tiempo 362013
+Secuencia 1348 -- Valor e -- Reenvios 181 -- Tiempo 362013
+Secuencia 1349 -- Valor   -- Reenvios 183 -- Tiempo 366005
+Secuencia 1350 -- Valor v -- Reenvios 189 -- Tiempo 378006
+Secuencia 1351 -- Valor e -- Reenvios 178 -- Tiempo 356014
+Secuencia 1352 -- Valor l -- Reenvios 184 -- Tiempo 368015
+Secuencia 1353 -- Valor i -- Reenvios 184 -- Tiempo 368015
+Secuencia 1354 -- Valor t -- Reenvios 192 -- Tiempo 384010
+Secuencia 1355 -- Valor   -- Reenvios 137 -- Tiempo 274008
+Secuencia 1356 -- Valor c -- Reenvios 137 -- Tiempo 274008
+Secuencia 1357 -- Valor u -- Reenvios 149 -- Tiempo 298009
+Secuencia 1358 -- Valor r -- Reenvios 149 -- Tiempo 298010
+Secuencia 1359 -- Valor s -- Reenvios 152 -- Tiempo 304007
+Secuencia 1360 -- Valor u -- Reenvios 167 -- Tiempo 334017
+Secuencia 1361 -- Valor s -- Reenvios 167 -- Tiempo 334018
+Secuencia 1362 -- Valor   -- Reenvios 167 -- Tiempo 334018
+Secuencia 1363 -- Valor n -- Reenvios 167 -- Tiempo 334017
+Secuencia 1364 -- Valor u -- Reenvios 167 -- Tiempo 334017
+Secuencia 1365 -- Valor n -- Reenvios 195 -- Tiempo 390004
+Secuencia 1366 -- Valor c -- Reenvios 195 -- Tiempo 390005
+Secuencia 1367 -- Valor , -- Reenvios 198 -- Tiempo 396002
+Secuencia 1368 -- Valor   -- Reenvios 199 -- Tiempo 398002
+Secuencia 1369 -- Valor q -- Reenvios 213 -- Tiempo 426007
+Secuencia 1370 -- Valor u -- Reenvios 200 -- Tiempo 400008
+Secuencia 1371 -- Valor i -- Reenvios 200 -- Tiempo 400008
+Secuencia 1372 -- Valor s -- Reenvios 200 -- Tiempo 400008
+Secuencia 1373 -- Valor   -- Reenvios 214 -- Tiempo 428004
+Secuencia 1374 -- Valor g -- Reenvios 213 -- Tiempo 426002
+Secuencia 1375 -- Valor r -- Reenvios 228 -- Tiempo 456002
+Secuencia 1376 -- Valor a -- Reenvios 228 -- Tiempo 456002
+Secuencia 1377 -- Valor v -- Reenvios 228 -- Tiempo 456002
+Secuencia 1378 -- Valor i -- Reenvios 215 -- Tiempo 430006
+Secuencia 1379 -- Valor d -- Reenvios 215 -- Tiempo 430005
+Secuencia 1380 -- Valor a -- Reenvios 213 -- Tiempo 426004
+Secuencia 1381 -- Valor   -- Reenvios 234 -- Tiempo 468006
+Secuencia 1382 -- Valor m -- Reenvios 219 -- Tiempo 438008
+Secuencia 1383 -- Valor a -- Reenvios 210 -- Tiempo 420008
+Secuencia 1384 -- Valor g -- Reenvios 210 -- Tiempo 420008
+Secuencia 1385 -- Valor n -- Reenvios 234 -- Tiempo 468006
+Secuencia 1386 -- Valor a -- Reenvios 227 -- Tiempo 454008
+Secuencia 1387 -- Valor   -- Reenvios 227 -- Tiempo 454008
+Secuencia 1388 -- Valor m -- Reenvios 227 -- Tiempo 454008
+Secuencia 1389 -- Valor i -- Reenvios 217 -- Tiempo 434002
+Secuencia 1390 -- Valor   -- Reenvios 217 -- Tiempo 434001
+Secuencia 1391 -- Valor a -- Reenvios 227 -- Tiempo 454007
+Secuencia 1392 -- Valor   -- Reenvios 214 -- Tiempo 428006
+Secuencia 1393 -- Valor l -- Reenvios 214 -- Tiempo 428006
+Secuencia 1394 -- Valor i -- Reenvios 227 -- Tiempo 454013
+Secuencia 1395 -- Valor b -- Reenvios 227 -- Tiempo 454013
+Secuencia 1396 -- Valor e -- Reenvios 223 -- Tiempo 446014
+Secuencia 1397 -- Valor r -- Reenvios 217 -- Tiempo 434006
+Secuencia 1398 -- Valor o -- Reenvios 217 -- Tiempo 434007
+Secuencia 1399 -- Valor . -- Reenvios 220 -- Tiempo 440011
+Secuencia 1400 -- Valor   -- Reenvios 214 -- Tiempo 428010
+Secuencia 1401 -- Valor F -- Reenvios 228 -- Tiempo 456008
+Secuencia 1402 -- Valor u -- Reenvios 223 -- Tiempo 446009
+Secuencia 1403 -- Valor s -- Reenvios 247 -- Tiempo 494006
+Secuencia 1404 -- Valor c -- Reenvios 256 -- Tiempo 512008
+Secuencia 1405 -- Valor e -- Reenvios 256 -- Tiempo 512007
+Secuencia 1406 -- Valor   -- Reenvios 256 -- Tiempo 512008
+Secuencia 1407 -- Valor v -- Reenvios 244 -- Tiempo 488007
+Secuencia 1408 -- Valor u -- Reenvios 244 -- Tiempo 488006
+Secuencia 1409 -- Valor l -- Reenvios 244 -- Tiempo 488010
+Secuencia 1410 -- Valor p -- Reenvios 229 -- Tiempo 458000
+Secuencia 1411 -- Valor u -- Reenvios 229 -- Tiempo 457999
+Secuencia 1412 -- Valor t -- Reenvios 232 -- Tiempo 464000
+Secuencia 1413 -- Valor a -- Reenvios 232 -- Tiempo 464000
+Secuencia 1414 -- Valor t -- Reenvios 263 -- Tiempo 525999
+Secuencia 1415 -- Valor e -- Reenvios 233 -- Tiempo 466014
+Secuencia 1416 -- Valor   -- Reenvios 233 -- Tiempo 466013
+Secuencia 1417 -- Valor e -- Reenvios 226 -- Tiempo 452014
+Secuencia 1418 -- Valor l -- Reenvios 225 -- Tiempo 450015
+Secuencia 1419 -- Valor e -- Reenvios 208 -- Tiempo 416011
+Secuencia 1420 -- Valor i -- Reenvios 208 -- Tiempo 416010
+Secuencia 1421 -- Valor f -- Reenvios 208 -- Tiempo 416010
+Secuencia 1422 -- Valor e -- Reenvios 211 -- Tiempo 422010
+Secuencia 1423 -- Valor n -- Reenvios 197 -- Tiempo 394014
+Secuencia 1424 -- Valor d -- Reenvios 198 -- Tiempo 396018
+Secuencia 1425 -- Valor   -- Reenvios 183 -- Tiempo 366019
+Secuencia 1426 -- Valor s -- Reenvios 183 -- Tiempo 366019
+Secuencia 1427 -- Valor a -- Reenvios 197 -- Tiempo 394013
+Secuencia 1428 -- Valor p -- Reenvios 197 -- Tiempo 394013
+Secuencia 1429 -- Valor i -- Reenvios 197 -- Tiempo 394014
+Secuencia 1430 -- Valor e -- Reenvios 195 -- Tiempo 390014
+Secuencia 1431 -- Valor n -- Reenvios 174 -- Tiempo 348011
+Secuencia 1432 -- Valor . -- Reenvios 174 -- Tiempo 348010
+Secuencia 1433 -- Valor   -- Reenvios 183 -- Tiempo 366012
+Secuencia 1434 -- Valor V -- Reenvios 183 -- Tiempo 366013
+Secuencia 1435 -- Valor e -- Reenvios 163 -- Tiempo 326015
+Secuencia 1436 -- Valor s -- Reenvios 163 -- Tiempo 326015
+Secuencia 1437 -- Valor t -- Reenvios 197 -- Tiempo 394012
+Secuencia 1438 -- Valor i -- Reenvios 197 -- Tiempo 394013
+Secuencia 1439 -- Valor b -- Reenvios 197 -- Tiempo 394013
+Secuencia 1440 -- Valor u -- Reenvios 197 -- Tiempo 394013
+Secuencia 1441 -- Valor l -- Reenvios 202 -- Tiempo 404007
+Secuencia 1442 -- Valor u -- Reenvios 211 -- Tiempo 422008
+Secuencia 1443 -- Valor m -- Reenvios 211 -- Tiempo 422008
+Secuencia 1444 -- Valor   -- Reenvios 215 -- Tiempo 430005
+Secuencia 1445 -- Valor p -- Reenvios 215 -- Tiempo 430005
+Secuencia 1446 -- Valor u -- Reenvios 215 -- Tiempo 430005
+Secuencia 1447 -- Valor r -- Reenvios 215 -- Tiempo 430006
+Secuencia 1448 -- Valor u -- Reenvios 215 -- Tiempo 430005
+Secuencia 1449 -- Valor s -- Reenvios 210 -- Tiempo 420008
+Secuencia 1450 -- Valor   -- Reenvios 211 -- Tiempo 422018
+Secuencia 1451 -- Valor q -- Reenvios 236 -- Tiempo 472010
+Secuencia 1452 -- Valor u -- Reenvios 235 -- Tiempo 470007
+Secuencia 1453 -- Valor a -- Reenvios 211 -- Tiempo 422011
+Secuencia 1454 -- Valor m -- Reenvios 192 -- Tiempo 384011
+Secuencia 1455 -- Valor , -- Reenvios 192 -- Tiempo 384011
+Secuencia 1456 -- Valor   -- Reenvios 192 -- Tiempo 384010
+Secuencia 1457 -- Valor s -- Reenvios 192 -- Tiempo 384010
+Secuencia 1458 -- Valor c -- Reenvios 192 -- Tiempo 384011
+Secuencia 1459 -- Valor e -- Reenvios 189 -- Tiempo 378009
+Secuencia 1460 -- Valor l -- Reenvios 189 -- Tiempo 378009
+Secuencia 1461 -- Valor e -- Reenvios 189 -- Tiempo 378009
+Secuencia 1462 -- Valor r -- Reenvios 186 -- Tiempo 372008
+Secuencia 1463 -- Valor i -- Reenvios 186 -- Tiempo 372008
+Secuencia 1464 -- Valor s -- Reenvios 169 -- Tiempo 338010
+Secuencia 1465 -- Valor q -- Reenvios 169 -- Tiempo 338010
+Secuencia 1466 -- Valor u -- Reenvios 170 -- Tiempo 340010
+Secuencia 1467 -- Valor e -- Reenvios 177 -- Tiempo 354018
+Secuencia 1468 -- Valor   -- Reenvios 177 -- Tiempo 354017
+Secuencia 1469 -- Valor u -- Reenvios 177 -- Tiempo 354017
+Secuencia 1470 -- Valor t -- Reenvios 184 -- Tiempo 368011
+Secuencia 1471 -- Valor , -- Reenvios 184 -- Tiempo 368011
+Secuencia 1472 -- Valor   -- Reenvios 183 -- Tiempo 366010
+Secuencia 1473 -- Valor m -- Reenvios 188 -- Tiempo 376016
+Secuencia 1474 -- Valor o -- Reenvios 182 -- Tiempo 364011
+Secuencia 1475 -- Valor l -- Reenvios 203 -- Tiempo 406019
+Secuencia 1476 -- Valor l -- Reenvios 203 -- Tiempo 406019
+Secuencia 1477 -- Valor i -- Reenvios 199 -- Tiempo 398013
+Secuencia 1478 -- Valor s -- Reenvios 199 -- Tiempo 398013
+Secuencia 1479 -- Valor   -- Reenvios 199 -- Tiempo 398013
+Secuencia 1480 -- Valor s -- Reenvios 199 -- Tiempo 398013
+Secuencia 1481 -- Valor e -- Reenvios 204 -- Tiempo 408013
+Secuencia 1482 -- Valor d -- Reenvios 236 -- Tiempo 472014
+Secuencia 1483 -- Valor , -- Reenvios 227 -- Tiempo 454012
+Secuencia 1484 -- Valor   -- Reenvios 227 -- Tiempo 454012
+Secuencia 1485 -- Valor n -- Reenvios 223 -- Tiempo 446011
+Secuencia 1486 -- Valor o -- Reenvios 235 -- Tiempo 470020
+Secuencia 1487 -- Valor n -- Reenvios 231 -- Tiempo 462016
+Secuencia 1488 -- Valor u -- Reenvios 231 -- Tiempo 462015
+Secuencia 1489 -- Valor m -- Reenvios 231 -- Tiempo 462015
+Secuencia 1490 -- Valor m -- Reenvios 231 -- Tiempo 462015
+Secuencia 1491 -- Valor y -- Reenvios 216 -- Tiempo 432016
+Secuencia 1492 -- Valor   -- Reenvios 225 -- Tiempo 450021
+Secuencia 1493 -- Valor i -- Reenvios 225 -- Tiempo 450021
+Secuencia 1494 -- Valor d -- Reenvios 204 -- Tiempo 408021
+Secuencia 1495 -- Valor , -- Reenvios 204 -- Tiempo 408022
+Secuencia 1496 -- Valor   -- Reenvios 204 -- Tiempo 408022
+Secuencia 1497 -- Valor m -- Reenvios 204 -- Tiempo 408021
+Secuencia 1498 -- Valor e -- Reenvios 204 -- Tiempo 408021
+Secuencia 1499 -- Valor t -- Reenvios 207 -- Tiempo 414014
+Secuencia 1500 -- Valor u -- Reenvios 206 -- Tiempo 412005
+Secuencia 1501 -- Valor s -- Reenvios 183 -- Tiempo 366014
+Secuencia 1502 -- Valor . -- Reenvios 197 -- Tiempo 394018
+Secuencia 1503 -- Valor   -- Reenvios 197 -- Tiempo 394017
+Secuencia 1504 -- Valor N -- Reenvios 197 -- Tiempo 394017
+Secuencia 1505 -- Valor u -- Reenvios 204 -- Tiempo 408018
+Secuencia 1506 -- Valor l -- Reenvios 204 -- Tiempo 408019
+Secuencia 1507 -- Valor l -- Reenvios 204 -- Tiempo 408019
+Secuencia 1508 -- Valor a -- Reenvios 204 -- Tiempo 408018
+Secuencia 1509 -- Valor m -- Reenvios 273 -- Tiempo 546016
+Secuencia 1510 -- Valor   -- Reenvios 273 -- Tiempo 546016
+Secuencia 1511 -- Valor a -- Reenvios 273 -- Tiempo 546016
+Secuencia 1512 -- Valor c -- Reenvios 273 -- Tiempo 546017
+Secuencia 1513 -- Valor c -- Reenvios 273 -- Tiempo 546017
+Secuencia 1514 -- Valor u -- Reenvios 259 -- Tiempo 518016
+Secuencia 1515 -- Valor m -- Reenvios 259 -- Tiempo 518016
+Secuencia 1516 -- Valor s -- Reenvios 258 -- Tiempo 516016
+Secuencia 1517 -- Valor a -- Reenvios 254 -- Tiempo 508008
+Secuencia 1518 -- Valor n -- Reenvios 260 -- Tiempo 520012
+Secuencia 1519 -- Valor   -- Reenvios 260 -- Tiempo 520013
+Secuencia 1520 -- Valor l -- Reenvios 265 -- Tiempo 530016
+Secuencia 1521 -- Valor o -- Reenvios 287 -- Tiempo 574021
+Secuencia 1522 -- Valor r -- Reenvios 285 -- Tiempo 570024
+Secuencia 1523 -- Valor e -- Reenvios 280 -- Tiempo 560018
+Secuencia 1524 -- Valor m -- Reenvios 280 -- Tiempo 560018
+Secuencia 1525 -- Valor   -- Reenvios 259 -- Tiempo 518009
+Secuencia 1526 -- Valor i -- Reenvios 259 -- Tiempo 518010
+Secuencia 1527 -- Valor n -- Reenvios 265 -- Tiempo 530019
+Secuencia 1528 -- Valor   -- Reenvios 265 -- Tiempo 530019
+Secuencia 1529 -- Valor d -- Reenvios 265 -- Tiempo 530019
+Secuencia 1530 -- Valor u -- Reenvios 265 -- Tiempo 530019
+Secuencia 1531 -- Valor i -- Reenvios 260 -- Tiempo 520019
+Secuencia 1532 -- Valor . -- Reenvios 228 -- Tiempo 456018
+Secuencia 1533 -- Valor   -- Reenvios 232 -- Tiempo 464014
+Secuencia 1534 -- Valor C -- Reenvios 255 -- Tiempo 510011
+Secuencia 1535 -- Valor r -- Reenvios 255 -- Tiempo 510012
+Secuencia 1536 -- Valor a -- Reenvios 243 -- Tiempo 486003
+Secuencia 1537 -- Valor s -- Reenvios 213 -- Tiempo 426010
+Secuencia 1538 -- Valor   -- Reenvios 213 -- Tiempo 426010
+Secuencia 1539 -- Valor u -- Reenvios 213 -- Tiempo 426010
+Secuencia 1540 -- Valor l -- Reenvios 213 -- Tiempo 426011
+Secuencia 1541 -- Valor t -- Reenvios 216 -- Tiempo 432016
+Secuencia 1542 -- Valor r -- Reenvios 206 -- Tiempo 412005
+Secuencia 1543 -- Valor i -- Reenvios 206 -- Tiempo 412005
+Secuencia 1544 -- Valor c -- Reenvios 217 -- Tiempo 434013
+Secuencia 1545 -- Valor i -- Reenvios 217 -- Tiempo 434012
+Secuencia 1546 -- Valor e -- Reenvios 222 -- Tiempo 444005
+Secuencia 1547 -- Valor s -- Reenvios 222 -- Tiempo 444006
+Secuencia 1548 -- Valor   -- Reenvios 222 -- Tiempo 444006
+Secuencia 1549 -- Valor m -- Reenvios 235 -- Tiempo 470014
+Secuencia 1550 -- Valor i -- Reenvios 235 -- Tiempo 470013
+Secuencia 1551 -- Valor   -- Reenvios 219 -- Tiempo 438015
+Secuencia 1552 -- Valor e -- Reenvios 212 -- Tiempo 424015
+Secuencia 1553 -- Valor u -- Reenvios 212 -- Tiempo 424016
+Secuencia 1554 -- Valor   -- Reenvios 212 -- Tiempo 424016
+Secuencia 1555 -- Valor t -- Reenvios 244 -- Tiempo 488012
+Secuencia 1556 -- Valor u -- Reenvios 244 -- Tiempo 488011
+Secuencia 1557 -- Valor r -- Reenvios 244 -- Tiempo 488012
+Secuencia 1558 -- Valor p -- Reenvios 244 -- Tiempo 488012
+Secuencia 1559 -- Valor i -- Reenvios 175 -- Tiempo 350014
+Secuencia 1560 -- Valor s -- Reenvios 175 -- Tiempo 350014
+Secuencia 1561 -- Valor   -- Reenvios 175 -- Tiempo 350015
+Secuencia 1562 -- Valor h -- Reenvios 177 -- Tiempo 354014
+Secuencia 1563 -- Valor e -- Reenvios 177 -- Tiempo 354014
+Secuencia 1564 -- Valor n -- Reenvios 196 -- Tiempo 392012
+Secuencia 1565 -- Valor d -- Reenvios 196 -- Tiempo 392012
+Secuencia 1566 -- Valor r -- Reenvios 196 -- Tiempo 392013
+Secuencia 1567 -- Valor e -- Reenvios 193 -- Tiempo 386013
+Secuencia 1568 -- Valor r -- Reenvios 187 -- Tiempo 374009
+Secuencia 1569 -- Valor i -- Reenvios 187 -- Tiempo 374008
+Secuencia 1570 -- Valor t -- Reenvios 175 -- Tiempo 350012
+Secuencia 1571 -- Valor   -- Reenvios 153 -- Tiempo 306006
+Secuencia 1572 -- Valor f -- Reenvios 161 -- Tiempo 322007
+Secuencia 1573 -- Valor r -- Reenvios 161 -- Tiempo 322007
+Secuencia 1574 -- Valor i -- Reenvios 161 -- Tiempo 322007
+Secuencia 1575 -- Valor n -- Reenvios 161 -- Tiempo 322008
+Secuencia 1576 -- Valor g -- Reenvios 161 -- Tiempo 322007
+Secuencia 1577 -- Valor i -- Reenvios 145 -- Tiempo 290009
+Secuencia 1578 -- Valor l -- Reenvios 145 -- Tiempo 290009
+Secuencia 1579 -- Valor l -- Reenvios 158 -- Tiempo 316018
+Secuencia 1580 -- Valor a -- Reenvios 158 -- Tiempo 316019
+Secuencia 1581 -- Valor . -- Reenvios 163 -- Tiempo 326008
+Secuencia 1582 -- Valor   -- Reenvios 171 -- Tiempo 342007
+Secuencia 1583 -- Valor V -- Reenvios 167 -- Tiempo 334011
+Secuencia 1584 -- Valor e -- Reenvios 144 -- Tiempo 288014
+Secuencia 1585 -- Valor s -- Reenvios 186 -- Tiempo 372015
+Secuencia 1586 -- Valor t -- Reenvios 186 -- Tiempo 372016
+Secuencia 1587 -- Valor i -- Reenvios 186 -- Tiempo 372016
+Secuencia 1588 -- Valor b -- Reenvios 186 -- Tiempo 372016
+Secuencia 1589 -- Valor u -- Reenvios 186 -- Tiempo 372016
+Secuencia 1590 -- Valor l -- Reenvios 186 -- Tiempo 372016
+Secuencia 1591 -- Valor u -- Reenvios 183 -- Tiempo 366010
+Secuencia 1592 -- Valor m -- Reenvios 175 -- Tiempo 350015
+Secuencia 1593 -- Valor   -- Reenvios 175 -- Tiempo 350015
+Secuencia 1594 -- Valor a -- Reenvios 178 -- Tiempo 356006
+Secuencia 1595 -- Valor n -- Reenvios 178 -- Tiempo 356006
+Secuencia 1596 -- Valor t -- Reenvios 173 -- Tiempo 346014
+Secuencia 1597 -- Valor e -- Reenvios 188 -- Tiempo 376013
+Secuencia 1598 -- Valor   -- Reenvios 188 -- Tiempo 376014
+Secuencia 1599 -- Valor i -- Reenvios 181 -- Tiempo 362015
+Secuencia 1600 -- Valor p -- Reenvios 188 -- Tiempo 376018
+Secuencia 1601 -- Valor s -- Reenvios 188 -- Tiempo 376017
+Secuencia 1602 -- Valor u -- Reenvios 181 -- Tiempo 362014
+Secuencia 1603 -- Valor m -- Reenvios 186 -- Tiempo 372018
+Secuencia 1604 -- Valor   -- Reenvios 186 -- Tiempo 372018
+Secuencia 1605 -- Valor p -- Reenvios 153 -- Tiempo 306012
+Secuencia 1606 -- Valor r -- Reenvios 153 -- Tiempo 306012
+Secuencia 1607 -- Valor i -- Reenvios 153 -- Tiempo 306011
+Secuencia 1608 -- Valor m -- Reenvios 180 -- Tiempo 360015
+Secuencia 1609 -- Valor i -- Reenvios 180 -- Tiempo 360016
+Secuencia 1610 -- Valor s -- Reenvios 180 -- Tiempo 360016
+Secuencia 1611 -- Valor   -- Reenvios 180 -- Tiempo 360015
+Secuencia 1612 -- Valor i -- Reenvios 204 -- Tiempo 408017
+Secuencia 1613 -- Valor n -- Reenvios 204 -- Tiempo 408017
+Secuencia 1614 -- Valor   -- Reenvios 185 -- Tiempo 370020
+Secuencia 1615 -- Valor f -- Reenvios 185 -- Tiempo 370020
+Secuencia 1616 -- Valor a -- Reenvios 185 -- Tiempo 370019
+Secuencia 1617 -- Valor u -- Reenvios 185 -- Tiempo 370019
+Secuencia 1618 -- Valor c -- Reenvios 208 -- Tiempo 416015
+Secuencia 1619 -- Valor i -- Reenvios 208 -- Tiempo 416015
+Secuencia 1620 -- Valor b -- Reenvios 208 -- Tiempo 416014
+Secuencia 1621 -- Valor u -- Reenvios 208 -- Tiempo 416014
+Secuencia 1622 -- Valor s -- Reenvios 207 -- Tiempo 414013
+Secuencia 1623 -- Valor   -- Reenvios 207 -- Tiempo 414013
+Secuencia 1624 -- Valor o -- Reenvios 208 -- Tiempo 416014
+Secuencia 1625 -- Valor r -- Reenvios 208 -- Tiempo 416013
+Secuencia 1626 -- Valor c -- Reenvios 208 -- Tiempo 416013
+Secuencia 1627 -- Valor i -- Reenvios 208 -- Tiempo 416013
+Secuencia 1628 -- Valor   -- Reenvios 208 -- Tiempo 416013
+Secuencia 1629 -- Valor l -- Reenvios 210 -- Tiempo 420003
+Secuencia 1630 -- Valor u -- Reenvios 210 -- Tiempo 420002
+Secuencia 1631 -- Valor c -- Reenvios 220 -- Tiempo 440018
+Secuencia 1632 -- Valor t -- Reenvios 212 -- Tiempo 424019
+Secuencia 1633 -- Valor u -- Reenvios 221 -- Tiempo 442018
+Secuencia 1634 -- Valor s -- Reenvios 221 -- Tiempo 442018
+Secuencia 1635 -- Valor   -- Reenvios 179 -- Tiempo 358016
+Secuencia 1636 -- Valor e -- Reenvios 179 -- Tiempo 358015
+Secuencia 1637 -- Valor t -- Reenvios 179 -- Tiempo 358016
+Secuencia 1638 -- Valor   -- Reenvios 227 -- Tiempo 454021
+Secuencia 1639 -- Valor u -- Reenvios 227 -- Tiempo 454021
+Secuencia 1640 -- Valor l -- Reenvios 227 -- Tiempo 454020
+Secuencia 1641 -- Valor t -- Reenvios 227 -- Tiempo 454021
+Secuencia 1642 -- Valor r -- Reenvios 227 -- Tiempo 454021
+Secuencia 1643 -- Valor i -- Reenvios 227 -- Tiempo 454021
+Secuencia 1644 -- Valor c -- Reenvios 213 -- Tiempo 426022
+Secuencia 1645 -- Valor e -- Reenvios 213 -- Tiempo 426023
+Secuencia 1646 -- Valor s -- Reenvios 227 -- Tiempo 454016
+Secuencia 1647 -- Valor   -- Reenvios 212 -- Tiempo 424016
+Secuencia 1648 -- Valor p -- Reenvios 212 -- Tiempo 424016
+Secuencia 1649 -- Valor o -- Reenvios 215 -- Tiempo 430011
+Secuencia 1650 -- Valor s -- Reenvios 208 -- Tiempo 416008
+Secuencia 1651 -- Valor u -- Reenvios 230 -- Tiempo 460009
+Secuencia 1652 -- Valor e -- Reenvios 230 -- Tiempo 460008
+Secuencia 1653 -- Valor r -- Reenvios 225 -- Tiempo 450003
+Secuencia 1654 -- Valor e -- Reenvios 225 -- Tiempo 450004
+Secuencia 1655 -- Valor   -- Reenvios 219 -- Tiempo 438013
+Secuencia 1656 -- Valor c -- Reenvios 219 -- Tiempo 438013
+Secuencia 1657 -- Valor u -- Reenvios 230 -- Tiempo 460013
+Secuencia 1658 -- Valor b -- Reenvios 203 -- Tiempo 406010
+Secuencia 1659 -- Valor i -- Reenvios 215 -- Tiempo 430009
+Secuencia 1660 -- Valor l -- Reenvios 215 -- Tiempo 430009
+Secuencia 1661 -- Valor i -- Reenvios 215 -- Tiempo 430009
+Secuencia 1662 -- Valor a -- Reenvios 189 -- Tiempo 378008
+Secuencia 1663 -- Valor   -- Reenvios 189 -- Tiempo 378008
+Secuencia 1664 -- Valor C -- Reenvios 189 -- Tiempo 378007
+Secuencia 1665 -- Valor u -- Reenvios 191 -- Tiempo 382006
+Secuencia 1666 -- Valor r -- Reenvios 194 -- Tiempo 388006
+Secuencia 1667 -- Valor a -- Reenvios 194 -- Tiempo 388007
+Secuencia 1668 -- Valor e -- Reenvios 172 -- Tiempo 344011
+Secuencia 1669 -- Valor ; -- Reenvios 182 -- Tiempo 364010
+Secuencia 1670 -- Valor   -- Reenvios 182 -- Tiempo 364010
+Secuencia 1671 -- Valor I -- Reenvios 182 -- Tiempo 364011
+Secuencia 1672 -- Valor n -- Reenvios 190 -- Tiempo 380012
+Secuencia 1673 -- Valor   -- Reenvios 190 -- Tiempo 380013
+Secuencia 1674 -- Valor a -- Reenvios 189 -- Tiempo 378012
+Secuencia 1675 -- Valor c -- Reenvios 198 -- Tiempo 396022
+Secuencia 1676 -- Valor   -- Reenvios 198 -- Tiempo 396022
+Secuencia 1677 -- Valor d -- Reenvios 198 -- Tiempo 396022
+Secuencia 1678 -- Valor u -- Reenvios 198 -- Tiempo 396022
+Secuencia 1679 -- Valor i -- Reenvios 183 -- Tiempo 366023
+Secuencia 1680 -- Valor   -- Reenvios 198 -- Tiempo 396014
+Secuencia 1681 -- Valor q -- Reenvios 183 -- Tiempo 366010
+Secuencia 1682 -- Valor u -- Reenvios 183 -- Tiempo 366010
+Secuencia 1683 -- Valor i -- Reenvios 177 -- Tiempo 354012
+Secuencia 1684 -- Valor s -- Reenvios 177 -- Tiempo 354011
+Secuencia 1685 -- Valor   -- Reenvios 177 -- Tiempo 354011
+Secuencia 1686 -- Valor m -- Reenvios 180 -- Tiempo 360009
+Secuencia 1687 -- Valor i -- Reenvios 201 -- Tiempo 402019
+Secuencia 1688 -- Valor   -- Reenvios 186 -- Tiempo 372005
+Secuencia 1689 -- Valor c -- Reenvios 186 -- Tiempo 372005
+Secuencia 1690 -- Valor o -- Reenvios 186 -- Tiempo 372005
+Secuencia 1691 -- Valor n -- Reenvios 186 -- Tiempo 372005
+Secuencia 1692 -- Valor s -- Reenvios 232 -- Tiempo 464009
+Secuencia 1693 -- Valor e -- Reenvios 232 -- Tiempo 464009
+Secuencia 1694 -- Valor c -- Reenvios 232 -- Tiempo 464009
+Secuencia 1695 -- Valor t -- Reenvios 232 -- Tiempo 464009
+Secuencia 1696 -- Valor e -- Reenvios 218 -- Tiempo 436015
+Secuencia 1697 -- Valor t -- Reenvios 218 -- Tiempo 436015
+Secuencia 1698 -- Valor u -- Reenvios 218 -- Tiempo 436014
+Secuencia 1699 -- Valor e -- Reenvios 206 -- Tiempo 412018
+Secuencia 1700 -- Valor r -- Reenvios 212 -- Tiempo 424016
+Secuencia 1701 -- Valor   -- Reenvios 190 -- Tiempo 380015
+Secuencia 1702 -- Valor l -- Reenvios 190 -- Tiempo 380015
+Secuencia 1703 -- Valor a -- Reenvios 204 -- Tiempo 408015
+Secuencia 1704 -- Valor c -- Reenvios 204 -- Tiempo 408015
+Secuencia 1705 -- Valor i -- Reenvios 204 -- Tiempo 408015
+Secuencia 1706 -- Valor n -- Reenvios 204 -- Tiempo 408015
+Secuencia 1707 -- Valor i -- Reenvios 193 -- Tiempo 386015
+Secuencia 1708 -- Valor a -- Reenvios 200 -- Tiempo 400016
+Secuencia 1709 -- Valor . -- Reenvios 205 -- Tiempo 410016
+Secuencia 1710 -- Valor   -- Reenvios 205 -- Tiempo 410016
+Secuencia 1711 -- Valor N -- Reenvios 205 -- Tiempo 410016
+Secuencia 1712 -- Valor a -- Reenvios 205 -- Tiempo 410016
+Secuencia 1713 -- Valor m -- Reenvios 205 -- Tiempo 410016
+Secuencia 1714 -- Valor   -- Reenvios 211 -- Tiempo 422015
+Secuencia 1715 -- Valor p -- Reenvios 209 -- Tiempo 418016
+Secuencia 1716 -- Valor r -- Reenvios 208 -- Tiempo 416017
+Secuencia 1717 -- Valor e -- Reenvios 208 -- Tiempo 416016
+Secuencia 1718 -- Valor t -- Reenvios 218 -- Tiempo 436016
+Secuencia 1719 -- Valor i -- Reenvios 208 -- Tiempo 416017
+Secuencia 1720 -- Valor u -- Reenvios 208 -- Tiempo 416016
+Secuencia 1721 -- Valor m -- Reenvios 208 -- Tiempo 416017
+Secuencia 1722 -- Valor   -- Reenvios 193 -- Tiempo 386015
+Secuencia 1723 -- Valor t -- Reenvios 193 -- Tiempo 386014
+Secuencia 1724 -- Valor u -- Reenvios 194 -- Tiempo 388015
+Secuencia 1725 -- Valor r -- Reenvios 189 -- Tiempo 378004
+Secuencia 1726 -- Valor p -- Reenvios 214 -- Tiempo 428010
+Secuencia 1727 -- Valor i -- Reenvios 214 -- Tiempo 428011
+Secuencia 1728 -- Valor s -- Reenvios 214 -- Tiempo 428011
+Secuencia 1729 -- Valor   -- Reenvios 214 -- Tiempo 428010
+Secuencia 1730 -- Valor e -- Reenvios 200 -- Tiempo 400012
+Secuencia 1731 -- Valor t -- Reenvios 200 -- Tiempo 400011
+Secuencia 1732 -- Valor   -- Reenvios 202 -- Tiempo 404012
+Secuencia 1733 -- Valor a -- Reenvios 199 -- Tiempo 398011
+Secuencia 1734 -- Valor r -- Reenvios 199 -- Tiempo 398011
+Secuencia 1735 -- Valor c -- Reenvios 210 -- Tiempo 420012
+Secuencia 1736 -- Valor u -- Reenvios 208 -- Tiempo 416012
+Secuencia 1737 -- Valor . -- Reenvios 192 -- Tiempo 384011
+Secuencia 1738 -- Valor   -- Reenvios 159 -- Tiempo 318020
+Secuencia 1739 -- Valor D -- Reenvios 159 -- Tiempo 318021
+Secuencia 1740 -- Valor u -- Reenvios 159 -- Tiempo 318021
+Secuencia 1741 -- Valor i -- Reenvios 187 -- Tiempo 374011
+Secuencia 1742 -- Valor s -- Reenvios 141 -- Tiempo 282008
+Secuencia 1743 -- Valor   -- Reenvios 141 -- Tiempo 282008
+Secuencia 1744 -- Valor a -- Reenvios 141 -- Tiempo 282008
+Secuencia 1745 -- Valor r -- Reenvios 141 -- Tiempo 282007
+Secuencia 1746 -- Valor c -- Reenvios 144 -- Tiempo 288007
+Secuencia 1747 -- Valor u -- Reenvios 145 -- Tiempo 290007
+Secuencia 1748 -- Valor   -- Reenvios 145 -- Tiempo 290008
+Secuencia 1749 -- Valor t -- Reenvios 173 -- Tiempo 346007
+Secuencia 1750 -- Valor o -- Reenvios 167 -- Tiempo 334009
+Secuencia 1751 -- Valor r -- Reenvios 167 -- Tiempo 334010
+Secuencia 1752 -- Valor t -- Reenvios 167 -- Tiempo 334010
+Secuencia 1753 -- Valor o -- Reenvios 153 -- Tiempo 306010
+Secuencia 1754 -- Valor r -- Reenvios 153 -- Tiempo 306009
+Secuencia 1755 -- Valor , -- Reenvios 153 -- Tiempo 306010
+Secuencia 1756 -- Valor   -- Reenvios 163 -- Tiempo 326010
+Secuencia 1757 -- Valor s -- Reenvios 163 -- Tiempo 326011
+Secuencia 1758 -- Valor u -- Reenvios 156 -- Tiempo 312009
+Secuencia 1759 -- Valor s -- Reenvios 139 -- Tiempo 278009
+Secuencia 1760 -- Valor c -- Reenvios 145 -- Tiempo 290009
+Secuencia 1761 -- Valor i -- Reenvios 147 -- Tiempo 294010
+Secuencia 1762 -- Valor p -- Reenvios 147 -- Tiempo 294009
+Secuencia 1763 -- Valor i -- Reenvios 147 -- Tiempo 294009
+Secuencia 1764 -- Valor t -- Reenvios 147 -- Tiempo 294011
+Secuencia 1765 -- Valor   -- Reenvios 149 -- Tiempo 298023
+Secuencia 1766 -- Valor e -- Reenvios 147 -- Tiempo 294022
+Secuencia 1767 -- Valor g -- Reenvios 149 -- Tiempo 298010
+Secuencia 1768 -- Valor e -- Reenvios 141 -- Tiempo 282009
+Secuencia 1769 -- Valor t -- Reenvios 142 -- Tiempo 284011
+Secuencia 1770 -- Valor , -- Reenvios 142 -- Tiempo 284011
+Secuencia 1771 -- Valor   -- Reenvios 145 -- Tiempo 290008
+Secuencia 1772 -- Valor i -- Reenvios 155 -- Tiempo 310010
+Secuencia 1773 -- Valor m -- Reenvios 155 -- Tiempo 310011
+Secuencia 1774 -- Valor p -- Reenvios 154 -- Tiempo 308010
+Secuencia 1775 -- Valor e -- Reenvios 178 -- Tiempo 356017
+Secuencia 1776 -- Valor r -- Reenvios 153 -- Tiempo 306011
+Secuencia 1777 -- Valor d -- Reenvios 153 -- Tiempo 306010
+Secuencia 1778 -- Valor i -- Reenvios 153 -- Tiempo 306011
+Secuencia 1779 -- Valor e -- Reenvios 153 -- Tiempo 306011
+Secuencia 1780 -- Valor t -- Reenvios 152 -- Tiempo 304018
+Secuencia 1781 -- Valor   -- Reenvios 152 -- Tiempo 304019
+Secuencia 1782 -- Valor n -- Reenvios 150 -- Tiempo 300018
+Secuencia 1783 -- Valor e -- Reenvios 150 -- Tiempo 300018
+Secuencia 1784 -- Valor c -- Reenvios 150 -- Tiempo 300019
+Secuencia 1785 -- Valor , -- Reenvios 139 -- Tiempo 278018
+Secuencia 1786 -- Valor   -- Reenvios 138 -- Tiempo 276019
+Secuencia 1787 -- Valor i -- Reenvios 133 -- Tiempo 266010
+Secuencia 1788 -- Valor m -- Reenvios 152 -- Tiempo 304007
+Secuencia 1789 -- Valor p -- Reenvios 159 -- Tiempo 318013
+Secuencia 1790 -- Valor e -- Reenvios 159 -- Tiempo 318013
+Secuencia 1791 -- Valor r -- Reenvios 131 -- Tiempo 262022
+Secuencia 1792 -- Valor d -- Reenvios 131 -- Tiempo 262021
+Secuencia 1793 -- Valor i -- Reenvios 131 -- Tiempo 262022
+Secuencia 1794 -- Valor e -- Reenvios 139 -- Tiempo 278014
+Secuencia 1795 -- Valor t -- Reenvios 139 -- Tiempo 278015
+Secuencia 1796 -- Valor   -- Reenvios 174 -- Tiempo 348015
+Secuencia 1797 -- Valor i -- Reenvios 173 -- Tiempo 346016
+Secuencia 1798 -- Valor a -- Reenvios 173 -- Tiempo 346015
+Secuencia 1799 -- Valor c -- Reenvios 145 -- Tiempo 290015
+Secuencia 1800 -- Valor u -- Reenvios 145 -- Tiempo 290015
+Secuencia 1801 -- Valor l -- Reenvios 145 -- Tiempo 290015
+Secuencia 1802 -- Valor i -- Reenvios 145 -- Tiempo 290015
+Secuencia 1803 -- Valor s -- Reenvios 145 -- Tiempo 290015
+Secuencia 1804 -- Valor , -- Reenvios 145 -- Tiempo 290015
+Secuencia 1805 -- Valor   -- Reenvios 145 -- Tiempo 290014
+Secuencia 1806 -- Valor i -- Reenvios 135 -- Tiempo 270015
+Secuencia 1807 -- Valor p -- Reenvios 135 -- Tiempo 270014
+Secuencia 1808 -- Valor s -- Reenvios 135 -- Tiempo 270014
+Secuencia 1809 -- Valor u -- Reenvios 138 -- Tiempo 276019
+Secuencia 1810 -- Valor m -- Reenvios 151 -- Tiempo 302019
+Secuencia 1811 -- Valor . -- Reenvios 149 -- Tiempo 298018
+Secuencia 1812 -- Valor   -- Reenvios 149 -- Tiempo 298018
+Secuencia 1813 -- Valor S -- Reenvios 149 -- Tiempo 298018
+Secuencia 1814 -- Valor e -- Reenvios 143 -- Tiempo 286018
+Secuencia 1815 -- Valor d -- Reenvios 141 -- Tiempo 282006
+Secuencia 1816 -- Valor   -- Reenvios 141 -- Tiempo 282007
+Secuencia 1817 -- Valor a -- Reenvios 139 -- Tiempo 278019
+Secuencia 1818 -- Valor l -- Reenvios 136 -- Tiempo 272020
+Secuencia 1819 -- Valor i -- Reenvios 135 -- Tiempo 270018
+Secuencia 1820 -- Valor q -- Reenvios 135 -- Tiempo 270019
+Secuencia 1821 -- Valor u -- Reenvios 139 -- Tiempo 278021
+Secuencia 1822 -- Valor a -- Reenvios 135 -- Tiempo 270015
+Secuencia 1823 -- Valor m -- Reenvios 135 -- Tiempo 270014
+Secuencia 1824 -- Valor   -- Reenvios 145 -- Tiempo 290014
+Secuencia 1825 -- Valor u -- Reenvios 145 -- Tiempo 290014
+Secuencia 1826 -- Valor l -- Reenvios 145 -- Tiempo 290014
+Secuencia 1827 -- Valor t -- Reenvios 145 -- Tiempo 290015
+Secuencia 1828 -- Valor r -- Reenvios 145 -- Tiempo 290014
+Secuencia 1829 -- Valor i -- Reenvios 145 -- Tiempo 290014
+Secuencia 1830 -- Valor c -- Reenvios 145 -- Tiempo 290015
+Secuencia 1831 -- Valor e -- Reenvios 145 -- Tiempo 290014
+Secuencia 1832 -- Valor s -- Reenvios 145 -- Tiempo 290014
+Secuencia 1833 -- Valor   -- Reenvios 149 -- Tiempo 298009
+Secuencia 1834 -- Valor m -- Reenvios 149 -- Tiempo 298008
+Secuencia 1835 -- Valor a -- Reenvios 149 -- Tiempo 298009
+Secuencia 1836 -- Valor u -- Reenvios 160 -- Tiempo 320019
+Secuencia 1837 -- Valor r -- Reenvios 173 -- Tiempo 346009
+Secuencia 1838 -- Valor i -- Reenvios 154 -- Tiempo 308012
+Secuencia 1839 -- Valor s -- Reenvios 163 -- Tiempo 326005
+Secuencia 1840 -- Valor . -- Reenvios 171 -- Tiempo 342012
+Secuencia 1841 -- Valor   -- Reenvios 171 -- Tiempo 342012
+Secuencia 1842 -- Valor I -- Reenvios 171 -- Tiempo 342012
+Secuencia 1843 -- Valor n -- Reenvios 171 -- Tiempo 342011
+Secuencia 1844 -- Valor t -- Reenvios 163 -- Tiempo 326020
+Secuencia 1845 -- Valor e -- Reenvios 163 -- Tiempo 326019
+Secuencia 1846 -- Valor g -- Reenvios 178 -- Tiempo 356014
+Secuencia 1847 -- Valor e -- Reenvios 178 -- Tiempo 356013
+Secuencia 1848 -- Valor r -- Reenvios 178 -- Tiempo 356013
+Secuencia 1849 -- Valor   -- Reenvios 178 -- Tiempo 356014
+Secuencia 1850 -- Valor a -- Reenvios 178 -- Tiempo 356014
+Secuencia 1851 -- Valor n -- Reenvios 178 -- Tiempo 356013
+Secuencia 1852 -- Valor t -- Reenvios 178 -- Tiempo 356013
+Secuencia 1853 -- Valor e -- Reenvios 190 -- Tiempo 380025
+Secuencia 1854 -- Valor   -- Reenvios 190 -- Tiempo 380025
+Secuencia 1855 -- Valor a -- Reenvios 192 -- Tiempo 384017
+Secuencia 1856 -- Valor r -- Reenvios 207 -- Tiempo 414012
+Secuencia 1857 -- Valor c -- Reenvios 207 -- Tiempo 414013
+Secuencia 1858 -- Valor u -- Reenvios 207 -- Tiempo 414013
+Secuencia 1859 -- Valor , -- Reenvios 204 -- Tiempo 408008
+Secuencia 1860 -- Valor   -- Reenvios 185 -- Tiempo 370008
+Secuencia 1861 -- Valor a -- Reenvios 185 -- Tiempo 370009
+Secuencia 1862 -- Valor c -- Reenvios 185 -- Tiempo 370009
+Secuencia 1863 -- Valor c -- Reenvios 185 -- Tiempo 370009
+Secuencia 1864 -- Valor u -- Reenvios 207 -- Tiempo 414010
+Secuencia 1865 -- Valor m -- Reenvios 207 -- Tiempo 414010
+Secuencia 1866 -- Valor s -- Reenvios 207 -- Tiempo 414009
+Secuencia 1867 -- Valor a -- Reenvios 209 -- Tiempo 418021
+Secuencia 1868 -- Valor n -- Reenvios 223 -- Tiempo 446014
+Secuencia 1869 -- Valor   -- Reenvios 223 -- Tiempo 446015
+Secuencia 1870 -- Valor a -- Reenvios 233 -- Tiempo 466009
+Secuencia 1871 -- Valor , -- Reenvios 226 -- Tiempo 452010
+Secuencia 1872 -- Valor   -- Reenvios 220 -- Tiempo 440014
+Secuencia 1873 -- Valor c -- Reenvios 243 -- Tiempo 486013
+Secuencia 1874 -- Valor o -- Reenvios 233 -- Tiempo 466014
+Secuencia 1875 -- Valor n -- Reenvios 205 -- Tiempo 410008
+Secuencia 1876 -- Valor s -- Reenvios 205 -- Tiempo 410008
+Secuencia 1877 -- Valor e -- Reenvios 211 -- Tiempo 422008
+Secuencia 1878 -- Valor c -- Reenvios 211 -- Tiempo 422008
+Secuencia 1879 -- Valor t -- Reenvios 240 -- Tiempo 480009
+Secuencia 1880 -- Valor e -- Reenvios 240 -- Tiempo 480008
+Secuencia 1881 -- Valor t -- Reenvios 240 -- Tiempo 480008
+Secuencia 1882 -- Valor u -- Reenvios 240 -- Tiempo 480009
+Secuencia 1883 -- Valor e -- Reenvios 236 -- Tiempo 472014
+Secuencia 1884 -- Valor r -- Reenvios 241 -- Tiempo 482014
+Secuencia 1885 -- Valor   -- Reenvios 254 -- Tiempo 508023
+Secuencia 1886 -- Valor e -- Reenvios 243 -- Tiempo 486013
+Secuencia 1887 -- Valor g -- Reenvios 230 -- Tiempo 460023
+Secuencia 1888 -- Valor e -- Reenvios 268 -- Tiempo 536023
+Secuencia 1889 -- Valor t -- Reenvios 252 -- Tiempo 504023
+Secuencia 1890 -- Valor , -- Reenvios 244 -- Tiempo 488016
+Secuencia 1891 -- Valor   -- Reenvios 244 -- Tiempo 488017
+Secuencia 1892 -- Valor p -- Reenvios 246 -- Tiempo 492019
+Secuencia 1893 -- Valor o -- Reenvios 264 -- Tiempo 528019
+Secuencia 1894 -- Valor s -- Reenvios 264 -- Tiempo 528018
+Secuencia 1895 -- Valor u -- Reenvios 264 -- Tiempo 528019
+Secuencia 1896 -- Valor e -- Reenvios 211 -- Tiempo 422024
+Secuencia 1897 -- Valor r -- Reenvios 211 -- Tiempo 422025
+Secuencia 1898 -- Valor e -- Reenvios 222 -- Tiempo 444017
+Secuencia 1899 -- Valor   -- Reenvios 222 -- Tiempo 444016
+Secuencia 1900 -- Valor u -- Reenvios 222 -- Tiempo 444016
+Secuencia 1901 -- Valor t -- Reenvios 222 -- Tiempo 444017
+Secuencia 1902 -- Valor , -- Reenvios 239 -- Tiempo 478015
+Secuencia 1903 -- Valor   -- Reenvios 227 -- Tiempo 454003
+Secuencia 1904 -- Valor m -- Reenvios 231 -- Tiempo 462003
+Secuencia 1905 -- Valor a -- Reenvios 229 -- Tiempo 458011
+Secuencia 1906 -- Valor u -- Reenvios 214 -- Tiempo 428014
+Secuencia 1907 -- Valor r -- Reenvios 235 -- Tiempo 470023
+Secuencia 1908 -- Valor i -- Reenvios 235 -- Tiempo 470024
+Secuencia 1909 -- Valor s -- Reenvios 244 -- Tiempo 488019
+Secuencia 1910 -- Valor . -- Reenvios 250 -- Tiempo 500015
+Secuencia 1911 -- Valor   -- Reenvios 250 -- Tiempo 500014
+Secuencia 1912 -- Valor P -- Reenvios 260 -- Tiempo 520014
+Secuencia 1913 -- Valor r -- Reenvios 260 -- Tiempo 520014
+Secuencia 1914 -- Valor a -- Reenvios 243 -- Tiempo 486013
+Secuencia 1915 -- Valor e -- Reenvios 256 -- Tiempo 512013
+Secuencia 1916 -- Valor s -- Reenvios 256 -- Tiempo 512014
+Secuencia 1917 -- Valor e -- Reenvios 254 -- Tiempo 508002
+Secuencia 1918 -- Valor n -- Reenvios 240 -- Tiempo 480009
+Secuencia 1919 -- Valor t -- Reenvios 240 -- Tiempo 480008
+Secuencia 1920 -- Valor   -- Reenvios 264 -- Tiempo 528027
+Secuencia 1921 -- Valor a -- Reenvios 264 -- Tiempo 528027
+Secuencia 1922 -- Valor d -- Reenvios 264 -- Tiempo 528027
+Secuencia 1923 -- Valor i -- Reenvios 241 -- Tiempo 482028
+Secuencia 1924 -- Valor p -- Reenvios 241 -- Tiempo 482027
+Secuencia 1925 -- Valor i -- Reenvios 241 -- Tiempo 482027
+Secuencia 1926 -- Valor s -- Reenvios 241 -- Tiempo 482028
+Secuencia 1927 -- Valor c -- Reenvios 235 -- Tiempo 470027
+Secuencia 1928 -- Valor i -- Reenvios 235 -- Tiempo 470027
+Secuencia 1929 -- Valor n -- Reenvios 216 -- Tiempo 432013
+Secuencia 1930 -- Valor g -- Reenvios 241 -- Tiempo 482013
+Secuencia 1931 -- Valor . -- Reenvios 241 -- Tiempo 482014
+Secuencia 1932 -- Valor   -- Reenvios 241 -- Tiempo 482013
+Secuencia 1933 -- Valor P -- Reenvios 241 -- Tiempo 482013
+Secuencia 1934 -- Valor h -- Reenvios 236 -- Tiempo 472013
+Secuencia 1935 -- Valor a -- Reenvios 234 -- Tiempo 468005
+Secuencia 1936 -- Valor s -- Reenvios 242 -- Tiempo 484000
+Secuencia 1937 -- Valor e -- Reenvios 242 -- Tiempo 484000
+Secuencia 1938 -- Valor l -- Reenvios 204 -- Tiempo 408000
+Secuencia 1939 -- Valor l -- Reenvios 204 -- Tiempo 408000
+Secuencia 1940 -- Valor u -- Reenvios 211 -- Tiempo 422002
+Secuencia 1941 -- Valor s -- Reenvios 211 -- Tiempo 422001
+Secuencia 1942 -- Valor   -- Reenvios 218 -- Tiempo 435997
+Secuencia 1943 -- Valor u -- Reenvios 200 -- Tiempo 399998
+Secuencia 1944 -- Valor l -- Reenvios 213 -- Tiempo 426003
+Secuencia 1945 -- Valor l -- Reenvios 213 -- Tiempo 426002
+Secuencia 1946 -- Valor a -- Reenvios 232 -- Tiempo 464001
+Secuencia 1947 -- Valor m -- Reenvios 232 -- Tiempo 464000
+Secuencia 1948 -- Valor c -- Reenvios 227 -- Tiempo 454014
+Secuencia 1949 -- Valor o -- Reenvios 227 -- Tiempo 454015
+Secuencia 1950 -- Valor r -- Reenvios 230 -- Tiempo 460009
+Secuencia 1951 -- Valor p -- Reenvios 230 -- Tiempo 460008
+Secuencia 1952 -- Valor e -- Reenvios 213 -- Tiempo 426011
+Secuencia 1953 -- Valor r -- Reenvios 214 -- Tiempo 428009
+Secuencia 1954 -- Valor   -- Reenvios 212 -- Tiempo 424015
+Secuencia 1955 -- Valor i -- Reenvios 220 -- Tiempo 440010
+Secuencia 1956 -- Valor p -- Reenvios 235 -- Tiempo 470009
+Secuencia 1957 -- Valor s -- Reenvios 214 -- Tiempo 428000
+Secuencia 1958 -- Valor u -- Reenvios 214 -- Tiempo 427999
+Secuencia 1959 -- Valor m -- Reenvios 207 -- Tiempo 414005
+Secuencia 1960 -- Valor   -- Reenvios 207 -- Tiempo 414010
+Secuencia 1961 -- Valor r -- Reenvios 207 -- Tiempo 414010
+Secuencia 1962 -- Valor u -- Reenvios 197 -- Tiempo 394010
+Secuencia 1963 -- Valor t -- Reenvios 197 -- Tiempo 394010
+Secuencia 1964 -- Valor r -- Reenvios 215 -- Tiempo 430009
+Secuencia 1965 -- Valor u -- Reenvios 202 -- Tiempo 404009
+Secuencia 1966 -- Valor m -- Reenvios 202 -- Tiempo 404008
+Secuencia 1967 -- Valor   -- Reenvios 202 -- Tiempo 404008
+Secuencia 1968 -- Valor n -- Reenvios 202 -- Tiempo 404008
+Secuencia 1969 -- Valor u -- Reenvios 202 -- Tiempo 404008
+Secuencia 1970 -- Valor n -- Reenvios 192 -- Tiempo 383994
+Secuencia 1971 -- Valor c -- Reenvios 192 -- Tiempo 383993
+Secuencia 1972 -- Valor . -- Reenvios 202 -- Tiempo 403993
+Secuencia 1973 -- Valor   -- Reenvios 202 -- Tiempo 403993
+Secuencia 1974 -- Valor N -- Reenvios 230 -- Tiempo 459998
+Secuencia 1975 -- Valor u -- Reenvios 247 -- Tiempo 493995
+Secuencia 1976 -- Valor n -- Reenvios 247 -- Tiempo 493994
+Secuencia 1977 -- Valor c -- Reenvios 265 -- Tiempo 529997
+Secuencia 1978 -- Valor   -- Reenvios 265 -- Tiempo 529997
+Secuencia 1979 -- Valor n -- Reenvios 255 -- Tiempo 510010
+Secuencia 1980 -- Valor o -- Reenvios 230 -- Tiempo 460010
+Secuencia 1981 -- Valor n -- Reenvios 230 -- Tiempo 460009
+Secuencia 1982 -- Valor u -- Reenvios 246 -- Tiempo 492005
+Secuencia 1983 -- Valor m -- Reenvios 251 -- Tiempo 502003
+Secuencia 1984 -- Valor m -- Reenvios 251 -- Tiempo 502003
+Secuencia 1985 -- Valor y -- Reenvios 245 -- Tiempo 490001
+Secuencia 1986 -- Valor   -- Reenvios 237 -- Tiempo 474006
+Secuencia 1987 -- Valor m -- Reenvios 237 -- Tiempo 474006
+Secuencia 1988 -- Valor e -- Reenvios 262 -- Tiempo 524007
+Secuencia 1989 -- Valor t -- Reenvios 262 -- Tiempo 524006
+Secuencia 1990 -- Valor u -- Reenvios 255 -- Tiempo 510005
+Secuencia 1991 -- Valor s -- Reenvios 255 -- Tiempo 510005
+Secuencia 1992 -- Valor . -- Reenvios 246 -- Tiempo 492007
+Secuencia 1993 -- Valor   -- Reenvios 246 -- Tiempo 492006
+Secuencia 1994 -- Valor V -- Reenvios 238 -- Tiempo 476002
+Secuencia 1995 -- Valor e -- Reenvios 260 -- Tiempo 520000
+Secuencia 1996 -- Valor s -- Reenvios 241 -- Tiempo 482001
+Secuencia 1997 -- Valor t -- Reenvios 241 -- Tiempo 482001
+Secuencia 1998 -- Valor i -- Reenvios 247 -- Tiempo 493995
+Secuencia 1999 -- Valor b -- Reenvios 266 -- Tiempo 531994
+Secuencia 2000 -- Valor  -- Reenvios 268 -- Tiempo 536000
+Secuencia 2001 -- Valor 
+ -- Reenvios 268 -- Tiempo 536000
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 15592507
+**TOTAL RTT TRANSCURRIDO: 765510547
+
+-------fin del informe-------
+
