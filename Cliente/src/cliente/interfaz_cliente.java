@@ -65,7 +65,7 @@ public class interfaz_cliente extends javax.swing.JFrame {
 
         ventanaLB.setText("Ventana");
 
-        timeoutLB.setText("Timeout");
+        timeoutLB.setText("Timeout (milisegundos)");
 
         PuertoLB.setText("Puerto inter.");
 
@@ -97,7 +97,11 @@ public class interfaz_cliente extends javax.swing.JFrame {
             }
         });
 
+        puertoCB.setBackground(new java.awt.Color(255, 160, 160));
+
         puerto_clienteLB.setText("Puerto cliente");
+
+        puerto_clienteTB.setBackground(new java.awt.Color(149, 237, 255));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

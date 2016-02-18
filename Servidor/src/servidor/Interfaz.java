@@ -241,6 +241,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Puerto de escucha");
 
+        puerto_text.setBackground(new java.awt.Color(128, 255, 0));
         puerto_text.setText("10003");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -261,6 +262,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Puerto de envío");
 
+        puerto_envio.setBackground(new java.awt.Color(255, 255, 0));
         puerto_envio.setText("10002");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

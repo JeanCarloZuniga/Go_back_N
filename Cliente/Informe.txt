@@ -1,0 +1,126 @@
+*---------  Informe para el archivo: C:\Users\andre\Desktop\mensaje.txt con un timeout de: 2000 y una ventana de: 5  ---------*
+Secuencia 0 -- Valor a -- Reenvios 0 -- Tiempo 2000
+Secuencia 1 -- Valor a -- Reenvios 0 -- Tiempo 1989
+Secuencia 2 -- Valor a -- Reenvios 0 -- Tiempo 1991
+Secuencia 3 -- Valor a -- Reenvios 0 -- Tiempo 1991
+Secuencia 4 -- Valor a -- Reenvios 0 -- Tiempo 1989
+Secuencia 5 -- Valor a -- Reenvios 0 -- Tiempo 8
+Secuencia 6 -- Valor a -- Reenvios 0 -- Tiempo 16
+Secuencia 7 -- Valor a -- Reenvios 0 -- Tiempo 18
+Secuencia 8 -- Valor a -- Reenvios 0 -- Tiempo 28
+Secuencia 9 -- Valor a -- Reenvios 0 -- Tiempo 28
+Secuencia 10 -- Valor a -- Reenvios 0 -- Tiempo 26
+Secuencia 11 -- Valor a -- Reenvios 2 -- Tiempo 4013
+Secuencia 12 -- Valor a -- Reenvios 2 -- Tiempo 4009
+Secuencia 13 -- Valor a -- Reenvios 3 -- Tiempo 6004
+Secuencia 14 -- Valor a -- Reenvios 3 -- Tiempo 6005
+Secuencia 15 -- Valor a -- Reenvios 3 -- Tiempo 6005
+Secuencia 16 -- Valor a -- Reenvios 1 -- Tiempo 2009
+Secuencia 17 -- Valor a -- Reenvios 1 -- Tiempo 2009
+Secuencia 18 -- Valor a -- Reenvios 1 -- Tiempo 2003
+Secuencia 19 -- Valor a -- Reenvios 1 -- Tiempo 2002
+Secuencia 20 -- Valor a -- Reenvios 1 -- Tiempo 2002
+Secuencia 21 -- Valor a -- Reenvios 1 -- Tiempo 2002
+Secuencia 22 -- Valor f -- Reenvios 1 -- Tiempo 2001
+Secuencia 23 -- Valor f -- Reenvios 1 -- Tiempo 2007
+Secuencia 24 -- Valor f -- Reenvios 1 -- Tiempo 2009
+Secuencia 25 -- Valor f -- Reenvios 1 -- Tiempo 2009
+Secuencia 26 -- Valor f -- Reenvios 1 -- Tiempo 2010
+Secuencia 27 -- Valor f -- Reenvios 1 -- Tiempo 2011
+Secuencia 28 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 29 -- Valor f -- Reenvios 1 -- Tiempo 2001
+Secuencia 30 -- Valor f -- Reenvios 1 -- Tiempo 2000
+Secuencia 31 -- Valor f -- Reenvios 1 -- Tiempo 1999
+Secuencia 32 -- Valor b -- Reenvios 2 -- Tiempo 4001
+Secuencia 33 -- Valor b -- Reenvios 1 -- Tiempo 2005
+Secuencia 34 -- Valor b -- Reenvios 1 -- Tiempo 2004
+Secuencia 35 -- Valor b -- Reenvios 2 -- Tiempo 4005
+Secuencia 36 -- Valor b -- Reenvios 2 -- Tiempo 4005
+Secuencia 37 -- Valor b -- Reenvios 1 -- Tiempo 2003
+Secuencia 38 -- Valor b -- Reenvios 2 -- Tiempo 4002
+Secuencia 39 -- Valor b -- Reenvios 2 -- Tiempo 4002
+Secuencia 40 -- Valor  -- Reenvios 2 -- Tiempo 4001
+Secuencia 41 -- Valor 
+ -- Reenvios 4 -- Tiempo 8001
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 26056
+**TOTAL RTT TRANSCURRIDO: 106225
+
+-------fin del informe-------
+
+*---------  Informe para el archivo: C:\Users\andre\Desktop\mensaje.txt con un timeout de: 2000 y una ventana de: 5  ---------*
+Secuencia 0 -- Valor a -- Reenvios 0 -- Tiempo 29
+Secuencia 1 -- Valor a -- Reenvios 0 -- Tiempo 23
+Secuencia 2 -- Valor a -- Reenvios 0 -- Tiempo 24
+Secuencia 3 -- Valor a -- Reenvios 0 -- Tiempo 2000
+Secuencia 4 -- Valor a -- Reenvios 0 -- Tiempo 2001
+Secuencia 5 -- Valor a -- Reenvios 0 -- Tiempo 1984
+Secuencia 6 -- Valor a -- Reenvios 0 -- Tiempo 1985
+Secuencia 7 -- Valor a -- Reenvios 0 -- Tiempo 1988
+Secuencia 8 -- Valor a -- Reenvios 0 -- Tiempo 19
+Secuencia 9 -- Valor a -- Reenvios 0 -- Tiempo 21
+Secuencia 10 -- Valor a -- Reenvios 0 -- Tiempo 20
+Secuencia 11 -- Valor a -- Reenvios 0 -- Tiempo 20
+Secuencia 12 -- Valor a -- Reenvios 0 -- Tiempo 16
+Secuencia 13 -- Valor a -- Reenvios 0 -- Tiempo 9
+Secuencia 14 -- Valor a -- Reenvios 0 -- Tiempo 10
+Secuencia 15 -- Valor a -- Reenvios 0 -- Tiempo 11
+Secuencia 16 -- Valor a -- Reenvios 0 -- Tiempo 15
+Secuencia 17 -- Valor a -- Reenvios 0 -- Tiempo 17
+Secuencia 18 -- Valor a -- Reenvios 0 -- Tiempo 23
+Secuencia 19 -- Valor a -- Reenvios 1 -- Tiempo 2002
+Secuencia 20 -- Valor a -- Reenvios 1 -- Tiempo 1999
+Secuencia 21 -- Valor a -- Reenvios 1 -- Tiempo 1994
+Secuencia 22 -- Valor f -- Reenvios 1 -- Tiempo 1992
+Secuencia 23 -- Valor f -- Reenvios 1 -- Tiempo 1986
+Secuencia 24 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 25 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 26 -- Valor f -- Reenvios 1 -- Tiempo 2001
+Secuencia 27 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 28 -- Valor f -- Reenvios 1 -- Tiempo 2001
+Secuencia 29 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 30 -- Valor f -- Reenvios 1 -- Tiempo 2001
+Secuencia 31 -- Valor f -- Reenvios 1 -- Tiempo 2002
+Secuencia 32 -- Valor b -- Reenvios 1 -- Tiempo 2001
+Secuencia 33 -- Valor b -- Reenvios 1 -- Tiempo 2001
+Secuencia 34 -- Valor b -- Reenvios 1 -- Tiempo 2006
+Secuencia 35 -- Valor b -- Reenvios 1 -- Tiempo 2006
+Secuencia 36 -- Valor b -- Reenvios 1 -- Tiempo 2006
+Secuencia 37 -- Valor b -- Reenvios 1 -- Tiempo 2006
+Secuencia 38 -- Valor b -- Reenvios 1 -- Tiempo 2006
+Secuencia 39 -- Valor b -- Reenvios 1 -- Tiempo 2001
+Secuencia 40 -- Valor  -- Reenvios 1 -- Tiempo 2001
+Secuencia 41 -- Valor 
+ -- Reenvios 1 -- Tiempo 2000
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 12054
+**TOTAL RTT TRANSCURRIDO: 56235
+
+-------fin del informe-------
+
+*---------  Informe para el archivo: C:\Users\andre\Desktop\mensaje.txt con un timeout de: 2000 y una ventana de: 5  ---------*
+Secuencia 0 -- Valor a -- Reenvios 6 -- Tiempo 12005
+Secuencia 1 -- Valor  -- Reenvios 6 -- Tiempo 11996
+Secuencia 2 -- Valor 
+ -- Reenvios 6 -- Tiempo 11996
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 12005
+**TOTAL RTT TRANSCURRIDO: 35997
+
+-------fin del informe-------
+
+*---------  Informe para el archivo: C:\Users\andre\Desktop\mensaje.txt con un timeout de: 2000 y una ventana de: 5  ---------*
+Secuencia 0 -- Valor a -- Reenvios 0 -- Tiempo 2000
+Secuencia 1 -- Valor  -- Reenvios 6 -- Tiempo 12001
+Secuencia 2 -- Valor 
+ -- Reenvios 6 -- Tiempo 12001
+
+
+**TOTAL TIEMPO TRANSCURRIDO: 12011
+**TOTAL RTT TRANSCURRIDO: 26002
+
+-------fin del informe-------
+

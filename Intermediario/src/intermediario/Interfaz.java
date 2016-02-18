@@ -83,6 +83,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Puerto Intermediario-Servidor");
 
+        cliente_intermediario.setBackground(new java.awt.Color(255, 160, 160));
         cliente_intermediario.setText("10000");
         cliente_intermediario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +91,7 @@ public class Interfaz extends javax.swing.JFrame {
             }
         });
 
+        intermediario_servidor.setBackground(new java.awt.Color(128, 255, 0));
         intermediario_servidor.setText("10003");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -98,8 +100,10 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel6.setText("Puerto Intermediario-Cliente");
 
+        servidor_intermediario.setBackground(new java.awt.Color(255, 255, 0));
         servidor_intermediario.setText("10002");
 
+        intermediario_cliente.setBackground(new java.awt.Color(149, 237, 255));
         intermediario_cliente.setText("10001");
 
         listoBtn.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -114,7 +118,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel7.setText("Intermediario");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel8.setText("Probabilidad");
+        jLabel8.setText("Probabilidad [0,1]");
 
         probabilidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

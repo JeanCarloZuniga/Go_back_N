@@ -149,7 +149,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="timeoutLB">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Timeout"/>
+        <Property name="text" type="java.lang.String" value="Timeout (milisegundos)"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="PuertoLB">
@@ -192,6 +192,11 @@
     <Component class="javax.swing.JTextField" name="timeoutCB">
     </Component>
     <Component class="javax.swing.JTextField" name="puertoCB">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="a0" green="a0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="puerto_clienteLB">
       <Properties>
@@ -199,6 +204,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="puerto_clienteTB">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ed" red="95" type="rgb"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
